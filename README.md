@@ -12,12 +12,31 @@ Keep `index.html`, the `assets`, `images`, and `data` directories together at th
 
 The contact form opens the visitor's email application with a message addressed to Jarno and Ganesh; it does not submit through a server.
 
-## GRIP catalog data
+## Quick edits
 
-The GRIP catalog is rendered from [`data/grip-products.json`](data/grip-products.json). Product prices are numeric EUR list prices excluding VAT; products marked `price_on_request` display “Price on request”. Source pages and sections are retained for traceability.
+The product information shown on the website is kept in two data files. You can edit these files without changing the page layout or JavaScript:
 
-To update the catalog for a later price-list revision, replace the `products` array in that file with the updated rows and change `price_list_revision`. Keep prices as JSON numbers (or `null` when no reliable list price exists), and set `price_on_request` to `true` for inquiry-only rows. Keep family `slug` values stable because the website routes use them.
+- **ROKAE robots, cobots and DH-Robotics grippers:** [data/website-products.json](data/website-products.json)
+- **GRIP families, tool changers, kits and prices:** [data/grip-products.json](data/grip-products.json)
 
-The optional global markup or discount is configured in `GRIP_CONFIG.markupPercent` in `index.html`; it defaults to `0` and is applied when prices are rendered. Family “from” prices are calculated from each family’s lowest priced, non-inquiry product.
+### Change a product price
 
-Family images are local assets referenced by `image` in the JSON. Keep approved image files in the repository and use relative paths such as `assets/images/grip-families/example.webp`; the catalog does not hotlink product images.
+1. Open the relevant JSON file and search for the model name or SKU (for example, `CR7-7/0.98C` or `G-CON-SHW`).
+2. Change only its `price_eur` value. Enter a number without a currency sign or thousands separator, such as `1990` or `1990.50`.
+3. Save the file. To hide a price, set `price_eur` to `null`. The website formats the number as EUR automatically.
+
+The prices in `website-products.json` are displayed with VAT, matching the existing robot/cobot price note. GRIP list prices in `grip-products.json` are in EUR excluding VAT. The GRIP markup/discount is controlled by `GRIP_CONFIG.markupPercent` in `index.html` (0 means list price).
+
+### Update the live website
+
+After saving your edits, commit and push them to the repository's `main` branch. GitHub Actions will publish them automatically; usually the site updates within a minute or two. If you use GitHub Desktop, the basic steps are **Commit to main** and **Push origin**. The repository is [github.com/vertekwebsite/vertek-robotics-website](https://github.com/vertekwebsite/vertek-robotics-website).
+
+### Edit other content
+
+Most page text, translations, contact details, and visual styling are currently in [index.html](index.html). Search for the text you want to change. The Finnish translations are in the `FI` dictionary in the same file. Product images are referenced by each product's `img` value; keep local images inside `assets/images` and use a relative path.
+
+### GRIP catalog data
+
+GRIP family cards and product tables are generated from `data/grip-products.json`. To update the price list revision, change `price_list_revision`. Keep family `slug` values stable because the website routes use them. A family's “from” price is calculated from the matching products, so it should not be typed into the family description.
+
+The optional global markup or discount is configured in `GRIP_CONFIG.markupPercent` in `index.html`; it defaults to `0` and is applied when GRIP prices are rendered. Family images are local assets referenced by `image` in the JSON. Keep approved image files in the repository and use relative paths such as `assets/images/grip-families/example.webp`; the catalog does not hotlink GRIP product images.

@@ -454,84 +454,8 @@ const DID_YOU_KNOW_COPY={
 let didYouKnowAllowed=false,didYouKnowReady=false,didYouKnowTimer=null,didYouKnowLoadComplete=document.readyState==="complete";
 if(!didYouKnowLoadComplete)addEventListener("load",()=>{didYouKnowLoadComplete=true;syncDidYouKnow()},{once:true});
 let schunkInquiryActive=false;
-/* ===== EDIT YOUR PRODUCTS HERE =====
-   cat: robot | cobot | gripper | changer
-   price: "€1 990" to show a price, or "" for "Request quote"
-   img: optional, e.g. "images/xmate.jpg"
-   NOTE: names/descriptions below are placeholders – check them against your catalogue. */
-const dhGripper=(name,img,official,stroke,workpiece)=>({cat:"gripper",brand:"DH-Robotics",name,desc:"",price:"",img,official,stroke,workpiece});
-const DH_GRIPPERS=[
-dhGripper("PGE-8-14-O","https://www.dh-robotics.com/wp-content/uploads/2022/07/PGE-8-14-%E6%8B%B7%E8%B4%9D.png","https://en.dh-robotics.com/product/pge","14 mm","0.1 kg"),
-dhGripper("PGE-5-26-O","https://www.dh-robotics.com/wp-content/uploads/2022/07/PGE-5-26-%E6%8B%B7%E8%B4%9D.png","https://en.dh-robotics.com/product/pge","26 mm","0.1 kg"),
-dhGripper("PGEA-2-10-O","https://www.dh-robotics.com/wp-content/uploads/2025/06/pgea-cover.png","https://en.dh-robotics.com/product/pgea","10 mm","0.05 kg"),
-dhGripper("PGEA-15-10-O","https://www.dh-robotics.com/wp-content/uploads/2025/06/pgea-cover.png","https://en.dh-robotics.com/product/pgea","10 mm","0.1 kg"),
-dhGripper("PGEA-15-26-O","https://www.dh-robotics.com/wp-content/uploads/2025/06/PGEA-15-26.png","https://en.dh-robotics.com/product/pgea","26 mm","0.25 kg"),
-dhGripper("PGEA-15-26-W","https://www.dh-robotics.com/wp-content/uploads/2025/06/PGEA-15-26.png","https://en.dh-robotics.com/product/pgea","26 mm","0.25 kg"),
-dhGripper("PGEA-50-26-O","https://www.dh-robotics.com/wp-content/uploads/2025/06/PGEA-15-26.png","https://en.dh-robotics.com/product/pgea","26 mm","1 kg"),
-dhGripper("PGEA-50-26-W","https://www.dh-robotics.com/wp-content/uploads/2025/06/PGEA-15-26.png","https://en.dh-robotics.com/product/pgea","26 mm","1 kg"),
-dhGripper("PGEA-50-40-O","https://www.dh-robotics.com/wp-content/uploads/2025/06/PGEA-50-40-04.png","https://en.dh-robotics.com/product/pgea","40 mm","1 kg"),
-dhGripper("PGEA-50-40-W","https://www.dh-robotics.com/wp-content/uploads/2025/06/PGEA-50-40-04.png","https://en.dh-robotics.com/product/pgea","40 mm","1 kg"),
-dhGripper("PGEA-100-26-O","https://www.dh-robotics.com/wp-content/uploads/2025/06/PGEA-15-26.png","https://en.dh-robotics.com/product/pgea","26 mm","2 kg"),
-dhGripper("PGEA-100-26-W","https://www.dh-robotics.com/wp-content/uploads/2025/06/PGEA-15-26.png","https://en.dh-robotics.com/product/pgea","26 mm","2 kg"),
-dhGripper("PGEA-100-40-O","https://www.dh-robotics.com/wp-content/uploads/2025/06/PGEA-50-40-04.png","https://en.dh-robotics.com/product/pgea","40 mm","2 kg"),
-dhGripper("PGEA-100-40-W","https://www.dh-robotics.com/wp-content/uploads/2025/06/PGEA-50-40-04.png","https://en.dh-robotics.com/product/pgea","40 mm","2 kg"),
-dhGripper("PGSE-15-7-O","https://www.dh-robotics.com/product/pgse%E7%B3%BB%E5%88%97/pgse-product","https://en.dh-robotics.com/product/pgse","7 mm","0.25 kg"),
-dhGripper("PGIA-140-80-W","https://www.dh-robotics.com/wp-content/uploads/2021/11/PGIA-140-80-04-min.png","https://en.dh-robotics.com/product/pgia","80 mm","3 kg"),
-dhGripper("PGC-50-35-O","https://www.dh-robotics.com/wp-content/uploads/2022/06/PGC-50-35-%E6%8B%B7%E8%B4%9D.png","https://en.dh-robotics.com/product/pgc","37 mm","1 kg"),
-dhGripper("PGC-140-50-W","https://www.dh-robotics.com/wp-content/uploads/2022/06/PGC-140-50-%E6%8B%B7%E8%B4%9D.png","https://en.dh-robotics.com/product/pgc","50 mm","3 kg"),
-dhGripper("PGC-300-60-W","https://www.dh-robotics.com/wp-content/uploads/2022/06/PGC-300-60-%E6%8B%B7%E8%B4%9D.png","https://en.dh-robotics.com/product/pgc","60 mm","6 kg"),
-dhGripper("PGHL-400-80-W","https://en.dh-robotics.com/wp-content/uploads/2022/12/PGHL-400-80%E4%B8%8D%E5%90%AB%E6%8C%87%E5%B0%96%EF%BC%88%E7%AE%80%E6%98%93%E7%89%88%EF%BC%89-300x255.png","https://en.dh-robotics.com/product/pghl","80 mm","8 kg"),
-dhGripper("RGI-100-14-O","https://www.dh-robotics.com/wp-content/uploads/2022/08/RGI-100-14.png","https://en.dh-robotics.com/product/rgi","14 mm","1.28 kg"),
-dhGripper("RGI-100-22-O","https://www.dh-robotics.com/wp-content/uploads/2022/08/RGI100-22.png","https://en.dh-robotics.com/product/rgi","22 mm","1.40 kg"),
-dhGripper("RGI-100-30-O","https://www.dh-robotics.com/wp-content/uploads/2022/08/RGI-100-30.png","https://en.dh-robotics.com/product/rgi","30 mm","1.5 kg"),
-dhGripper("RGIC-35-12-O","https://www.dh-robotics.com/wp-content/uploads/2022/08/RGI-35-12.png","https://en.dh-robotics.com/product/rgi","12 mm","0.5 kg"),
-dhGripper("RGIC-100-35-O","assets/images/grippers/rgic-100-35.jpg","https://en.dh-robotics.com/product/rgi","35 mm","1 kg"),
-dhGripper("RGD-5-14-O","assets/images/grippers/rgd-5-14.png","https://en.dh-robotics.com/product/rgd","14 mm","0.05 kg"),
-dhGripper("RGD-5-14-W","assets/images/grippers/rgd-5-14.png","https://en.dh-robotics.com/product/rgd","14 mm","0.05 kg"),
-dhGripper("RGD-35-14-O","assets/images/grippers/rgd-35-14.png","https://en.dh-robotics.com/product/rgd","14 mm","0.35 kg"),
-dhGripper("RGD-35-14-W","assets/images/grippers/rgd-35-14.png","https://en.dh-robotics.com/product/rgd","14 mm","0.35 kg"),
-dhGripper("RGD-35-30-O","assets/images/grippers/rgd-35-30.png","https://en.dh-robotics.com/product/rgd","30 mm","0.35 kg"),
-dhGripper("RGD-35-30-W","assets/images/grippers/rgd-35-30.png","https://en.dh-robotics.com/product/rgd","30 mm","0.35 kg"),
-dhGripper("AG-105-145-W","assets/images/grippers/ag-105-145.png","https://en.dh-robotics.com/product/ag","145 mm","2 kg"),
-dhGripper("AG-160-95-W","assets/images/grippers/ag-160-95.png","https://en.dh-robotics.com/product/ag","95 mm","3 kg"),
-dhGripper("DH-3-W-S","assets/images/grippers/dh-3.png","https://en.dh-robotics.com/product/ag","106 mm parallel / 122 mm centric","1.8 kg"),
-dhGripper("DH-5-6","assets/images/grippers/dh-5-6.png","https://en.dh-robotics.com/product/dh-5-6","Not specified","Not specified"),
-dhGripper("CGE-10-10-O","https://www.dh-robotics.com/wp-content/uploads/2023/02/CGE-10-10-300x300.png","https://en.dh-robotics.com/product/cg","10 mm per jaw","0.1 kg"),
-dhGripper("CGC-80-10-W","https://www.dh-robotics.com/wp-content/uploads/2022/06/CGC-80-10-300x300.png","https://en.dh-robotics.com/product/cg","10 mm per jaw","1.5 kg"),
-dhGripper("CGI-100-170-W","https://www.dh-robotics.com/wp-content/uploads/2023/02/CGI-100-170-300x300.png","https://en.dh-robotics.com/product/cg","Not specified","1.5 kg")
-];
-const PRODUCTS=[
-{cat:"cobot",brand:"Rokae",name:"SR3-3/0.7C",desc:"",payload:"3 kg",reach:"705 mm",weight:"About 13.8 kg",price:"",controller:"External cabinet included",screen:"Teach pendant included",img:"assets/images/cobots/fitted/sr3.png",official:"https://www.rokae.com/en/product/show/349/SR-Cobots.html"},
-{cat:"cobot",brand:"Rokae",name:"SR5-5/0.9C",desc:"",payload:"5 kg",reach:"919 mm",weight:"About 16.5 kg",price:"",controller:"External cabinet included",screen:"Teach pendant included",img:"assets/images/cobots/fitted/sr5.png",official:"https://www.rokae.com/en/product/show/349/SR-Cobots.html"},
-{cat:"cobot",brand:"Rokae",name:"CR7-7/0.98C",desc:"",payload:"7 kg",reach:"988 mm",weight:"About 25 kg",price:"€15,000",controller:"External cabinet included",screen:"Teach pendant included",img:"assets/images/cobots/fitted/cr7.png",official:"https://www.rokae.com/en/product/show/545/xMateCR.html"},
-{cat:"cobot",brand:"Rokae",name:"CR12-12/1.4C",desc:"",payload:"12 kg",reach:"1,434 mm",weight:"About 41 kg",price:"€20,000",controller:"External cabinet included",screen:"Teach pendant included",img:"assets/images/cobots/fitted/cr12.png",official:"https://www.rokae.com/en/product/show/545/xMateCR.html"},
-{cat:"cobot",brand:"Rokae",name:"CR18-18/1.0C",desc:"",payload:"18 kg",reach:"1,062 mm",weight:"About 38 kg",price:"",controller:"External cabinet included",screen:"Teach pendant included",img:"assets/images/cobots/fitted/cr18.png",official:"https://www.rokae.com/en/product/show/545/xMateCR.html"},
-{cat:"cobot",brand:"Rokae",name:"CR20-20/1.8C",desc:"",payload:"20 kg",reach:"1,798 mm",weight:"About 71 kg",price:"€25,000",controller:"External cabinet included",screen:"Teach pendant included",img:"assets/images/cobots/fitted/cr20.png",official:"https://www.rokae.com/en/product/show/545/xMateCR.html"},
-{cat:"cobot",brand:"Rokae",name:"CR20-17/2.0C-5",desc:"",payload:"17 kg",reach:"2,047 mm",weight:"About 71 kg",price:"",controller:"External cabinet included",screen:"Teach pendant included",img:"assets/images/cobots/fitted/cr20-17.png",official:"https://www.rokae.com/en/product/show/545/xMateCR.html"},
-{cat:"cobot",brand:"Rokae",name:"CR20-25/1.8C-5",desc:"",payload:"25 kg",reach:"1,798 mm",weight:"About 69 kg",price:"",controller:"External cabinet included",screen:"Teach pendant included",img:"assets/images/cobots/fitted/cr20-25.png",official:"https://www.rokae.com/en/product/show/545/xMateCR.html"},
-{cat:"cobot",brand:"Rokae",name:"CR35-35/2.2C",desc:"",payload:"35 kg",reach:"2,246 mm",weight:"About 165 kg",price:"",controller:"External cabinet included",screen:"Teach pendant included",img:"assets/images/cobots/fitted/cr35-35.png",official:"https://www.rokae.com/en/product/show/545/xMateCR.html"},
-{cat:"cobot",brand:"Rokae",name:"CR35-45/1.9C",desc:"",payload:"45 kg",reach:"1,947 mm",weight:"About 161 kg",price:"",controller:"External cabinet included",screen:"Teach pendant included",img:"assets/images/cobots/fitted/cr35-45.png",official:"https://www.rokae.com/en/product/show/545/xMateCR.html"},
-{cat:"robot",brand:"Rokae",name:"NB4-4/0.47",payload:"4 kg",reach:"475 mm",repeatability:"±0.02 mm",weight:"About 21 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://uploads.unchainedrobotics.de/media/products/NB4_2_e95849eb.png",official:"https://www.rokae.com/en/product/show/241/NB4.html"},
-{cat:"robot",brand:"Rokae",name:"NB4h-4/0.58",payload:"4 kg",reach:"580 mm",repeatability:"±0.02 mm",weight:"About 22 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://uploads.unchainedrobotics.de/media/products/NB4_2_e95849eb.png",official:"https://www.rokae.com/en/product/show/241/NB4.html"},
-{cat:"robot",brand:"Rokae",name:"XB7",payload:"7 kg",reach:"707 mm",repeatability:"±0.02 mm",weight:"About 50 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"assets/images/rokae-xb7.webp",official:"https://www.rokae.com/en/product/show/239/XB7.html"},
-{cat:"robot",brand:"Rokae",name:"XB7L",payload:"7 kg",reach:"906 mm",repeatability:"±0.03 mm",weight:"About 52 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"assets/images/rokae-xb7.webp",official:"https://www.rokae.com/en/product/show/239/XB7.html"},
-{cat:"robot",brand:"Rokae",name:"NB12-10/1.6",payload:"10 kg",reach:"1,602 mm",repeatability:"±0.03 mm",weight:"About 117 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://uploads.unchainedrobotics.de/media/products/NB12_PB1_601c8f01.png",official:"https://www.rokae.com/en/product/show/255/NB12.html"},
-{cat:"robot",brand:"Rokae",name:"NB12-12/1.4",payload:"12 kg",reach:"1,442 mm",repeatability:"±0.03 mm",weight:"About 115 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://uploads.unchainedrobotics.de/media/products/NB12_PB1_601c8f01.png",official:"https://www.rokae.com/en/product/show/255/NB12.html"},
-{cat:"robot",brand:"Rokae",name:"NB12-16/1.1",payload:"16 kg",reach:"1,102 mm",repeatability:"±0.03 mm",weight:"About 112 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://uploads.unchainedrobotics.de/media/products/NB12_PB1_601c8f01.png",official:"https://www.rokae.com/en/product/show/255/NB12.html"},
-{cat:"robot",brand:"Rokae",name:"NB25-35/1.8",payload:"35 kg",reach:"1,813 mm",repeatability:"±0.05 mm",weight:"About 256 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://uploads.unchainedrobotics.de/media/products/NB25_PB1_066d0c4e.png",official:"https://www.rokae.com/en/product/show/515/NB25.html"},
-{cat:"robot",brand:"Rokae",name:"NB25-20/2.0",payload:"20 kg",reach:"2,013 mm",repeatability:"±0.05 mm",weight:"About 264 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://uploads.unchainedrobotics.de/media/products/NB25_PB1_066d0c4e.png",official:"https://www.rokae.com/en/product/show/515/NB25.html"},
-{cat:"robot",brand:"Rokae",name:"NB25-25/1.8",payload:"25 kg",reach:"1,813 mm",repeatability:"±0.05 mm",weight:"About 256 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://uploads.unchainedrobotics.de/media/products/NB25_PB1_066d0c4e.png",official:"https://www.rokae.com/en/product/show/515/NB25.html"},
-{cat:"robot",brand:"Rokae",name:"NB25-30/1.6",payload:"30 kg",reach:"1,617 mm",repeatability:"±0.05 mm",weight:"About 252 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://uploads.unchainedrobotics.de/media/products/NB25_PB1_066d0c4e.png",official:"https://www.rokae.com/en/product/show/515/NB25.html"},
-{cat:"robot",brand:"Rokae",name:"NB25h-35/1.8",payload:"35 kg",reach:"1,836 mm",repeatability:"±0.04 mm",weight:"About 275 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://www.ztec.dk/web/image/product.template/56667/image_1024?unique=ce8b912",official:"https://www.rokae.com/en/product/show/560/NB25h.html"},
-{cat:"robot",brand:"Rokae",name:"NB25h-25/1.8",payload:"25 kg",reach:"1,836 mm",repeatability:"±0.03 mm",weight:"About 275 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://www.ztec.dk/web/image/product.template/56667/image_1024?unique=ce8b912",official:"https://www.rokae.com/en/product/show/560/NB25h.html"},
-{cat:"robot",brand:"Rokae",name:"NB25h-12/2.2",payload:"12 kg",reach:"2,258 mm",repeatability:"±0.04 mm",weight:"About 287 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://www.ztec.dk/web/image/product.template/56667/image_1024?unique=ce8b912",official:"https://www.rokae.com/en/product/show/560/NB25h.html"},
-{cat:"robot",brand:"Rokae",name:"NB80-80/2.2",payload:"80 kg",reach:"2,200 mm",repeatability:"±0.06 mm",weight:"About 635 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://uploads.unchainedrobotics.de/media/products/NB80_2.2_PB1_f42c33f1.png",official:"https://www.rokae.com/en/product/show/516/NB80.html"},
-{cat:"robot",brand:"Rokae",name:"NB80-50/2.6",payload:"50 kg",reach:"2,598 mm",repeatability:"±0.08 mm",weight:"About 645 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://uploads.unchainedrobotics.de/media/products/NB80_2.2_PB1_f42c33f1.png",official:"https://www.rokae.com/en/product/show/516/NB80.html"},
-{cat:"robot",brand:"Rokae",name:"NB220-220/2.7",payload:"220 kg",reach:"2,705 mm",repeatability:"±0.07 mm",weight:"About 1,445 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://www.newcreate.com.tw/upload/products/20250912011049tg2yi.png",official:"https://www.rokae.com/en/product/show/534/NB220.html"},
-{cat:"robot",brand:"Rokae",name:"NB220-170/2.7",payload:"170 kg",reach:"2,705 mm",repeatability:"±0.07 mm",weight:"About 1,445 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://www.newcreate.com.tw/upload/products/20250912011049tg2yi.png",official:"https://www.rokae.com/en/product/show/534/NB220.html"},
-{cat:"robot",brand:"Rokae",name:"NB220-150/3.2",payload:"150 kg",reach:"3,201 mm",repeatability:"±0.08 mm",weight:"About 1,488 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://www.newcreate.com.tw/upload/products/20250912011049tg2yi.png",official:"https://www.rokae.com/en/product/show/534/NB220.html"},
-...DH_GRIPPERS,
-];
+/* Product records are maintained in data/website-products.json. */
+let PRODUCTS=[];
 const CATS={all:"All",robot:"Industrial robots",cobot:"Cobots",gripper:"Grippers",changer:"Tool changers"};
 const EMO={robot:"🦾",cobot:"🤖",gripper:"🤏",changer:"🔧"};
 const SOL=[
@@ -549,6 +473,7 @@ const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 /* GRIP catalog data lives in data/grip-products.json. Change this single
    percentage to apply a selling-price markup/discount at render time. */
 const GRIP_CONFIG={markupPercent:0};
+function productPrice(product){return new Intl.NumberFormat(lang==="fi"?"fi-FI":"en-IE",{style:"currency",currency:"EUR",maximumFractionDigits:2}).format(product.price_eur)}
 let gripCatalog=null,gripFilters={size:"",side:"",material:"",search:""};
 const htmlEscape=value=>String(value??"").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
 const gripProducts=()=>gripCatalog?.products||[];
@@ -583,7 +508,7 @@ async function loadGripCatalog(){const candidates=[new URL("./data/grip-products
 const solutionCard=f=>`<article class="solution-card solution-feature rv"><div class="solution-feature-video"><iframe src="https://www.youtube-nocookie.com/embed/oGK0hGuvJQM?playsinline=1" title="ROKAE collaborative palletizing workstation video" loading="lazy" allow="autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><div class="solution-feature-copy"><div class="solution-feature-intro"><h3>${f.title}</h3><p>${f.desc}</p></div><div class="solution-feature-details"><section><h4>What it can do</h4><ul>${f.capabilities.map(item=>`<li>${item}</li>`).join("")}</ul></section><section><h4>What's involved</h4><ul>${f.includes.map(item=>`<li>${item}</li>`).join("")}</ul></section></div><a class="btn solution-discuss" href="#contact">Discuss palletizing</a></div></article>`;
 $("#hf").innerHTML=FEAT.map(f=>`<a class="card what-card rv${f.img?"":" text-only"}" href="${f.href}">${f.img?`<div class="what-photo"><img src="${f.img}" alt="${f.alt}" loading="lazy" decoding="async"></div>`:""}<div class="what-card-copy"><h3>${f.title}</h3><p>${f.desc}</p></div></a>`).join("");
 $("#sg").innerHTML=SOL.map(solutionCard).join("");
-const fs=$("#fs");fs.innerHTML='<option value="">General inquiry</option>'+PRODUCTS.map(p=>`<option>${p.brand} ${p.name}</option>`).join("");
+const fs=$("#fs");fs.innerHTML='<option value="">General inquiry</option>';
 let cat="all";
 function renderTabs(){$("#tb").innerHTML=Object.entries(CATS).map(([k,v])=>`<button class="${k==cat?"on":""}" data-c="${k}">${v}</button>`).join("")}
 function renderProducts(){
@@ -596,7 +521,7 @@ function renderProducts(){
  const productFit=cat==="cobot"||cat==="robot"||cat==="gripper"||cat==="all";
  $("#pg").classList.toggle("product-fit-grid",productFit);
  $(".cobot-vat-note").hidden=!(cat==="cobot"||cat==="robot"||cat==="all");
- $("#pg").innerHTML=list.map((p,i)=>`<div class="card pc ${p.cat==="robot"?"robot-card":""} ${p.cat==="gripper"?"gripper-card":""} ${p.name.startsWith("PGEA-")?"pgea-card":""} ${p.name==="PGSE-15-7-O"?"pgse-card":""} ${p.name==="DH-5-6"?"dh56-card":""} ${["NB4-4/0.47","NB4h-4/0.58","XB7","XB7L"].includes(p.name)?"robot-compact":""} ${["XB7","XB7L"].includes(p.name)?"xb7-card":""} ${["SR3-3/0.7C","SR5-5/0.9C"].includes(p.name)?"sr-compact":""} ${p.name==="SR5-5/0.9C"?"sr5-card":""}" style="animation-delay:${i*45}ms"><div class="thumb">${p.img?`<img src="${p.img}" alt="${p.brand} ${p.name}" loading="lazy" decoding="async">`:EMO[p.cat]}</div><small>${p.brand} · <span>${CATS[p.cat]}</span></small><h3>${p.name}</h3>${p.cat==="cobot"?`<div class="cobot-details"><div><span>Payload</span><b>${p.payload}</b></div><div><span>Reach</span><b>${p.reach}</b></div>${p.price?`<div class="price-field"><span>Price</span><b class="cobot-price">${p.price}</b></div>`:""}</div><button class="btn details-link" type="button" data-detail-index="${PRODUCTS.indexOf(p)}">View details</button>`:p.cat==="robot"?`<div class="cobot-details industrial-details"><div><span>Payload</span><b>${p.payload}</b></div><div><span>Reach</span><b>${p.reach}</b></div><div><span>Repeatability</span><b>${p.repeatability}</b></div></div><button class="btn details-link" type="button" data-detail-index="${PRODUCTS.indexOf(p)}">View details</button>`:p.cat==="gripper"?`<div class="cobot-details gripper-details"><div><span>Stroke</span><b>${p.stroke}</b></div><div><span>Recommended workpiece weight</span><b>${p.workpiece}</b></div></div><a class="btn details-link" href="${p.official}" target="_blank" rel="noopener noreferrer">View details</a>`:`<p>${p.desc}</p><div class="price ${p.price?"":"q"}">${p.price||"Request quote"}</div>`}<a class="btn" href="#contact?p=${encodeURIComponent(p.brand+" "+p.name)}">${p.cat==="cobot"||p.cat==="robot"||p.cat==="gripper"?"Send enquiry":"Contact for purchase"}</a></div>`).join("");
+ $("#pg").innerHTML=list.map((p,i)=>`<div class="card pc ${p.cat==="robot"?"robot-card":""} ${p.cat==="gripper"?"gripper-card":""} ${p.name.startsWith("PGEA-")?"pgea-card":""} ${p.name==="PGSE-15-7-O"?"pgse-card":""} ${p.name==="DH-5-6"?"dh56-card":""} ${["NB4-4/0.47","NB4h-4/0.58","XB7","XB7L"].includes(p.name)?"robot-compact":""} ${["XB7","XB7L"].includes(p.name)?"xb7-card":""} ${["SR3-3/0.7C","SR5-5/0.9C"].includes(p.name)?"sr-compact":""} ${p.name==="SR5-5/0.9C"?"sr5-card":""}" style="animation-delay:${i*45}ms"><div class="thumb">${p.img?`<img src="${p.img}" alt="${p.brand} ${p.name}" loading="lazy" decoding="async">`:EMO[p.cat]}</div><small>${p.brand} · <span>${CATS[p.cat]}</span></small><h3>${p.name}</h3>${p.cat==="cobot"?`<div class="cobot-details"><div><span>Payload</span><b>${p.payload}</b></div><div><span>Reach</span><b>${p.reach}</b></div>${p.price_eur!=null?`<div class="price-field"><span>Price</span><b class="cobot-price">${productPrice(p)}</b></div>`:""}</div><button class="btn details-link" type="button" data-detail-index="${PRODUCTS.indexOf(p)}">View details</button>`:p.cat==="robot"?`<div class="cobot-details industrial-details"><div><span>Payload</span><b>${p.payload}</b></div><div><span>Reach</span><b>${p.reach}</b></div><div><span>Repeatability</span><b>${p.repeatability}</b></div></div><button class="btn details-link" type="button" data-detail-index="${PRODUCTS.indexOf(p)}">View details</button>`:p.cat==="gripper"?`<div class="cobot-details gripper-details"><div><span>Stroke</span><b>${p.stroke}</b></div><div><span>Recommended workpiece weight</span><b>${p.workpiece}</b></div></div><a class="btn details-link" href="${p.official}" target="_blank" rel="noopener noreferrer">View details</a>`:`<p>${p.desc}</p><div class="price ${p.price_eur==null?"q":""}">${p.price_eur==null?"Request quote":productPrice(p)}</div>`}<a class="btn" href="#contact?p=${encodeURIComponent(p.brand+" "+p.name)}">${p.cat==="cobot"||p.cat==="robot"||p.cat==="gripper"?"Send enquiry":"Contact for purchase"}</a></div>`).join("");
  let more=$("#cobot-more");
  if(cat==="cobot"){
   if(!more){more=document.createElement("div");more.id="cobot-more";more.className="cobot-more";$("#pg").after(more)}
@@ -604,7 +529,6 @@ function renderProducts(){
  }else if(more)more.remove();
 }
 $("#tb").addEventListener("click",e=>{const c=e.target.dataset.c;if(c==="changer"){location.hash="/products/grip";return}if(c){cat=c;renderTabs();renderProducts();applyLang()}});
-renderTabs();renderProducts();
 $("#pg").addEventListener("click",e=>{
  const trigger=e.target.closest("[data-detail-index]");if(!trigger)return;
  const p=PRODUCTS[Number(trigger.dataset.detailIndex)];if(!p||!(["cobot","robot"].includes(p.cat)))return;
@@ -617,7 +541,7 @@ $("#pg").addEventListener("click",e=>{
  $("#cobot-dialog-payload").textContent=p.payload;$("#cobot-dialog-reach").textContent=p.reach;
  $("#cobot-dialog-repeatability").textContent=p.repeatability||"";$("#cobot-dialog-repeatability").parentElement.hidden=!p.repeatability;
  $("#cobot-dialog-weight").textContent=p.weight;$("#cobot-dialog-controller").textContent=p.controller;$("#cobot-dialog-screen").textContent=p.screen;
- $("#cobot-dialog-price-row").hidden=!p.price;$("#cobot-dialog-price").textContent=p.price||"";
+ $("#cobot-dialog-price-row").hidden=p.price_eur==null;$("#cobot-dialog-price").textContent=p.price_eur==null?"":productPrice(p);
  $("#cobot-dialog-official").href=p.official;
  $("#cobot-dialog-enquiry").href=`#contact?p=${encodeURIComponent(p.brand+" "+p.name)}`;
  $("#cobot-dialog").showModal();applyLang();
@@ -648,8 +572,9 @@ while(n=w.nextNode()){const p=n.parentNode.tagName;if(p=="SCRIPT"||p=="STYLE")co
 $$("[placeholder]").forEach(e=>{e._p=e._p||e.placeholder;e.placeholder=(lang=="fi"&&FI[e._p])||e._p});
 document.documentElement.lang=lang;document.title=lang=="fi"?"Vertek Robotics – Rokae-robotit, tarttujat ja työkalunvaihtajat":"Vertek Robotics – Rokae robots, grippers and tool changers";
 $("#lg").innerHTML=lang=="fi"?"<b>FI</b> / EN":"FI / <b>EN</b>";syncDidYouKnowLanguage()}
-$("#lg").onclick=()=>{lang=lang=="fi"?"en":"fi";try{localStorage.setItem("lang",lang)}catch(e){}applyLang();if(location.hash.includes("/products/grip")&&gripCatalog)route()};
+$("#lg").onclick=()=>{lang=lang=="fi"?"en":"fi";try{localStorage.setItem("lang",lang)}catch(e){}applyLang();if(PRODUCTS.length)renderProducts();if(location.hash.includes("/products/grip")&&gripCatalog)route()};
 applyLang();
+async function loadWebsiteProducts(){try{const response=await fetch(new URL("./data/website-products.json",document.baseURI),{cache:"no-cache"});if(!response.ok)throw new Error("website-products.json returned "+response.status);const data=await response.json();if(!Array.isArray(data.products))throw new Error("website-products.json must contain a products array");if(data.products.some(p=>!p.name||!p.brand||!p.cat||!(p.price_eur===null||Number.isFinite(p.price_eur))))throw new Error("Check product names, categories, and numeric price_eur values");PRODUCTS=data.products;fs.innerHTML='<option value="">General inquiry</option>'+PRODUCTS.map(p=>'<option>'+p.brand+' '+p.name+'</option>').join('');renderTabs();renderProducts();route()}catch(error){console.error("Could not load website products",error);$("#pg").innerHTML='<p class="grip-empty">The products could not be loaded. Check data/website-products.json.</p>'}}
 /* router */
 function route(){const [path,q]=(location.hash.slice(1)||"home").split("?"),parts=path.replace(/^\//,"").split("/"),h=parts[0],id=["home","products","solutions","contact"].includes(h)?h:"home",gripRoute=id==="products"&&parts[1]==="grip",gripSlug=gripRoute?parts[2]:"";const palletVideo=$(".solution-feature-video iframe");if(palletVideo){const base="https://www.youtube-nocookie.com/embed/oGK0hGuvJQM?playsinline=1",src=id==="solutions"?`${base}&autoplay=1&mute=1`:base;if(palletVideo.getAttribute("src")!==src)palletVideo.src=src}if(id==="products"&&!gripRoute){const requestedCategory=new URLSearchParams(q).get("category");cat=requestedCategory&&Object.prototype.hasOwnProperty.call(CATS,requestedCategory)?requestedCategory:"all";renderTabs();renderProducts()}
 $$(".page").forEach(p=>p.classList.toggle("show",p.id==id));
@@ -663,7 +588,7 @@ applyLang();didYouKnowAllowed=gripRoute;syncDidYouKnow();setTimeout(observe,50)}
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");e.target.querySelectorAll("[data-n]").forEach(count);io.unobserve(e.target)}}),{threshold:.15});
 function observe(){$$(".page.show .rv").forEach(el=>{el.classList.remove("in");io.observe(el)})}
 function count(el){if(el.dataset.d)return;el.dataset.d=1;const n=+el.dataset.n,s=el.dataset.s||"";let t=0;const iv=setInterval(()=>{t+=Math.max(1,n/40);if(t>=n){t=n;clearInterval(iv)}el.textContent=Math.round(t)+s},30)}
-addEventListener("hashchange",route);route();loadGripCatalog();
+addEventListener("hashchange",route);route();loadWebsiteProducts();loadGripCatalog();
 addEventListener("scroll",()=>$("#hd").classList.toggle("sc",scrollY>20));
 $("#bg").onclick=()=>{const open=$("#nv").classList.toggle("open");document.body.classList.toggle("menu-open",open)};
 /* Form opens the visitor's email app with the message addressed to Jarno and Ganesh. */
