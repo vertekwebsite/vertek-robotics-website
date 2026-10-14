@@ -29,7 +29,7 @@ The prices in `website-products.json` are displayed with VAT, matching the exist
 
 ### Update the live website
 
-After saving your edits, commit and push them to the repository's `main` branch. GitHub Actions will publish them automatically; usually the site updates within a minute or two. If you use GitHub Desktop, the basic steps are **Commit to main** and **Push origin**. The repository is [github.com/vertekwebsite/vertek-robotics-website](https://github.com/vertekwebsite/vertek-robotics-website).
+The simplest option is to edit the file on GitHub: open the relevant file in the repository, click the pencil icon, make the edit, then choose **Commit changes** to `main`. You can also edit locally and use GitHub Desktop with **Commit to main** and **Push origin**. GitHub Actions publishes changes automatically, usually within a minute or two. The repository is [github.com/vertekwebsite/vertek-robotics-website](https://github.com/vertekwebsite/vertek-robotics-website).
 
 ### Edit other content
 
