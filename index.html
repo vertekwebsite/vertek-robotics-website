@@ -332,6 +332,92 @@ nav.open{transform:none}
 .robot{order:-1}
 }
 @media(max-width:860px){.did-you-know{right:12px;bottom:12px;left:12px;width:auto;padding:15px 17px 14px}.did-you-know h2{font-size:17px}.did-you-know p{font-size:13px;margin-bottom:9px}.did-you-know small{font-size:10px;margin-top:8px}.did-you-know .btn{padding:8px 13px;font-size:13px}.did-you-know.minimized{left:auto;width:auto}body.menu-open .did-you-know{display:none}}
+/* Phone layouts: keep the fixed header compact and give touch controls room. */
+@media(max-width:860px){
+header{padding:10px 0}
+header.sc{padding:8px 0}
+header .wrap{padding:0 20px;gap:12px}
+.logo{gap:10px}
+.logo img{height:40px}
+header.sc .logo img{height:36px}
+.logo span{font-size:18px;padding-left:10px}
+.burger{min-width:44px;min-height:44px;padding:4px}
+nav{top:60px;z-index:1;max-height:calc(100dvh - 60px);overflow-y:auto;padding:12px 18px calc(18px + env(safe-area-inset-bottom))}
+nav a{width:100%;text-align:center;padding:13px 17px}
+nav #lg{margin:4px 0 0;min-height:44px}
+.page{padding-top:64px}
+.hero{min-height:0}
+.hero .wrap{padding-top:64px;padding-bottom:64px}
+.hero-brand{gap:10px;margin-bottom:18px}
+.hero-brand img{width:min(170px,42vw);max-height:48px}
+.hero-brand span{font-size:11px;padding:6px 0 6px 10px}
+section.s{padding:64px 0}
+.about-layout{padding:0 24px;min-height:0}
+.about-copy{padding:54px 0 22px}
+.about-photos{gap:14px}
+.split{gap:30px}
+.contact-people{gap:12px}
+.cobot-dialog{max-height:calc(100dvh - 24px);overflow-y:auto}
+.did-you-know{bottom:calc(12px + env(safe-area-inset-bottom));max-height:calc(100dvh - 84px);overflow-y:auto}
+}
+@media(max-width:560px){
+header .wrap{padding:0 16px}
+.logo{gap:8px}
+.logo img{height:36px}
+header.sc .logo img{height:34px}
+.logo span{font-size:16px;padding-left:8px}
+.burger{font-size:26px}
+nav{top:56px;max-height:calc(100dvh - 56px)}
+.page{padding-top:58px}
+.hero .wrap{padding:54px 20px}
+.hero h1{font-size:clamp(32px,9vw,44px);line-height:1.08}
+.hero p{font-size:16px;line-height:1.55}
+.hero .btns{gap:10px}
+.hero .btns .btn{padding:11px 17px;font-size:14px}
+section.s{padding:48px 0}
+section.s>.wrap{padding-left:18px;padding-right:18px}
+.lead{font-size:16px;margin-bottom:26px}
+#hf{grid-template-columns:1fr}
+.what-card{grid-template-columns:minmax(0,96px) minmax(0,1fr);gap:13px;padding:15px}
+.what-card .what-photo{height:104px}
+.what-card-copy h3{font-size:17px}
+.what-card-copy p{font-size:13px}
+.tabs{gap:8px;margin-bottom:24px}
+.tabs button{padding:9px 15px;font-size:14px}
+.grid.product-fit-grid{grid-template-columns:1fr}
+.pc{padding:20px}
+.ph{padding:52px 0 38px}
+.ph .wrap{gap:16px}
+.ph h1{font-size:clamp(32px,9vw,44px)}
+.ph p{font-size:16px}
+.ph-brand{width:min(220px,100%);min-height:76px;align-items:flex-start}
+.ph-brand img{max-height:72px}
+.ph-brand img.brand-logo-grip{width:125%;max-height:94px}
+.grip-detail-head{flex-wrap:wrap}
+.grip-detail-head .grip-family-art{width:76px;height:76px;flex-basis:76px}
+.grip-table-scroll{border-radius:10px}
+.grip-table th,.grip-table td{padding:11px 12px}
+.solution-card{padding:20px}
+.solution-feature-video{border-radius:10px}
+.about-layout{padding:0 18px;gap:12px}
+.about-copy{padding:42px 0 14px}
+.about-photos{grid-template-columns:1fr;gap:18px}
+.about-photo figcaption{font-size:12px}
+.split{grid-template-columns:minmax(0,1fr);gap:24px;align-items:start}
+.contact-people{grid-template-columns:1fr}
+.contact-person{padding:20px 16px}
+.contact-person img{width:96px;height:96px}
+.cobot-dialog{width:calc(100% - 16px);max-height:calc(100dvh - 16px);border-radius:16px}
+.cobot-dialog-head{padding:8px 10px 0}
+.cobot-dialog-body{padding:8px 16px 20px}
+.cobot-dialog-image{width:min(100%,260px)}
+.cobot-modal-specs{gap:10px 14px}
+.cobot-modal-specs b{font-size:15px;overflow-wrap:anywhere}
+.cobot-dialog-actions .btn{flex:1 1 100%;text-align:center}
+.did-you-know{right:10px;bottom:calc(10px + env(safe-area-inset-bottom));left:10px;width:auto;padding:14px 15px;max-height:calc(100dvh - 76px)}
+.did-you-know.minimized{left:auto;right:12px}
+footer .wrap{padding-left:20px;padding-right:20px}
+}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
 </style>
 </head>
