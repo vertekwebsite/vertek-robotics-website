@@ -1,0 +1,8 @@
+# Local planning workbook; the website catalog lives in data/grip-products.json.
+GRIP_website_plan_with_full_catalog.xlsx
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/

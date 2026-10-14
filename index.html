@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vertek Robotics – Rokae robots, grippers and tool changers</title>
+<meta name="description" content="Vertek Robotics: exclusive Rokae distributor in Finland. Industrial and collaborative robots, DH-Robotics grippers, GRIP and ATI tool changers, and complete automation solutions.">
+<style>
+/* ===== EDIT COLORS HERE to match vertek.fi exactly ===== */
+:root{--navy:#0a2540;--navy2:#123a63;--accent:#14a0d8;--accent2:#0e82b3;--bg:#f4f7fa;--ink:#16222e;--mute:#5d6b7a;--line:#dbe3ea;--r:16px}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:#fff;line-height:1.6;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img{max-width:100%}
+.wrap{width:100%;max-width:none;margin:0 auto;padding:0 clamp(24px,5vw,96px)}
+/* header */
+header{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(255,255,255,.97);backdrop-filter:blur(10px);transition:box-shadow .3s,padding .3s;padding:28px 0}
+header.sc{box-shadow:0 2px 20px rgba(10,37,64,.12);padding:22px 0}
+header .wrap{max-width:none;width:100%;padding:0 50px;display:flex;align-items:center;justify-content:space-between;gap:30px}
+.logo{display:flex;align-items:center;gap:14px;flex-shrink:0}
+.logo img{height:52px;width:auto;display:block;object-fit:contain;transition:height .3s}
+header.sc .logo img{height:48px}
+.logo span{font-family:"Trebuchet MS","Segoe UI",sans-serif;font-weight:800;font-size:23px;color:var(--navy);border-left:2px solid var(--accent);padding-left:14px;letter-spacing:.2px}
+nav{display:flex;gap:8px;align-items:center}
+nav a{padding:13px 17px;border-radius:30px;font-weight:600;font-size:18px;color:var(--navy);position:relative;transition:background .25s,color .25s}
+nav a:hover{background:var(--bg)}
+nav a.on{color:var(--accent2)}
+nav a.back{font-size:15px;color:var(--mute)}
+.burger{display:none;background:none;border:0;font-size:28px;color:var(--navy);cursor:pointer}
+/* buttons */
+.btn{display:inline-block;padding:13px 26px;border-radius:40px;background:var(--accent);color:#fff;font-weight:700;border:0;cursor:pointer;font-size:15px;transition:transform .25s,box-shadow .25s,background .25s}
+.btn:hover{background:var(--accent2);transform:translateY(-3px);box-shadow:0 10px 24px rgba(20,160,216,.35)}
+.btn.ghost{background:transparent;border:2px solid #fff;color:#fff}
+.btn.ghost:hover{background:#fff;color:var(--navy);box-shadow:none}
+/* pages */
+.page{display:none;padding-top:112px}
+.page.show{display:block;animation:pg .6s ease both}
+@keyframes pg{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.rv{opacity:0;transform:translateY(34px);transition:opacity .8s ease,transform .8s ease}
+.rv.in{opacity:1;transform:none}
+/* hero */
+.hero{
+background:#101c29;
+color:#fff;
+position:relative;
+overflow:hidden;
+min-height:560px;
+display:flex;
+align-items:center
+}
+.hero:before{
+content:"";
+position:absolute;
+inset:-8px;
+background:url("images/robotics-factory-hero.png") center/cover no-repeat;
+filter:blur(2px);
+transform:scale(1.01);
+z-index:0
+}
+.hero:after{
+content:"";
+position:absolute;
+inset:0;
+background:linear-gradient(90deg,rgba(5,20,35,.72) 0%,rgba(5,20,35,.52) 42%,rgba(5,20,35,.22) 100%);
+z-index:1;
+pointer-events:none
+}
+.hero:before{pointer-events:none}
+@keyframes blob{50%{transform:translate(-40px,30px) scale(1.12)}}
+.hero .wrap:after{display:none}
+.hero .wrap{display:block;width:100%;padding-top:90px;padding-bottom:90px;position:relative;z-index:2}
+.tag{display:inline-block;font-size:15px;font-weight:700;letter-spacing:1.4px;line-height:1.3;text-transform:uppercase;color:var(--accent);margin-bottom:14px}
+.hero-brand{display:flex;align-items:center;gap:16px;margin-bottom:22px;flex-wrap:wrap}
+.hero-brand img{width:190px;height:auto;max-height:54px;object-fit:contain}
+.hero-brand span{font-size:14px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#fff;border-left:2px solid var(--accent);padding:8px 0 8px 14px}
+h1{font-size:clamp(34px,5vw,58px);line-height:1.1;margin-bottom:20px}
+h2{font-size:clamp(26px,3.4vw,38px);line-height:1.2;margin-bottom:14px;color:var(--navy)}
+.hero p{font-size:18px;color:#e6f0f7;max-width:560px;margin-bottom:30px}
+.hero .btns{display:flex;gap:14px;flex-wrap:wrap}
+.robot{display:none}
+.robot img,.robot svg{width:100%;max-width:560px;border-radius:var(--r);animation:fl 5s ease-in-out infinite}
+.rokae-hero-img{display:block;object-fit:contain;filter:drop-shadow(0 24px 28px rgba(0,0,0,.18))}
+@keyframes fl{50%{transform:translateY(-14px)}}
+/* sections */
+section.s{padding:84px 0}
+section.alt{background:var(--bg)}
+.lead{color:var(--mute);max-width:680px;font-size:18px;margin-bottom:40px}
+.grid{display:grid;gap:24px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:28px;transition:transform .35s,box-shadow .35s,border-color .35s;display:flex;flex-direction:column}
+.card:hover{transform:translateY(-8px);box-shadow:0 18px 40px rgba(10,37,64,.13);border-color:var(--accent)}
+#hf{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.what-card{padding:22px 24px;min-width:0;display:grid;grid-template-columns:minmax(0,148px) minmax(0,1fr);align-items:center;gap:20px;overflow:hidden}
+.what-card{color:inherit;text-decoration:none;cursor:pointer}
+.what-card:focus-visible{outline:3px solid var(--accent2);outline-offset:3px}
+.what-card.text-only{grid-template-columns:1fr}
+.what-card .what-photo{width:100%;height:148px;min-width:0;display:grid;place-items:center;overflow:hidden}
+.what-card .what-photo img{display:block;width:100%;height:100%;max-width:100%;object-fit:contain;padding:0}
+.what-card .what-photo img[src*="rokae-xb7"],.what-card .what-photo img[src*="dh-ag-gripper"]{transform:translateY(-18px)}
+.what-card-copy{min-width:0;display:flex;flex-direction:column}
+.what-card-copy h3{color:var(--navy);margin:0 0 6px;font-size:19px;line-height:1.3}
+.what-card-copy p{color:var(--mute);font-size:14px;line-height:1.5}
+.what-card-copy small{margin-bottom:5px;color:var(--accent2);font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+@media(max-width:1050px){#hf{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){#hf{grid-template-columns:1fr}.what-card{grid-template-columns:minmax(0,128px) minmax(0,1fr);gap:16px;padding:18px}.what-card .what-photo{height:128px}}
+.ico{width:54px;height:54px;border-radius:14px;background:linear-gradient(135deg,var(--accent),var(--navy2));color:#fff;display:grid;place-items:center;font-size:26px;margin-bottom:18px;transition:transform .4s}
+.card:hover .ico{transform:rotate(-8deg) scale(1.1)}
+.card h3{color:var(--navy);margin-bottom:8px;font-size:20px}
+.card p{color:var(--mute);font-size:15px;flex:1}
+.solution-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.solution-card{min-height:250px;padding:32px;border:1px solid var(--line);border-radius:var(--r);background:#fff;display:flex;flex-direction:column;box-shadow:0 8px 24px rgba(10,37,64,.045)}
+.solution-card .ico{flex:0 0 54px}
+.solution-card h3{font-size:24px;margin:0 0 10px;color:var(--navy)}
+.solution-card>p{color:var(--mute);font-size:16px;line-height:1.65;margin:0}
+.solution-card.solution-feature{grid-column:1/-1;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start;gap:32px;background:linear-gradient(135deg,#f3f9fc,#fff 70%);border-color:#cfe4f0}
+.solution-feature-video{width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:12px;background:#0b1e30}
+.solution-feature-video iframe{display:block;width:100%;height:100%;border:0}
+.solution-feature-intro{display:flex;flex-direction:column;align-items:flex-start}
+.solution-feature-intro .btn{margin-top:24px}
+.solution-feature-copy{min-width:0;display:flex;flex-direction:column;gap:22px}
+.solution-feature-details{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.solution-feature-details h4{font-size:16px;color:var(--navy);margin:0 0 10px}
+.solution-feature-details ul{padding-left:19px;color:var(--mute);font-size:15px;line-height:1.65}
+.solution-feature-details li+li{margin-top:6px}
+.solution-discuss{align-self:flex-start;padding:10px 18px;font-size:14px}
+@media(max-width:700px){.solution-grid{grid-template-columns:1fr}.solution-card.solution-feature{grid-column:auto;grid-template-columns:1fr;gap:26px}.solution-feature-details{grid-template-columns:1fr;gap:18px}.solution-card{min-height:0;padding:24px}}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:20px;text-align:center}
+.stats b{display:block;font-size:40px;color:var(--accent)}
+section.about-section{padding:0}
+.about-layout{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(28px,3.2vw,56px);align-items:center;width:100%;min-height:560px;margin:0;padding:0 clamp(28px,5vw,96px)}
+.about-copy{width:100%;max-width:760px;justify-self:stretch;align-self:center;margin:0;padding:72px clamp(16px,2vw,32px) 72px 0}
+.about-photos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(12px,1.4vw,20px);width:100%;max-width:988px;justify-self:end;align-items:start}
+.about-photo{margin:0;width:100%;min-width:0}
+.about-photo picture{display:block;width:100%;aspect-ratio:4/3;border-radius:16px;overflow:hidden;box-shadow:0 12px 32px rgba(10,37,64,.14)}
+.about-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:60% 40%}
+.about-photo.partner-photo img{object-fit:contain;background:#f4f7fa}
+.about-photo figcaption{margin-top:10px;color:var(--mute);font-size:13px;line-height:1.4}
+@media(max-width:900px){
+.about-layout{grid-template-columns:1fr;gap:28px}
+.about-copy{justify-self:stretch;align-self:auto;margin:0 auto;padding:64px 24px;max-width:640px}
+.about-photos{width:100%;max-width:760px;justify-self:center}
+}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.ph{background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff;padding:90px 0 60px}
+.ph .wrap{display:flex;align-items:center;justify-content:space-between;gap:48px}
+.ph-copy{flex:1;min-width:0}
+.ph-brand{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;flex:0 0 320px;min-height:130px;padding:0}
+.ph-brand[hidden]{display:none}
+.ph-brand img{display:block;width:100%;height:auto;max-height:112px;object-fit:contain}.ph-brand img.brand-logo-grip{width:150%;max-width:none;max-height:168px;filter:brightness(0) invert(1)}
+.ph-brand a{color:#9bdcf3;font-size:13px;font-weight:650;text-decoration:underline;text-underline-offset:3px}
+.ph-brand a:hover{color:#fff}
+.ph p{color:#cfe0ee;max-width:640px;font-size:18px}
+@media(max-width:700px){.ph{padding:64px 0 48px}.ph .wrap{flex-direction:column;align-items:flex-start;gap:22px}.ph-brand{flex-basis:auto;width:min(280px,100%);min-height:90px}.ph-brand img{max-height:90px}.ph-brand img.brand-logo-grip{width:150%;max-height:135px}}
+.partners{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px}
+.partners a{min-height:122px;display:flex;align-items:center;justify-content:center;padding:16px 18px;border:1px solid var(--line);border-radius:16px;background:#fff;transition:transform .25s,box-shadow .25s,border-color .25s}
+.partners a:hover{border-color:var(--accent);box-shadow:0 12px 28px rgba(10,37,64,.1);transform:translateY(-4px)}
+.partners img{display:block;width:100%;max-width:190px;height:76px;object-fit:contain}
+@media(max-width:900px){.partners{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:560px){.partners{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.partners a{min-height:100px;padding:14px}.partners img{height:60px}}
+/* products */
+.tabs{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:34px}
+.tabs button{padding:10px 22px;border-radius:30px;border:2px solid var(--line);background:#fff;font-weight:700;color:var(--navy);cursor:pointer;font-size:15px;transition:.25s}
+.tabs button:hover{border-color:var(--accent)}
+.tabs button.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.pc{animation:pop .5s ease both}
+@keyframes pop{from{opacity:0;transform:scale(.94) translateY(16px)}to{opacity:1;transform:none}}
+.pc .thumb{height:150px;border-radius:12px;background:var(--bg);display:grid;place-items:center;font-size:56px;margin-bottom:16px;overflow:hidden}
+.pc .thumb img{width:100%;height:100%;object-fit:contain}
+.product-fit-grid .pc .thumb{width:min(100%,250px);height:auto;aspect-ratio:1/1;background:#fff;padding:6px;margin:0 auto 16px}
+.product-fit-grid .pc .thumb img{object-fit:contain;object-position:center;width:100%;height:100%}
+.product-fit-grid .pc.robot-card .thumb img{mix-blend-mode:multiply;transform:scale(1.4)}
+.product-fit-grid .pc.robot-card.robot-compact .thumb img{transform:scale(1)}
+.product-fit-grid .pc.robot-card.xb7-card .thumb img{transform:translateY(-80px) scale(.8)}
+.product-fit-grid .pc.gripper-card .thumb img{mix-blend-mode:multiply}
+.product-fit-grid .pc.gripper-card.pgea-card .thumb img{transform:scale(1.44)}
+.product-fit-grid .pc.gripper-card.pgse-card .thumb img{transform:scale(1.4)}
+.product-fit-grid .pc.gripper-card.dh56-card .thumb img{transform:translateY(-20px) scale(.8)}
+.product-fit-grid .pc.sr-compact .thumb img{width:76%;height:76%;max-width:100%;max-height:100%;margin:auto}
+.product-fit-grid .pc.sr5-card .thumb img{width:66%;height:66%;transform:translateY(-24%)}
+.pc small{color:var(--accent2);font-weight:700;text-transform:uppercase;letter-spacing:1px;font-size:12px}
+.price{font-weight:800;font-size:19px;color:var(--navy);margin:12px 0}
+.price.q{color:var(--mute);font-weight:600;font-size:16px}
+.card .btn{text-align:center;padding:11px 18px;font-size:14px}
+.card .btn.details-link{display:block;width:100%;margin-top:4px;background:#fff;color:var(--navy);border:1px solid var(--line);box-shadow:none}
+.card .btn.details-link:hover{border-color:var(--accent);background:#f5fbfe;color:var(--navy);transform:translateY(-2px)}
+.cobot-details{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:12px 0 16px;padding-top:12px;border-top:1px solid var(--line)}
+.industrial-details{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.gripper-details{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.cobot-details div{font-size:13px;color:var(--mute)}
+.cobot-details b{display:block;color:var(--navy);font-size:15px}
+.cobot-details .price-field{grid-column:1/-1;border-top:1px solid var(--line);padding-top:8px}
+.cobot-price{font-size:24px!important;font-weight:800;color:var(--accent2)!important;line-height:1.25}
+.cobot-more{display:flex;justify-content:center;margin-top:30px}
+.cobot-vat-note{margin:-18px 0 26px;color:var(--mute);font-size:14px;font-weight:600}
+.grip-family-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.grip-family-card{min-width:0;min-height:300px;padding:22px;display:flex;flex-direction:column;overflow:hidden}
+.grip-family-art{height:150px;margin:-4px 0 18px;border-radius:12px;background:#fff;display:flex;align-items:center;justify-content:center;color:var(--accent2);overflow:hidden}
+.grip-family-card .grip-family-art{min-height:150px;flex-shrink:0}
+.grip-family-art svg{width:94px;height:72px}
+.grip-family-art img{display:block;box-sizing:border-box;width:auto;height:auto;max-width:100%;max-height:126px;object-fit:contain;object-position:center;padding:0}
+.grip-family-card .grip-family-art img{max-width:100%;max-height:126px;padding:0}
+.grip-family-card h3{font-size:19px;line-height:1.3}
+.grip-family-card p{margin-bottom:14px}
+.grip-from{margin-top:auto;padding-top:8px;color:var(--mute);font-size:13px}
+.grip-from strong{display:block;color:var(--accent2);font-size:20px}
+.grip-kit-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:18px 0 44px}
+.grip-kit-card{min-width:0;padding:18px;border:1px solid #b7d9ea;border-radius:14px;background:#f4fbff;display:flex;flex-direction:column;gap:10px}
+.grip-kit-image{display:block;box-sizing:border-box;width:100%;height:140px;object-fit:contain;padding:6px;background:#fff;border-radius:10px}
+.grip-kit-copy{min-width:0}
+.grip-kit-card small{color:var(--accent2);font-weight:800;letter-spacing:.06em;text-transform:uppercase}
+.grip-kit-card h3{font-size:17px;color:var(--navy);margin:6px 0}
+.grip-kit-card p{font-size:13px;color:var(--mute);overflow-wrap:anywhere}
+.grip-kit-price{font-weight:800;color:var(--accent2);font-size:18px;margin-top:8px}
+.grip-catalog-head{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;margin-bottom:26px}
+.grip-catalog-head .lead{margin-bottom:0}
+.grip-catalog-view[hidden],#classic-products[hidden]{display:none!important}
+.grip-detail-head{display:flex;align-items:center;gap:24px;margin-bottom:24px}
+.grip-detail-head .grip-family-art{width:150px;height:118px;flex:0 0 150px;margin:0}
+.grip-detail-head .grip-family-art img{max-width:130px;max-height:98px}
+.grip-detail-head h2{margin:2px 0 6px}
+.grip-detail-head p{color:var(--mute)}
+.grip-back{display:inline-block;color:var(--accent2);font-weight:700;margin-bottom:16px}
+.grip-tools{display:grid;grid-template-columns:minmax(220px,1.4fr) repeat(3,minmax(150px,1fr));gap:12px;margin:22px 0}
+.grip-tools input,.grip-tools select{padding:11px 13px;border-width:1px}
+.grip-results{color:var(--mute);font-size:14px;margin:4px 0 14px}
+.grip-table-scroll{width:100%;overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:#fff}
+.grip-table{width:100%;border-collapse:collapse;min-width:760px}
+.grip-table th,.grip-table td{text-align:left;padding:13px 15px;border-bottom:1px solid #e8edf2;vertical-align:top}
+.grip-table th{font-size:13px;color:var(--mute);background:#f6f8fa;position:sticky;top:0}
+.grip-table td:nth-child(2){font-weight:700;color:var(--navy);white-space:nowrap}
+.grip-table td:last-child{white-space:nowrap;font-weight:700}
+.grip-table .grip-quote{display:inline-block;padding:7px 12px;border:1px solid var(--line);border-radius:24px;color:var(--navy);font-weight:700;font-size:13px}
+.grip-table .grip-quote:hover,.grip-table .grip-quote:focus-visible{border-color:var(--accent);background:#f1faff}
+.grip-table .grip-section th{background:#eaf4fa;color:var(--navy);font-size:14px}
+.grip-price-note{color:var(--mute);font-size:13px;margin-top:18px}
+.grip-empty{padding:28px;color:var(--mute);text-align:center}
+@media(max-width:900px){.grip-family-grid,.grip-kit-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.grip-tools{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.grip-catalog-head{align-items:flex-start;flex-direction:column}.grip-family-grid,.grip-kit-grid{grid-template-columns:1fr}.grip-kit-card{grid-template-columns:1fr}.grip-kit-image{height:150px}.grip-tools{grid-template-columns:1fr}.grip-detail-head{align-items:flex-start;gap:14px}.grip-detail-head .grip-family-art{width:92px;height:92px;flex-basis:92px}.grip-family-card{min-height:270px}}
+.grid.product-fit-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(max-width:600px){.cobot-details{gap:5px}.cobot-details div{font-size:12px}.cobot-details b{font-size:14px}}
+@media(max-width:600px){.gripper-details{gap:5px}.gripper-details div{font-size:11px}}
+@media(max-width:620px){.industrial-details{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:1080px){.grid.product-fit-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.grid.product-fit-grid{grid-template-columns:1fr}}
+.cobot-dialog{width:min(900px,calc(100% - 32px));max-height:calc(100% - 32px);margin:auto;padding:0;border:0;border-radius:20px;color:var(--ink);box-shadow:0 24px 80px rgba(4,20,35,.3)}
+.cobot-dialog::backdrop{background:rgba(5,20,35,.64);backdrop-filter:blur(4px)}
+.cobot-dialog-head{display:flex;justify-content:flex-end;padding:14px 16px 0}
+.cobot-dialog-close{width:40px;height:40px;border:0;border-radius:50%;background:var(--bg);color:var(--navy);font-size:24px;cursor:pointer}
+.cobot-dialog-body{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:30px;padding:10px 36px 36px;align-items:center}
+.cobot-dialog-image{width:100%;aspect-ratio:1/1;display:grid;place-items:center;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.cobot-dialog-image img{display:block;width:100%;height:100%;object-fit:contain;padding:14px}
+.cobot-dialog-image.sr5-dialog img{width:66%;height:66%;padding:0;transform:translateY(-24%)}
+.cobot-dialog-image.sr3-dialog img{width:76%;height:76%;padding:0}
+.cobot-dialog-image.robot-dialog img{box-sizing:border-box;width:86%;height:86%;max-width:100%;max-height:100%;padding:0;object-fit:contain;object-position:center;transform:none}
+.cobot-dialog-copy>small{color:var(--accent2);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.cobot-dialog-copy h2{margin:6px 0 18px}
+.cobot-modal-specs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 18px}
+.cobot-modal-specs div{padding:10px 0;border-top:1px solid var(--line);font-size:13px;color:var(--mute)}
+.cobot-modal-specs b{display:block;color:var(--navy);font-size:17px}
+.cobot-modal-price{grid-column:1/-1}
+.cobot-modal-price b{color:var(--accent2);font-size:24px}
+.cobot-dialog-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+.cobot-dialog-actions .btn{font-size:14px}
+@media(max-width:700px){.cobot-dialog-body{grid-template-columns:1fr;gap:18px;padding:8px 22px 24px}.cobot-dialog-image{max-width:300px;margin:auto}.cobot-dialog-copy h2{font-size:26px}}
+/* steps */
+.steps{counter-reset:s;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px}
+.steps div{position:relative;padding:28px;border-radius:var(--r);background:#fff;border:1px solid var(--line)}
+.steps div:before{counter-increment:s;content:counter(s);position:absolute;top:-18px;left:24px;width:38px;height:38px;border-radius:50%;background:var(--accent);color:#fff;font-weight:800;display:grid;place-items:center}
+.steps h3{color:var(--navy);margin-bottom:6px}
+.steps p{color:var(--mute);font-size:15px}
+/* contact */
+form{display:grid;gap:14px}
+form label{font-size:14px;font-weight:650;color:var(--navy);margin-bottom:-10px}
+input,textarea,select{width:100%;padding:14px 16px;border:2px solid var(--line);border-radius:12px;font:inherit;transition:border-color .25s,box-shadow .25s;background:#fff}
+input:focus,textarea:focus,select:focus{outline:0;border-color:var(--accent);box-shadow:0 0 0 4px rgba(20,160,216,.15)}
+.did-you-know{position:fixed;right:24px;bottom:24px;z-index:45;width:min(390px,calc(100vw - 32px));padding:19px 22px 17px;background:#fff;color:var(--ink);border:1px solid var(--line);border-radius:var(--r);box-shadow:0 12px 36px rgba(10,37,64,.2)}
+.did-you-know[hidden]{display:none}
+.did-you-know.minimized{width:auto;padding:0;background:transparent;border:0;box-shadow:none}
+.did-you-know-content[hidden]{display:none}
+.did-you-know.visible{animation:did-you-know-in .28s ease-out both}
+@keyframes did-you-know-in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.did-you-know h2{padding-right:36px;margin:0 0 6px;color:var(--navy);font-size:19px;line-height:1.3}
+.did-you-know p{margin:0 0 12px;color:var(--ink);font-size:14px;line-height:1.5}
+.did-you-know small{display:block;margin-top:10px;color:var(--mute);font-size:11px;line-height:1.45}
+.did-you-know .btn{display:inline-block;padding:9px 16px;font-size:14px}
+.did-you-know-toggle{position:absolute;top:8px;right:9px;min-width:44px;height:44px;padding:0 12px;border:0;border-radius:24px;background:transparent;color:var(--mute);font:inherit;font-size:23px;line-height:1;cursor:pointer}
+.did-you-know-toggle:hover{background:var(--bg);color:var(--navy)}
+.did-you-know.minimized .did-you-know-toggle{position:static;min-width:0;height:auto;padding:11px 16px;background:#fff;border:1px solid var(--line);box-shadow:0 8px 24px rgba(10,37,64,.18);color:var(--navy);font-size:14px;font-weight:700}
+.did-you-know.minimized .did-you-know-toggle:hover{border-color:var(--accent2);background:var(--bg)}
+.did-you-know-toggle:focus-visible,.did-you-know a:focus-visible{outline:3px solid var(--accent2);outline-offset:3px}
+.ci p{margin-bottom:12px;color:var(--mute)}
+.ci b{color:var(--navy)}
+.contact-people{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+#fsch-wrap{display:grid;gap:14px}
+#fsch-wrap[hidden]{display:none}
+.contact-person{padding:22px 16px;text-align:center;background:#edf7fd;border-radius:var(--r)}
+.contact-person img{width:112px;height:112px;margin:0 auto 14px;border-radius:50%;object-fit:cover;background:#fff}
+.contact-person h2{font-size:18px;margin:0 0 6px;color:var(--navy)}
+.contact-person p{margin:0 0 8px;color:var(--navy);font-size:14px;font-weight:650}
+.contact-person a{display:block;color:var(--accent2);font-size:14px;line-height:1.6;overflow-wrap:anywhere}
+.form-mail-note{margin-top:-5px;color:var(--mute);font-size:13px;line-height:1.5}
+.cta{background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff;text-align:center;padding:70px 0}
+.cta h2{color:#fff}
+.cta p{color:#cfe0ee;margin-bottom:26px}
+footer{background:#1b355e;color:#e2eaf5;padding:52px 0 22px;font-size:14px}
+footer .wrap{width:100%;max-width:none;padding:0 clamp(24px,5vw,96px)}
+.footer-grid{display:grid;grid-template-columns:minmax(250px,1.3fr) minmax(230px,1fr) auto;gap:clamp(24px,4vw,64px);align-items:center}
+.footer-brand .footer-logo{display:inline-flex;align-items:center;gap:14px;margin-bottom:18px}
+footer .footer-brand img{display:block;width:auto;max-width:260px;height:58px;margin:0;object-fit:contain}
+.footer-logo span{border-left:1px solid rgba(255,255,255,.6);padding-left:14px;font-size:20px;font-weight:700;color:#fff}
+.footer-brand p{max-width:300px;color:#cfdae7}
+.footer-col{display:grid;align-content:start;gap:8px}
+.footer-col h3{font-size:14px;line-height:1.4;color:#fff;margin:0 0 4px}
+.footer-col p{color:#cfdae7}
+.footer-col a{color:#e2eaf5;text-decoration:none}
+footer a:hover{color:#fff}
+.footer-socials{display:flex;align-items:center;gap:18px}
+.footer-socials a{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;color:#fff;transition:color .2s,transform .2s}
+.footer-socials a:hover{background:transparent;color:#75cdf0;transform:translateY(-2px)}
+.footer-socials svg{display:block;width:22px;height:22px;fill:currentColor}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-top:34px;padding-top:16px;border-top:1px solid rgba(255,255,255,.18);color:#cfdae7;font-size:13px}
+@media(max-width:900px){.footer-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.footer-socials{grid-column:1/-1}}
+@media(max-width:560px){footer{padding-top:42px}.footer-grid{grid-template-columns:1fr;gap:26px}.footer-socials{grid-column:auto}.footer-bottom{margin-top:26px;align-items:flex-start;flex-direction:column}}
+#lg{margin-left:8px;padding:9px 15px;border-radius:30px;border:2px solid var(--line);background:#fff;font-weight:700;font-size:14px;color:var(--mute);cursor:pointer;transition:.25s}
+#lg:hover{border-color:var(--accent)}
+#lg b{color:var(--accent2)}
+@media(max-width:860px){
+.hero .wrap,.split{grid-template-columns:1fr}
+.burger{display:block}
+nav{position:fixed;top:108px;left:0;right:0;background:#fff;flex-direction:column;padding:16px;box-shadow:0 12px 24px rgba(0,0,0,.1);transform:translateY(-130%);transition:transform .35s}
+nav.open{transform:none}
+.robot{order:-1}
+}
+@media(max-width:860px){.did-you-know{right:12px;bottom:12px;left:12px;width:auto;padding:15px 17px 14px}.did-you-know h2{font-size:17px}.did-you-know p{font-size:13px;margin-bottom:9px}.did-you-know small{font-size:10px;margin-top:8px}.did-you-know .btn{padding:8px 13px;font-size:13px}.did-you-know.minimized{left:auto;width:auto}body.menu-open .did-you-know{display:none}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header id="hd"><div class="wrap">
+<a class="logo" href="#home"><img src="https://images.squarespace-cdn.com/content/v1/672a13240cffb9433a9cc012/40b7d867-798b-4493-a49c-67978ab7d155/Vertek_logo_RGB.png?format=1500w" alt="Vertek"><span>Robotics</span></a>
+<button class="burger" id="bg" aria-label="Menu">☰</button>
+<nav id="nv">
+<a href="#home" data-p="home">Home</a><a href="#products" data-p="products">Products</a><a href="#solutions" data-p="solutions">Solutions</a><a href="#contact" data-p="contact">Contact</a>
+<a class="back" href="https://www.vertek.fi">← vertek.fi</a><button id="lg" type="button" title="Language / Kieli"></button>
+</nav></div></header>
+
+<!-- HOME -->
+<main>
+<div class="page" id="home">
+<div class="hero"><div class="wrap">
+<div><div class="hero-brand"><img src="images/rokae-logo.png" alt="ROKAE logo"><span>Exclusive Rokae distributor in Finland</span></div>
+<h1>Robotics solutions that put your production to work</h1>
+<p>From a single robot to a fully integrated automation cell. We analyse your needs, find the right solution and make it run.</p>
+<div class="btns"><a class="btn" href="#products">View products</a><a class="btn ghost" href="#contact">Request a quote</a></div></div>
+<div class="robot">
+<!-- Put your robot photo at images/robot.jpg; until then this drawing shows -->
+<img src="assets/images/cobots/fitted/cr12.png" alt="ROKAE xMate CR12 collaborative robot" class="rokae-hero-img">
+</div></div></div>
+
+<section class="s about-section"><div class="about-layout">
+<div class="about-copy rv"><span class="tag">About us</span><h2>Your one-stop partner for robotic automation</h2>
+<p style="color:var(--mute);margin-bottom:16px">A successful automation cell is more than a robot. We bring the essential parts together in one solution, designed around your process and the people who run it.</p>
+<p style="color:var(--mute);margin-bottom:24px">From robot and gripper to tool changer, vision and safety systems, we help you select compatible equipment and take the project from planning through integration.</p>
+<a class="btn" href="#solutions">Explore our solutions</a></div>
+<div class="about-photos"><figure class="about-photo partner-photo"><picture><source srcset="assets/images/partner-network.webp" type="image/webp"><img src="assets/images/partner-network.png" width="1200" height="675" loading="lazy" decoding="async" alt="Automation partner logos: DH Robotics, GRIP, ROKAE, ATI and TransferTech"></picture><figcaption>Our automation partners</figcaption></figure><figure class="about-photo"><picture><source srcset="assets/images/vertek-booth.webp" type="image/webp"><img src="assets/images/vertek-booth.png" width="1280" height="960" loading="lazy" decoding="async" alt="Vertek demo station with a Rokae collaborative robot, gripper and tool changer performing a vision-guided picking demo"></picture><figcaption>Vision-guided picking demo with the Rokae CR7-C (Hannover Messe, 2026)</figcaption></figure></div>
+</div></section>
+
+<section class="s alt"><div class="wrap">
+<span class="tag rv">What we do</span><h2 class="rv">Everything from analysis to integration</h2>
+<p class="lead rv">Buy just the robot, or let us deliver the whole solution.</p>
+<div class="grid" id="hf"></div></div></section>
+
+<section class="s"><div class="wrap"><span class="tag rv">Our partners</span><h2 class="rv">Trusted brands</h2>
+<div class="partners rv"><a href="https://www.rokae.com/en/" target="_blank" rel="noopener noreferrer" aria-label="ROKAE website"><img src="assets/images/logo-rokae.webp" alt="ROKAE"></a><a href="https://en.dh-robotics.com/" target="_blank" rel="noopener noreferrer" aria-label="DH-Robotics website"><img src="assets/images/logo-dh-robotics.webp" alt="DH Robotics"></a><a href="https://www.grip-gmbh.com/en/" target="_blank" rel="noopener noreferrer" aria-label="GRIP website"><img src="assets/images/logo-grip.webp" alt="GRIP"></a><a href="https://www.ati-ia.com/" target="_blank" rel="noopener noreferrer" aria-label="ATI Industrial Automation website"><img src="assets/images/logo-ati.webp" alt="ATI Industrial Automation"></a><a href="https://www.transfer3d.com/en" target="_blank" rel="noopener noreferrer" aria-label="TransferTech website"><img src="assets/images/logo-transfertech.webp" alt="TransferTech"></a></div></div></section>
+
+<div class="cta"><div class="wrap rv"><h2>Not sure which robot fits?</h2><p>We analyse your process and recommend the best solution for your company.</p><a class="btn" href="#contact">Talk to an expert</a></div></div>
+</div>
+
+<!-- PRODUCTS -->
+<div class="page" id="products">
+<div class="ph"><div class="wrap"><div class="ph-copy"><span class="tag">Products</span><h1 id="product-page-title">Our product range</h1><p id="product-page-description">Robots, cobots, grippers and tool changers from our partners.</p></div><div class="ph-brand" id="product-brand" hidden><img id="product-brand-logo" src="" alt=""><a id="product-brand-link" href="" target="_blank" rel="noopener noreferrer" hidden></a></div></div></div>
+<section class="s" id="classic-products"><div class="wrap"><div class="tabs" id="tb"></div><p class="cobot-vat-note">Prices include VAT</p><div class="grid" id="pg"></div></div></section>
+<section class="s grip-catalog-section" id="grip-catalog">
+ <div class="wrap">
+  <div class="grip-catalog-view" id="grip-landing-view" hidden>
+   <div class="grip-catalog-head"><div><span class="tag">GRIP GmbH</span><h2>GRIP product families</h2><p class="lead">Browse the catalog by product family. Kits combining upper and lower assemblies are featured first.</p></div><a class="grip-back" href="#products">← Back to all products</a></div>
+   <div id="grip-kit-grid" class="grip-kit-grid" aria-label="Featured GRIP kits"></div>
+   <div id="grip-family-grid" class="grip-family-grid"></div>
+   <p class="grip-price-note">List prices in EUR, excl. VAT, subject to change. Price list Rev.1.06.</p>
+  </div>
+  <div class="grip-catalog-view" id="grip-detail-view" hidden></div>
+ </div>
+</section>
+<dialog class="cobot-dialog" id="cobot-dialog" aria-labelledby="cobot-dialog-title">
+<div class="cobot-dialog-head"><button class="cobot-dialog-close" id="cobot-dialog-close" type="button" aria-label="Close details">×</button></div>
+<div class="cobot-dialog-body"><div class="cobot-dialog-image"><img id="cobot-dialog-image" src="" alt=""></div><div class="cobot-dialog-copy"><small id="cobot-dialog-type">ROKAE · Collaborative robot</small><h2 id="cobot-dialog-title"></h2><div class="cobot-modal-specs"><div><span>Payload</span><b id="cobot-dialog-payload"></b></div><div><span>Reach</span><b id="cobot-dialog-reach"></b></div><div><span>Repeatability</span><b id="cobot-dialog-repeatability"></b></div><div><span>Robot weight</span><b id="cobot-dialog-weight"></b></div><div><span>Controller</span><b id="cobot-dialog-controller"></b></div><div><span>Teach pendant</span><b id="cobot-dialog-screen"></b></div><div class="cobot-modal-price" id="cobot-dialog-price-row"><span>Price</span><b id="cobot-dialog-price"></b></div></div><div class="cobot-dialog-actions"><a class="btn" id="cobot-dialog-enquiry" href="#contact">Send enquiry</a><a class="btn details-link" id="cobot-dialog-official" href="https://www.rokae.com/en/product/show/545/xMateCR.html" target="_blank" rel="noopener noreferrer">ROKAE specifications</a></div></div></div>
+</dialog>
+</div>
+
+<!-- SOLUTIONS -->
+<div class="page" id="solutions">
+<div class="ph"><div class="wrap"><div class="ph-copy"><span class="tag">Solutions</span><h1>Ready-made automation packages</h1><p>We build solution packages for common tasks and tailor them to your production.</p></div></div></div>
+<section class="s"><div class="wrap"><div class="solution-grid" id="sg"></div></div></section>
+<section class="s alt"><div class="wrap"><span class="tag rv">How we work</span><h2 class="rv">From idea to running production</h2><p class="lead rv">Robot only or full integration, you choose.</p>
+<div class="steps rv" style="margin-top:30px">
+<div><h3>Analysis</h3><p>We study your process and find where automation pays off the most.</p></div>
+<div><h3>Solution design</h3><p>The right robot, gripper and tooling for your needs.</p></div>
+<div><h3>Integration</h3><p>We install, program and commission the solution at your site.</p></div>
+<div><h3>Support</h3><p>Training, service and upgrades as your needs grow.</p></div></div></div></section>
+<div class="cta"><div class="wrap rv"><h2>Have a task to automate?</h2><p>Tell us about it and we'll suggest a solution.</p><a class="btn" href="#contact">Contact us</a></div></div>
+</div>
+
+<!-- CONTACT -->
+<div class="page" id="contact">
+<div class="ph"><div class="wrap"><div class="ph-copy"><span class="tag">Contact</span><h1>Let's talk robots</h1><p>Request a quote or ask about a product.</p></div></div></div>
+<section class="s"><div class="wrap split" style="align-items:start">
+<form id="fm" class="rv">
+<input id="fn" placeholder="Name" required><input id="fc" placeholder="Company">
+<input id="fe" type="email" placeholder="Email" required><input id="fp" placeholder="Phone">
+<select id="fs"></select>
+<div id="fsch-wrap" hidden><label for="fsch">SCHUNK part number</label><input id="fsch" name="schunk-part-number" placeholder="SCHUNK part number"></div>
+<textarea id="fmsg" rows="5" placeholder="Tell us what you want to automate"></textarea>
+<button class="btn" type="submit">Send message</button><p class="form-mail-note">This opens your email app with the message details filled in.</p></form>
+<div class="contact-people rv" aria-label="Contact our robotics team">
+<article class="contact-person"><img src="assets/images/team/jarno-salminen.png" alt="Jarno Salminen"><h2>Jarno Salminen</h2><p>CEO</p><a href="mailto:jarno.salminen@vertek.fi">jarno.salminen@vertek.fi</a><a href="tel:+358503758100">+358 50 375 8100</a></article>
+<article class="contact-person"><img src="assets/images/team/ganesh-goutham.png" alt="Ganesh Goutham"><h2>Ganesh Goutham</h2><p>Automation Engineer</p><a href="mailto:ganesh.goutham@vertek.fi">ganesh.goutham@vertek.fi</a><a href="tel:+358465356989">+358 46 535 6989</a></article>
+</div>
+</div></section></div>
+</main>
+
+<footer><div class="wrap">
+<div class="footer-grid">
+<div class="footer-brand"><a class="footer-logo" href="#home"><img src="https://images.squarespace-cdn.com/content/v1/672a13240cffb9433a9cc012/3c8a9d3d-32e5-4a4f-8d87-fd5f6d5bb7ec/Vertek_logo_valkteksti_RGB.png" alt="Vertek"><span>Robotics</span></a><p>Robotics, tooling and integration for Finnish production.</p></div>
+<div class="footer-col"><h3>Vertek Oy</h3><a href="mailto:jarno.salminen@vertek.fi">jarno.salminen@vertek.fi</a><a href="mailto:ganesh.goutham@vertek.fi">ganesh.goutham@vertek.fi</a><p>Poraajantie 5<br>23500 Uusikaupunki</p><p>Business ID: 1032401-7</p></div>
+<nav class="footer-socials" aria-label="Vertek social media">
+<a href="https://www.instagram.com/vertekfinland/" target="_blank" rel="noopener noreferrer" aria-label="Vertek on Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2zm0 2A3.8 3.8 0 0 0 4 7.8v8.4A3.8 3.8 0 0 0 7.8 20h8.4a3.8 3.8 0 0 0 3.8-3.8V7.8A3.8 3.8 0 0 0 16.2 4H7.8zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.2-3.5a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg></a>
+<a href="https://www.facebook.com/profile.php?id=61581694365096" target="_blank" rel="noopener noreferrer" aria-label="Vertek on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-8.2h2.8l.4-3.2h-3.2V7.5c0-.9.3-1.5 1.6-1.5h1.7V3.1c-.3 0-1.4-.1-2.6-.1-2.6 0-4.3 1.6-4.3 4.5v2.1H7v3.2h2.9V21h3.6z"/></svg></a>
+<a href="https://www.linkedin.com/company/vertekoy/" target="_blank" rel="noopener noreferrer" aria-label="Vertek on LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 3a2.2 2.2 0 1 1 0 4.4 2.2 2.2 0 0 1 0-4.4zM3.3 9h3.8v12H3.3V9zm6.2 0h3.6v1.6h.1A4 4 0 0 1 16.8 8c3.9 0 4.6 2.5 4.6 5.8V21h-3.8v-6.4c0-1.5 0-3.4-2.1-3.4s-2.4 1.6-2.4 3.3V21H9.5V9z"/></svg></a>
+</nav>
+</div>
+<div class="footer-bottom"><span>© 2026 Vertek Oy. All rights reserved.</span></div>
+</div></footer>
+
+<aside class="did-you-know" id="did-you-know" role="complementary" aria-label="Did you know?" hidden></aside>
+
+<script>
+const DID_YOU_KNOW_COPY={
+ title:"Did you know?",
+ body:"Many SCHUNK tool changers are made by GRIP. You can now buy GRIP products directly from Vertek in Finland. Send us your SCHUNK part number and we'll match it to the GRIP equivalent.",
+ button:"Send your part number →",
+ smallPrint:"SCHUNK is a trademark of its respective owner. Vertek is not affiliated with SCHUNK.",
+ subject:"SCHUNK to GRIP part number request"
+};
+let didYouKnowAllowed=false,didYouKnowReady=false,didYouKnowTimer=null,didYouKnowLoadComplete=document.readyState==="complete";
+if(!didYouKnowLoadComplete)addEventListener("load",()=>{didYouKnowLoadComplete=true;syncDidYouKnow()},{once:true});
+let schunkInquiryActive=false;
+/* ===== EDIT YOUR PRODUCTS HERE =====
+   cat: robot | cobot | gripper | changer
+   price: "€1 990" to show a price, or "" for "Request quote"
+   img: optional, e.g. "images/xmate.jpg"
+   NOTE: names/descriptions below are placeholders – check them against your catalogue. */
+const dhGripper=(name,img,official,stroke,workpiece)=>({cat:"gripper",brand:"DH-Robotics",name,desc:"",price:"",img,official,stroke,workpiece});
+const DH_GRIPPERS=[
+dhGripper("PGE-8-14-O","https://www.dh-robotics.com/wp-content/uploads/2022/07/PGE-8-14-%E6%8B%B7%E8%B4%9D.png","https://en.dh-robotics.com/product/pge","14 mm","0.1 kg"),
+dhGripper("PGE-5-26-O","https://www.dh-robotics.com/wp-content/uploads/2022/07/PGE-5-26-%E6%8B%B7%E8%B4%9D.png","https://en.dh-robotics.com/product/pge","26 mm","0.1 kg"),
+dhGripper("PGEA-2-10-O","https://www.dh-robotics.com/wp-content/uploads/2025/06/pgea-cover.png","https://en.dh-robotics.com/product/pgea","10 mm","0.05 kg"),
+dhGripper("PGEA-15-10-O","https://www.dh-robotics.com/wp-content/uploads/2025/06/pgea-cover.png","https://en.dh-robotics.com/product/pgea","10 mm","0.1 kg"),
+dhGripper("PGEA-15-26-O","https://www.dh-robotics.com/wp-content/uploads/2025/06/PGEA-15-26.png","https://en.dh-robotics.com/product/pgea","26 mm","0.25 kg"),
+dhGripper("PGEA-15-26-W","https://www.dh-robotics.com/wp-content/uploads/2025/06/PGEA-15-26.png","https://en.dh-robotics.com/product/pgea","26 mm","0.25 kg"),
+dhGripper("PGEA-50-26-O","https://www.dh-robotics.com/wp-content/uploads/2025/06/PGEA-15-26.png","https://en.dh-robotics.com/product/pgea","26 mm","1 kg"),
+dhGripper("PGEA-50-26-W","https://www.dh-robotics.com/wp-content/uploads/2025/06/PGEA-15-26.png","https://en.dh-robotics.com/product/pgea","26 mm","1 kg"),
+dhGripper("PGEA-50-40-O","https://www.dh-robotics.com/wp-content/uploads/2025/06/PGEA-50-40-04.png","https://en.dh-robotics.com/product/pgea","40 mm","1 kg"),
+dhGripper("PGEA-50-40-W","https://www.dh-robotics.com/wp-content/uploads/2025/06/PGEA-50-40-04.png","https://en.dh-robotics.com/product/pgea","40 mm","1 kg"),
+dhGripper("PGEA-100-26-O","https://www.dh-robotics.com/wp-content/uploads/2025/06/PGEA-15-26.png","https://en.dh-robotics.com/product/pgea","26 mm","2 kg"),
+dhGripper("PGEA-100-26-W","https://www.dh-robotics.com/wp-content/uploads/2025/06/PGEA-15-26.png","https://en.dh-robotics.com/product/pgea","26 mm","2 kg"),
+dhGripper("PGEA-100-40-O","https://www.dh-robotics.com/wp-content/uploads/2025/06/PGEA-50-40-04.png","https://en.dh-robotics.com/product/pgea","40 mm","2 kg"),
+dhGripper("PGEA-100-40-W","https://www.dh-robotics.com/wp-content/uploads/2025/06/PGEA-50-40-04.png","https://en.dh-robotics.com/product/pgea","40 mm","2 kg"),
+dhGripper("PGSE-15-7-O","https://www.dh-robotics.com/product/pgse%E7%B3%BB%E5%88%97/pgse-product","https://en.dh-robotics.com/product/pgse","7 mm","0.25 kg"),
+dhGripper("PGIA-140-80-W","https://www.dh-robotics.com/wp-content/uploads/2021/11/PGIA-140-80-04-min.png","https://en.dh-robotics.com/product/pgia","80 mm","3 kg"),
+dhGripper("PGC-50-35-O","https://www.dh-robotics.com/wp-content/uploads/2022/06/PGC-50-35-%E6%8B%B7%E8%B4%9D.png","https://en.dh-robotics.com/product/pgc","37 mm","1 kg"),
+dhGripper("PGC-140-50-W","https://www.dh-robotics.com/wp-content/uploads/2022/06/PGC-140-50-%E6%8B%B7%E8%B4%9D.png","https://en.dh-robotics.com/product/pgc","50 mm","3 kg"),
+dhGripper("PGC-300-60-W","https://www.dh-robotics.com/wp-content/uploads/2022/06/PGC-300-60-%E6%8B%B7%E8%B4%9D.png","https://en.dh-robotics.com/product/pgc","60 mm","6 kg"),
+dhGripper("PGHL-400-80-W","https://en.dh-robotics.com/wp-content/uploads/2022/12/PGHL-400-80%E4%B8%8D%E5%90%AB%E6%8C%87%E5%B0%96%EF%BC%88%E7%AE%80%E6%98%93%E7%89%88%EF%BC%89-300x255.png","https://en.dh-robotics.com/product/pghl","80 mm","8 kg"),
+dhGripper("RGI-100-14-O","https://www.dh-robotics.com/wp-content/uploads/2022/08/RGI-100-14.png","https://en.dh-robotics.com/product/rgi","14 mm","1.28 kg"),
+dhGripper("RGI-100-22-O","https://www.dh-robotics.com/wp-content/uploads/2022/08/RGI100-22.png","https://en.dh-robotics.com/product/rgi","22 mm","1.40 kg"),
+dhGripper("RGI-100-30-O","https://www.dh-robotics.com/wp-content/uploads/2022/08/RGI-100-30.png","https://en.dh-robotics.com/product/rgi","30 mm","1.5 kg"),
+dhGripper("RGIC-35-12-O","https://www.dh-robotics.com/wp-content/uploads/2022/08/RGI-35-12.png","https://en.dh-robotics.com/product/rgi","12 mm","0.5 kg"),
+dhGripper("RGIC-100-35-O","assets/images/grippers/rgic-100-35.jpg","https://en.dh-robotics.com/product/rgi","35 mm","1 kg"),
+dhGripper("RGD-5-14-O","assets/images/grippers/rgd-5-14.png","https://en.dh-robotics.com/product/rgd","14 mm","0.05 kg"),
+dhGripper("RGD-5-14-W","assets/images/grippers/rgd-5-14.png","https://en.dh-robotics.com/product/rgd","14 mm","0.05 kg"),
+dhGripper("RGD-35-14-O","assets/images/grippers/rgd-35-14.png","https://en.dh-robotics.com/product/rgd","14 mm","0.35 kg"),
+dhGripper("RGD-35-14-W","assets/images/grippers/rgd-35-14.png","https://en.dh-robotics.com/product/rgd","14 mm","0.35 kg"),
+dhGripper("RGD-35-30-O","assets/images/grippers/rgd-35-30.png","https://en.dh-robotics.com/product/rgd","30 mm","0.35 kg"),
+dhGripper("RGD-35-30-W","assets/images/grippers/rgd-35-30.png","https://en.dh-robotics.com/product/rgd","30 mm","0.35 kg"),
+dhGripper("AG-105-145-W","assets/images/grippers/ag-105-145.png","https://en.dh-robotics.com/product/ag","145 mm","2 kg"),
+dhGripper("AG-160-95-W","assets/images/grippers/ag-160-95.png","https://en.dh-robotics.com/product/ag","95 mm","3 kg"),
+dhGripper("DH-3-W-S","assets/images/grippers/dh-3.png","https://en.dh-robotics.com/product/ag","106 mm parallel / 122 mm centric","1.8 kg"),
+dhGripper("DH-5-6","assets/images/grippers/dh-5-6.png","https://en.dh-robotics.com/product/dh-5-6","Not specified","Not specified"),
+dhGripper("CGE-10-10-O","https://www.dh-robotics.com/wp-content/uploads/2023/02/CGE-10-10-300x300.png","https://en.dh-robotics.com/product/cg","10 mm per jaw","0.1 kg"),
+dhGripper("CGC-80-10-W","https://www.dh-robotics.com/wp-content/uploads/2022/06/CGC-80-10-300x300.png","https://en.dh-robotics.com/product/cg","10 mm per jaw","1.5 kg"),
+dhGripper("CGI-100-170-W","https://www.dh-robotics.com/wp-content/uploads/2023/02/CGI-100-170-300x300.png","https://en.dh-robotics.com/product/cg","Not specified","1.5 kg")
+];
+const PRODUCTS=[
+{cat:"cobot",brand:"Rokae",name:"SR3-3/0.7C",desc:"",payload:"3 kg",reach:"705 mm",weight:"About 13.8 kg",price:"",controller:"External cabinet included",screen:"Teach pendant included",img:"assets/images/cobots/fitted/sr3.png",official:"https://www.rokae.com/en/product/show/349/SR-Cobots.html"},
+{cat:"cobot",brand:"Rokae",name:"SR5-5/0.9C",desc:"",payload:"5 kg",reach:"919 mm",weight:"About 16.5 kg",price:"",controller:"External cabinet included",screen:"Teach pendant included",img:"assets/images/cobots/fitted/sr5.png",official:"https://www.rokae.com/en/product/show/349/SR-Cobots.html"},
+{cat:"cobot",brand:"Rokae",name:"CR7-7/0.98C",desc:"",payload:"7 kg",reach:"988 mm",weight:"About 25 kg",price:"€15,000",controller:"External cabinet included",screen:"Teach pendant included",img:"assets/images/cobots/fitted/cr7.png",official:"https://www.rokae.com/en/product/show/545/xMateCR.html"},
+{cat:"cobot",brand:"Rokae",name:"CR12-12/1.4C",desc:"",payload:"12 kg",reach:"1,434 mm",weight:"About 41 kg",price:"€20,000",controller:"External cabinet included",screen:"Teach pendant included",img:"assets/images/cobots/fitted/cr12.png",official:"https://www.rokae.com/en/product/show/545/xMateCR.html"},
+{cat:"cobot",brand:"Rokae",name:"CR18-18/1.0C",desc:"",payload:"18 kg",reach:"1,062 mm",weight:"About 38 kg",price:"",controller:"External cabinet included",screen:"Teach pendant included",img:"assets/images/cobots/fitted/cr18.png",official:"https://www.rokae.com/en/product/show/545/xMateCR.html"},
+{cat:"cobot",brand:"Rokae",name:"CR20-20/1.8C",desc:"",payload:"20 kg",reach:"1,798 mm",weight:"About 71 kg",price:"€25,000",controller:"External cabinet included",screen:"Teach pendant included",img:"assets/images/cobots/fitted/cr20.png",official:"https://www.rokae.com/en/product/show/545/xMateCR.html"},
+{cat:"cobot",brand:"Rokae",name:"CR20-17/2.0C-5",desc:"",payload:"17 kg",reach:"2,047 mm",weight:"About 71 kg",price:"",controller:"External cabinet included",screen:"Teach pendant included",img:"assets/images/cobots/fitted/cr20-17.png",official:"https://www.rokae.com/en/product/show/545/xMateCR.html"},
+{cat:"cobot",brand:"Rokae",name:"CR20-25/1.8C-5",desc:"",payload:"25 kg",reach:"1,798 mm",weight:"About 69 kg",price:"",controller:"External cabinet included",screen:"Teach pendant included",img:"assets/images/cobots/fitted/cr20-25.png",official:"https://www.rokae.com/en/product/show/545/xMateCR.html"},
+{cat:"cobot",brand:"Rokae",name:"CR35-35/2.2C",desc:"",payload:"35 kg",reach:"2,246 mm",weight:"About 165 kg",price:"",controller:"External cabinet included",screen:"Teach pendant included",img:"assets/images/cobots/fitted/cr35-35.png",official:"https://www.rokae.com/en/product/show/545/xMateCR.html"},
+{cat:"cobot",brand:"Rokae",name:"CR35-45/1.9C",desc:"",payload:"45 kg",reach:"1,947 mm",weight:"About 161 kg",price:"",controller:"External cabinet included",screen:"Teach pendant included",img:"assets/images/cobots/fitted/cr35-45.png",official:"https://www.rokae.com/en/product/show/545/xMateCR.html"},
+{cat:"robot",brand:"Rokae",name:"NB4-4/0.47",payload:"4 kg",reach:"475 mm",repeatability:"±0.02 mm",weight:"About 21 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://uploads.unchainedrobotics.de/media/products/NB4_2_e95849eb.png",official:"https://www.rokae.com/en/product/show/241/NB4.html"},
+{cat:"robot",brand:"Rokae",name:"NB4h-4/0.58",payload:"4 kg",reach:"580 mm",repeatability:"±0.02 mm",weight:"About 22 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://uploads.unchainedrobotics.de/media/products/NB4_2_e95849eb.png",official:"https://www.rokae.com/en/product/show/241/NB4.html"},
+{cat:"robot",brand:"Rokae",name:"XB7",payload:"7 kg",reach:"707 mm",repeatability:"±0.02 mm",weight:"About 50 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"assets/images/rokae-xb7.webp",official:"https://www.rokae.com/en/product/show/239/XB7.html"},
+{cat:"robot",brand:"Rokae",name:"XB7L",payload:"7 kg",reach:"906 mm",repeatability:"±0.03 mm",weight:"About 52 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"assets/images/rokae-xb7.webp",official:"https://www.rokae.com/en/product/show/239/XB7.html"},
+{cat:"robot",brand:"Rokae",name:"NB12-10/1.6",payload:"10 kg",reach:"1,602 mm",repeatability:"±0.03 mm",weight:"About 117 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://uploads.unchainedrobotics.de/media/products/NB12_PB1_601c8f01.png",official:"https://www.rokae.com/en/product/show/255/NB12.html"},
+{cat:"robot",brand:"Rokae",name:"NB12-12/1.4",payload:"12 kg",reach:"1,442 mm",repeatability:"±0.03 mm",weight:"About 115 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://uploads.unchainedrobotics.de/media/products/NB12_PB1_601c8f01.png",official:"https://www.rokae.com/en/product/show/255/NB12.html"},
+{cat:"robot",brand:"Rokae",name:"NB12-16/1.1",payload:"16 kg",reach:"1,102 mm",repeatability:"±0.03 mm",weight:"About 112 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://uploads.unchainedrobotics.de/media/products/NB12_PB1_601c8f01.png",official:"https://www.rokae.com/en/product/show/255/NB12.html"},
+{cat:"robot",brand:"Rokae",name:"NB25-35/1.8",payload:"35 kg",reach:"1,813 mm",repeatability:"±0.05 mm",weight:"About 256 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://uploads.unchainedrobotics.de/media/products/NB25_PB1_066d0c4e.png",official:"https://www.rokae.com/en/product/show/515/NB25.html"},
+{cat:"robot",brand:"Rokae",name:"NB25-20/2.0",payload:"20 kg",reach:"2,013 mm",repeatability:"±0.05 mm",weight:"About 264 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://uploads.unchainedrobotics.de/media/products/NB25_PB1_066d0c4e.png",official:"https://www.rokae.com/en/product/show/515/NB25.html"},
+{cat:"robot",brand:"Rokae",name:"NB25-25/1.8",payload:"25 kg",reach:"1,813 mm",repeatability:"±0.05 mm",weight:"About 256 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://uploads.unchainedrobotics.de/media/products/NB25_PB1_066d0c4e.png",official:"https://www.rokae.com/en/product/show/515/NB25.html"},
+{cat:"robot",brand:"Rokae",name:"NB25-30/1.6",payload:"30 kg",reach:"1,617 mm",repeatability:"±0.05 mm",weight:"About 252 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://uploads.unchainedrobotics.de/media/products/NB25_PB1_066d0c4e.png",official:"https://www.rokae.com/en/product/show/515/NB25.html"},
+{cat:"robot",brand:"Rokae",name:"NB25h-35/1.8",payload:"35 kg",reach:"1,836 mm",repeatability:"±0.04 mm",weight:"About 275 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://www.ztec.dk/web/image/product.template/56667/image_1024?unique=ce8b912",official:"https://www.rokae.com/en/product/show/560/NB25h.html"},
+{cat:"robot",brand:"Rokae",name:"NB25h-25/1.8",payload:"25 kg",reach:"1,836 mm",repeatability:"±0.03 mm",weight:"About 275 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://www.ztec.dk/web/image/product.template/56667/image_1024?unique=ce8b912",official:"https://www.rokae.com/en/product/show/560/NB25h.html"},
+{cat:"robot",brand:"Rokae",name:"NB25h-12/2.2",payload:"12 kg",reach:"2,258 mm",repeatability:"±0.04 mm",weight:"About 287 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://www.ztec.dk/web/image/product.template/56667/image_1024?unique=ce8b912",official:"https://www.rokae.com/en/product/show/560/NB25h.html"},
+{cat:"robot",brand:"Rokae",name:"NB80-80/2.2",payload:"80 kg",reach:"2,200 mm",repeatability:"±0.06 mm",weight:"About 635 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://uploads.unchainedrobotics.de/media/products/NB80_2.2_PB1_f42c33f1.png",official:"https://www.rokae.com/en/product/show/516/NB80.html"},
+{cat:"robot",brand:"Rokae",name:"NB80-50/2.6",payload:"50 kg",reach:"2,598 mm",repeatability:"±0.08 mm",weight:"About 645 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://uploads.unchainedrobotics.de/media/products/NB80_2.2_PB1_f42c33f1.png",official:"https://www.rokae.com/en/product/show/516/NB80.html"},
+{cat:"robot",brand:"Rokae",name:"NB220-220/2.7",payload:"220 kg",reach:"2,705 mm",repeatability:"±0.07 mm",weight:"About 1,445 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://www.newcreate.com.tw/upload/products/20250912011049tg2yi.png",official:"https://www.rokae.com/en/product/show/534/NB220.html"},
+{cat:"robot",brand:"Rokae",name:"NB220-170/2.7",payload:"170 kg",reach:"2,705 mm",repeatability:"±0.07 mm",weight:"About 1,445 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://www.newcreate.com.tw/upload/products/20250912011049tg2yi.png",official:"https://www.rokae.com/en/product/show/534/NB220.html"},
+{cat:"robot",brand:"Rokae",name:"NB220-150/3.2",payload:"150 kg",reach:"3,201 mm",repeatability:"±0.08 mm",weight:"About 1,488 kg",controller:"External cabinet included in complete system",screen:"Teach pendant included in complete system",price:"",img:"https://www.newcreate.com.tw/upload/products/20250912011049tg2yi.png",official:"https://www.rokae.com/en/product/show/534/NB220.html"},
+...DH_GRIPPERS,
+];
+const CATS={all:"All",robot:"Industrial robots",cobot:"Cobots",gripper:"Grippers",changer:"Tool changers"};
+const EMO={robot:"🦾",cobot:"🤖",gripper:"🤏",changer:"🔧"};
+const SOL=[
+{icon:"📦",title:"Palletizing",desc:"ROKAE’s collaborative palletizing workstation handles up to 45 kg, reaches 2,246 mm and stacks pallets up to 2,600 mm high.",feature:true,capabilities:["Palletizes 9–20 cartons per minute and supports more than 500 pallet patterns.","Automatically generates pallet layouts from carton and pallet dimensions, with no-code graphical setup.","Enables one-click changeovers and supports multiple pick-and-place modes.","SIL3 safety control and TÜV-certified safety functions support close human–robot collaboration."],includes:["45 kg ROKAE CR-series collaborative robot with force-sensing joints.","Graphical palletizing process package with drag teaching and automatic pattern generation.","Configurable safety devices, including scanners and light curtains.","Modular plug-and-play workstation designed for quick installation and relocation."]},
+];
+const FEAT=[
+ {title:"Industrial robots",desc:"Industrial robot arms for demanding production tasks and reliable cycle times.",img:"assets/images/rokae-xb7.webp",alt:"ROKAE XB7 industrial robot",href:"#products?category=robot"},
+ {title:"Collaborative robots",desc:"Collaborative robots for flexible automation alongside operators.",img:"assets/images/rokae-cr.webp",alt:"ROKAE xMate CR collaborative robot",href:"#products?category=cobot"},
+ {title:"Grippers",desc:"Adaptive electric grippers for handling parts with different shapes.",img:"assets/images/dh-ag-gripper.webp",alt:"DH-Robotics AG adaptive electric gripper",href:"#products?category=gripper"},
+ {title:"Tool changers",desc:"Quick-change connections let one robot switch between end-of-arm tools.",img:"assets/images/grip-shw.webp",alt:"GRIP SHW robot tool changer",href:"#/products/grip"},
+ {title:"Vision systems",desc:"3D vision for robot guidance, picking and inspection tasks.",img:"assets/images/transfertech-pixel-mini.webp",alt:"TransferTech Epic Eye Pixel Mini 3D camera",href:"#products"},
+ {title:"Solution packages",desc:"Robots, tooling, vision and safety brought together in a production-ready cell.",href:"#solutions"}
+];
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+/* GRIP catalog data lives in data/grip-products.json. Change this single
+   percentage to apply a selling-price markup/discount at render time. */
+const GRIP_CONFIG={markupPercent:0};
+let gripCatalog=null,gripFilters={size:"",side:"",material:"",search:""};
+const htmlEscape=value=>String(value??"").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
+const gripProducts=()=>gripCatalog?.products||[];
+function gripPrice(value){if(value==null||!Number.isFinite(Number(value)))return "Price on request";const amount=Number(value)*(1+GRIP_CONFIG.markupPercent/100);return new Intl.NumberFormat(lang==="fi"?"fi-FI":"en-IE",{style:"currency",currency:"EUR",maximumFractionDigits:2}).format(amount)}
+function gripArt(label,image=null){const localImage=typeof image==="string"&&image.startsWith("assets/");return `<div class="grip-family-art" role="img" aria-label="${htmlEscape(label)} product image${localImage?"":" placeholder"}">${localImage?`<img src="${htmlEscape(image)}" alt="${htmlEscape(label)}">`:`<svg viewBox="0 0 120 90" aria-hidden="true"><path d="M25 65h70M35 65V48h50v17M45 48V26h30v22M52 26V16h16v10M44 39h32M30 72h60" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="60" cy="39" r="5" fill="currentColor"/><path d="M19 75h82" stroke="currentColor" stroke-width="2" opacity=".35"/></svg>`}</div>`}
+function gripFamilyPriceRows(family,products){const rule=family.from_price_rule||{},prefixes=rule.sku_prefixes||[],globalPrefixes=rule.sku_prefixes_any_family||[];return products.filter(p=>{const belongs=p.family_slug===family.slug;const matchesFamilyPrefix=prefixes.some(prefix=>p.sku.startsWith(prefix));const matchesGlobalPrefix=globalPrefixes.some(prefix=>p.sku.startsWith(prefix));const selected=belongs?(matchesFamilyPrefix||rule.include_family===true):matchesGlobalPrefix;return selected&&(!rule.side||p.side===rule.side)&&(!rule.sku_contains||p.sku.includes(rule.sku_contains))})}
+function renderGripLanding(){if(!gripCatalog)return;const products=gripProducts(),families=gripCatalog.families||[];
+ const kitOrder=["G-CON-AC-P","G-CON-SHW","G-CON-BC-SHW-01"];
+ const kits=kitOrder.map(sku=>products.find(p=>p.sku===sku)).filter(Boolean).map(p=>({familySlug:p.family_slug,title:p.sku==="G-CON-AC-P"?"Auto Connector Kit":p.sku==="G-CON-SHW"?"SHW Connector Kit":"Base Connector Kit",label:p.sku.startsWith("G-CON-BC-")?"Base Connector kit":`Standard kit · ${families.find(f=>f.slug===p.family_slug)?.name||p.family}`,image:p.sku==="G-CON-AC-P"?"assets/images/grip-families/auto-connector-kit.png":families.find(f=>f.slug===p.family_slug)?.image||"assets/images/grip-shw.webp",sku:p.sku,price:p.price_on_request?"Price on request":gripPrice(p.price_eur)}));
+ $("#grip-kit-grid").innerHTML=kits.map(kit=>`<article class="grip-kit-card"><img class="grip-kit-image" src="${htmlEscape(kit.image)}" alt="${htmlEscape(kit.title)}" loading="lazy" decoding="async"><div class="grip-kit-copy"><small>${htmlEscape(kit.label)}</small><h3>${htmlEscape(kit.title)}</h3><p>${htmlEscape(kit.sku)}</p><div class="grip-kit-price">${htmlEscape(kit.price)}</div><a class="grip-back" href="#/products/grip/${htmlEscape(kit.familySlug)}">View family →</a></div></article>`).join("");
+ $("#grip-family-grid").innerHTML=families.map(f=>{const priceRows=gripFamilyPriceRows(f,products),prices=priceRows.filter(p=>!p.price_on_request&&Number.isFinite(p.price_eur)).map(p=>p.price_eur);const from=prices.length?Math.min(...prices):null;return `<a class="card grip-family-card" href="#/products/grip/${htmlEscape(f.slug)}" aria-label="Browse ${htmlEscape(f.name)} products">${gripArt(f.name,f.image)}<h3>${htmlEscape(f.name)}</h3><p>${htmlEscape(f.description)}</p><span class="grip-from">${from===null?"":`From <strong>${gripPrice(from)}</strong>`}</span></a>`}).join("");
+}
+function gripFilteredRows(familyRows,exclude="") {return familyRows.filter(p=>(exclude==="size"||!gripFilters.size||p.size===gripFilters.size)&&(exclude==="side"||!gripFilters.side||p.side===gripFilters.side)&&(exclude==="material"||!gripFilters.material||(p.material||"")===gripFilters.material)&&(exclude==="search"||!gripFilters.search||`${p.sku} ${p.description} ${p.notes}`.toLowerCase().includes(gripFilters.search.toLowerCase())))}
+function renderGripDetail(slug){if(!gripCatalog)return;const info=(gripCatalog.families||[]).find(f=>f.slug===slug),familyRows=gripProducts().filter(p=>p.family_slug===slug);if(!info||!familyRows.length){$("#grip-detail-view").innerHTML='<a class="grip-back" href="#/products/grip">← Back to GRIP families</a><h2>Family not found</h2>';return}
+ gripFilters={size:"",side:"",material:"",search:""};
+ const distinct=key=>[...new Set(familyRows.map(p=>key==="material"?(p.material||""):p[key]).filter(Boolean))];
+ const filterCount={size:distinct("size").length,side:distinct("side").length,material:distinct("material").length};
+ $("#grip-detail-view").innerHTML=`<a class="grip-back" href="#/products/grip">← Back to GRIP families</a><div class="grip-detail-head">${gripArt(info.name,info.image)}<div><span class="tag">GRIP GmbH</span><h2>${htmlEscape(info.name)}</h2><p>${htmlEscape(info.description)}</p></div></div><div class="grip-tools"><input id="grip-search" type="search" placeholder="Search SKU or description" aria-label="Search SKU or description">${filterCount.size>1?'<select id="grip-size" aria-label="Filter by size"><option value="">All sizes</option></select>':""}${filterCount.side>1?'<select id="grip-side" aria-label="Filter by side"><option value="">All sides</option></select>':""}${filterCount.material>1?'<select id="grip-material" aria-label="Filter by material"><option value="">All materials</option></select>':""}</div><p class="grip-results" id="grip-results"></p><div id="grip-table-wrap"></div><p class="grip-price-note">List prices in EUR, excl. VAT, subject to change. Price list Rev.1.06.</p>`;
+ ["size","side","material"].forEach(key=>{const el=$("#grip-"+key);if(el)el.addEventListener("change",()=>{gripFilters[key]=el.value;updateGripFilterOptions(familyRows);renderGripTable(slug,familyRows)})});
+ $("#grip-search").addEventListener("input",e=>{gripFilters.search=e.target.value;updateGripFilterOptions(familyRows);renderGripTable(slug,familyRows)});
+ updateGripFilterOptions(familyRows);renderGripTable(slug,familyRows);
+}
+function updateGripFilterOptions(familyRows){["size","side","material"].forEach(key=>{const el=$("#grip-"+key);if(!el)return;const current=gripFilters[key],values=[...new Set(gripFilteredRows(familyRows,key).map(p=>key==="material"?(p.material||""):p[key]).filter(Boolean))];if(current&&!values.includes(current))gripFilters[key]="";const labels={size:"All sizes",side:"All sides",material:"All materials"};el.innerHTML=`<option value="">${labels[key]}</option>`+values.sort((a,b)=>key==="size"?Number(a)-Number(b):a.localeCompare(b)).map(v=>`<option value="${htmlEscape(v)}"${gripFilters[key]===v?" selected":""}>${htmlEscape(v)}</option>`).join("")})}
+function renderGripTable(slug,familyRows){const sideOrder={kit:0,"upper (robot side)":1,"lower (tool side)":2,"n/a":3};const rows=gripFilteredRows(familyRows).sort((a,b)=>(sideOrder[a.side]??3)-(sideOrder[b.side]??3)||Number(a.size||999)-Number(b.size||999)||a.sku.localeCompare(b.sku));
+ $("#grip-results").textContent=`${rows.length} of ${familyRows.length} products`;
+ if(!rows.length){$("#grip-table-wrap").innerHTML='<div class="grip-empty">No products match these filters.</div>';return}
+ const groups=new Map();rows.forEach(p=>{const group=p.side==="kit"?"Kits (upper + lower assembly)":p.side==="upper (robot side)"?"Upper assembly (robot side)":p.side==="lower (tool side)"?"Lower assembly (tool side)":"Other components";if(!groups.has(group))groups.set(group,[]);groups.get(group).push(p)});
+ const sections=[...groups].map(([title,items])=>`<tbody><tr class="grip-section"><th colspan="5" scope="colgroup">${title}</th></tr>${items.map(p=>{const extras=[];const description=p.description.replace(/\s*\(PCD\s*=\s*[\d,.]+\s*mm\)/i,"");if(p.material&&!description.toLowerCase().includes(p.material.toLowerCase()))extras.push(p.material);if(p.notes)extras.push(p.notes);const desc=[description,...extras].filter(Boolean).join(" · ");const quote=`GRIP ${p.sku}`;return `<tr><td>${p.pcd_mm==null?"—":htmlEscape(p.pcd_mm)}</td><td>${htmlEscape(p.sku)}</td><td>${htmlEscape(desc)}${p.e_mount?" · E-mount":""}</td><td>${p.price_on_request?"Price on request":gripPrice(p.price_eur)}</td><td><a class="grip-quote" href="#contact?p=${encodeURIComponent(quote)}">Request quote</a></td></tr>`}).join("")}</tbody>`).join("");
+ const familyName=(gripCatalog.families||[]).find(f=>f.slug===slug)?.name||"GRIP";$("#grip-table-wrap").innerHTML=`<div class="grip-table-scroll" role="region" aria-label="${htmlEscape(familyName)} product variants" tabindex="0"><table class="grip-table"><thead><tr><th scope="col">PCD (mm)</th><th scope="col">Order number (SKU)</th><th scope="col">Description</th><th scope="col">Price</th><th scope="col">Inquiry</th></tr></thead>${sections}</table></div>`;
+}
+async function loadGripCatalog(){const candidates=[new URL("./data/grip-products.json",document.baseURI).href];if(location.origin&&location.origin!=="null")candidates.push(new URL("/data/grip-products.json",location.origin).href);let error;for(const url of [...new Set(candidates)]){try{const response=await fetch(url,{cache:"no-cache"});if(!response.ok)throw new Error(`${url} returned ${response.status}`);const data=await response.json();if(!Array.isArray(data.families)||!Array.isArray(data.products))throw new Error(`${url} did not return the GRIP catalog JSON`);gripCatalog=data;renderGripLanding();const quoteSelect=$("#fs");if(quoteSelect)gripProducts().forEach(p=>{const value=`GRIP ${p.sku}`;if(![...quoteSelect.options].some(o=>o.value===value))quoteSelect.add(new Option(value,value))});route();return}catch(cause){error=cause}}console.error("Could not load GRIP catalog",error);const message=location.protocol==="file:"?"Open the site through a local web server so the browser can load data/grip-products.json.":"Make sure the data folder and data/grip-products.json are deployed beside index.html.";const target=location.hash.includes("/products/grip/")?$("#grip-detail-view"):$("#grip-family-grid");target.innerHTML=`<p class="grip-empty">The GRIP catalog could not be loaded. ${message}</p>`}
+const solutionCard=f=>`<article class="solution-card solution-feature rv"><div class="solution-feature-video"><iframe src="https://www.youtube-nocookie.com/embed/oGK0hGuvJQM?playsinline=1" title="ROKAE collaborative palletizing workstation video" loading="lazy" allow="autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><div class="solution-feature-copy"><div class="solution-feature-intro"><h3>${f.title}</h3><p>${f.desc}</p></div><div class="solution-feature-details"><section><h4>What it can do</h4><ul>${f.capabilities.map(item=>`<li>${item}</li>`).join("")}</ul></section><section><h4>What's involved</h4><ul>${f.includes.map(item=>`<li>${item}</li>`).join("")}</ul></section></div><a class="btn solution-discuss" href="#contact">Discuss palletizing</a></div></article>`;
+$("#hf").innerHTML=FEAT.map(f=>`<a class="card what-card rv${f.img?"":" text-only"}" href="${f.href}">${f.img?`<div class="what-photo"><img src="${f.img}" alt="${f.alt}" loading="lazy" decoding="async"></div>`:""}<div class="what-card-copy"><h3>${f.title}</h3><p>${f.desc}</p></div></a>`).join("");
+$("#sg").innerHTML=SOL.map(solutionCard).join("");
+const fs=$("#fs");fs.innerHTML='<option value="">General inquiry</option>'+PRODUCTS.map(p=>`<option>${p.brand} ${p.name}</option>`).join("");
+let cat="all";
+function renderTabs(){$("#tb").innerHTML=Object.entries(CATS).map(([k,v])=>`<button class="${k==cat?"on":""}" data-c="${k}">${v}</button>`).join("")}
+function renderProducts(){
+ const list=PRODUCTS.filter(p=>cat=="all"||p.cat==cat);
+ const brandLogos={robot:["assets/images/logo-rokae-banner.png","ROKAE","https://www.rokae.com/en/","Visit ROKAE"],cobot:["assets/images/logo-rokae-banner.png","ROKAE","https://www.rokae.com/en/","Visit ROKAE"],gripper:["assets/images/logo-dh-robotics-banner.png","DH-Robotics","https://en.dh-robotics.com/","Visit DH Robotics"]};
+ const brand=brandLogos[cat],brandSlot=$("#product-brand"),brandLogo=$("#product-brand-logo"),brandLink=$("#product-brand-link");
+ brandSlot.hidden=!brand;
+ brandLink.hidden=!brand;
+ if(brand){brandLogo.src=brand[0];brandLogo.alt=`${brand[1]} logo`;brandLogo.classList.remove("brand-logo-grip");brandLink.href=brand[2];brandLink.textContent=brand[3]}
+ const productFit=cat==="cobot"||cat==="robot"||cat==="gripper"||cat==="all";
+ $("#pg").classList.toggle("product-fit-grid",productFit);
+ $(".cobot-vat-note").hidden=!(cat==="cobot"||cat==="robot"||cat==="all");
+ $("#pg").innerHTML=list.map((p,i)=>`<div class="card pc ${p.cat==="robot"?"robot-card":""} ${p.cat==="gripper"?"gripper-card":""} ${p.name.startsWith("PGEA-")?"pgea-card":""} ${p.name==="PGSE-15-7-O"?"pgse-card":""} ${p.name==="DH-5-6"?"dh56-card":""} ${["NB4-4/0.47","NB4h-4/0.58","XB7","XB7L"].includes(p.name)?"robot-compact":""} ${["XB7","XB7L"].includes(p.name)?"xb7-card":""} ${["SR3-3/0.7C","SR5-5/0.9C"].includes(p.name)?"sr-compact":""} ${p.name==="SR5-5/0.9C"?"sr5-card":""}" style="animation-delay:${i*45}ms"><div class="thumb">${p.img?`<img src="${p.img}" alt="${p.brand} ${p.name}" loading="lazy" decoding="async">`:EMO[p.cat]}</div><small>${p.brand} · <span>${CATS[p.cat]}</span></small><h3>${p.name}</h3>${p.cat==="cobot"?`<div class="cobot-details"><div><span>Payload</span><b>${p.payload}</b></div><div><span>Reach</span><b>${p.reach}</b></div>${p.price?`<div class="price-field"><span>Price</span><b class="cobot-price">${p.price}</b></div>`:""}</div><button class="btn details-link" type="button" data-detail-index="${PRODUCTS.indexOf(p)}">View details</button>`:p.cat==="robot"?`<div class="cobot-details industrial-details"><div><span>Payload</span><b>${p.payload}</b></div><div><span>Reach</span><b>${p.reach}</b></div><div><span>Repeatability</span><b>${p.repeatability}</b></div></div><button class="btn details-link" type="button" data-detail-index="${PRODUCTS.indexOf(p)}">View details</button>`:p.cat==="gripper"?`<div class="cobot-details gripper-details"><div><span>Stroke</span><b>${p.stroke}</b></div><div><span>Recommended workpiece weight</span><b>${p.workpiece}</b></div></div><a class="btn details-link" href="${p.official}" target="_blank" rel="noopener noreferrer">View details</a>`:`<p>${p.desc}</p><div class="price ${p.price?"":"q"}">${p.price||"Request quote"}</div>`}<a class="btn" href="#contact?p=${encodeURIComponent(p.brand+" "+p.name)}">${p.cat==="cobot"||p.cat==="robot"||p.cat==="gripper"?"Send enquiry":"Contact for purchase"}</a></div>`).join("");
+ let more=$("#cobot-more");
+ if(cat==="cobot"){
+  if(!more){more=document.createElement("div");more.id="cobot-more";more.className="cobot-more";$("#pg").after(more)}
+  more.innerHTML='<a class="btn" href="https://www.rokae.com/en/product/show/545/xMateCR.html" target="_blank" rel="noopener noreferrer">More about ROKAE collaborative robots</a>';
+ }else if(more)more.remove();
+}
+$("#tb").addEventListener("click",e=>{const c=e.target.dataset.c;if(c==="changer"){location.hash="/products/grip";return}if(c){cat=c;renderTabs();renderProducts();applyLang()}});
+renderTabs();renderProducts();
+$("#pg").addEventListener("click",e=>{
+ const trigger=e.target.closest("[data-detail-index]");if(!trigger)return;
+ const p=PRODUCTS[Number(trigger.dataset.detailIndex)];if(!p||!(["cobot","robot"].includes(p.cat)))return;
+ $("#cobot-dialog-title").textContent=p.name;
+ $("#cobot-dialog-type").textContent=p.cat==="robot"?"ROKAE · Industrial robot":"ROKAE · Collaborative robot";
+ const img=$("#cobot-dialog-image");img.src=p.img;img.alt=`ROKAE ${p.name} robot`;
+ img.parentElement.classList.toggle("sr5-dialog",p.name==="SR5-5/0.9C");
+ img.parentElement.classList.toggle("sr3-dialog",p.name==="SR3-3/0.7C");
+ img.parentElement.classList.toggle("robot-dialog",p.cat==="robot");
+ $("#cobot-dialog-payload").textContent=p.payload;$("#cobot-dialog-reach").textContent=p.reach;
+ $("#cobot-dialog-repeatability").textContent=p.repeatability||"";$("#cobot-dialog-repeatability").parentElement.hidden=!p.repeatability;
+ $("#cobot-dialog-weight").textContent=p.weight;$("#cobot-dialog-controller").textContent=p.controller;$("#cobot-dialog-screen").textContent=p.screen;
+ $("#cobot-dialog-price-row").hidden=!p.price;$("#cobot-dialog-price").textContent=p.price||"";
+ $("#cobot-dialog-official").href=p.official;
+ $("#cobot-dialog-enquiry").href=`#contact?p=${encodeURIComponent(p.brand+" "+p.name)}`;
+ $("#cobot-dialog").showModal();applyLang();
+});
+$("#cobot-dialog-close").addEventListener("click",()=>$("#cobot-dialog").close());
+$("#cobot-dialog-enquiry").addEventListener("click",()=>$("#cobot-dialog").close());
+$("#cobot-dialog").addEventListener("click",e=>{if(e.target===$("#cobot-dialog"))$("#cobot-dialog").close()});
+/* language: Finnish dictionary (English text is the key) */
+const FI={"Home": "Etusivu", "Products": "Tuotteet", "Solutions": "Ratkaisut", "Contact": "Yhteystiedot", "Exclusive Rokae distributor in Finland": "Rokaen yksinoikeusmaahantuoja Suomessa", "Robotics solutions that put your production to work": "Robotiikkaratkaisut, jotka saavat tuotantosi toimimaan", "From a single robot to a fully integrated automation cell. We analyse your needs, find the right solution and make it run.": "Yksittäisestä robotista täysin integroituun automaatiosoluun. Analysoimme tarpeesi, löydämme oikean ratkaisun ja saamme sen toimimaan.", "View products": "Katso tuotteet", "Request a quote": "Pyydä tarjous", "Request quote": "Pyydä tarjous", "About us": "Meistä", "Part of Vertek, built for automation": "Osa Vertekiä, rakennettu automaatiolle", "Vertek is a Finnish electrical and telecom specialist with around 140 professionals. Our robotics business brings that same reliability to industrial automation.": "Vertek on suomalainen sähkö- ja tietoliikennealan moniosaaja, jolla on noin 140 ammattilaista. Robotiikkaliiketoimintamme tuo saman luotettavuuden teollisuuden automaatioon.", "We are the exclusive distributor of Rokae robots in Finland. We sell robots on their own or deliver complete, integrated solutions for welding, grinding, nailing, palletizing and much more.": "Olemme Rokae-robottien yksinoikeusmaahantuoja Suomessa. Myymme robotteja sellaisenaan tai toimitamme kokonaisia, integroituja ratkaisuja hitsaukseen, hiontaan, naulaukseen, paletointiin ja moneen muuhun.", "Our solutions": "Ratkaisumme", "Robot types: industrial and collaborative": "Robottityyppiä: teollisuus- ja yhteistyörobotit", "Partner brands": "Kumppanibrändiä", "Finnish support": "Suomalainen tuki", "What we do": "Mitä teemme", "Everything from analysis to integration": "Kaikki analyysistä integrointiin", "Buy just the robot, or let us deliver the whole solution.": "Osta pelkkä robotti tai anna meidän toimittaa koko ratkaisu.", "Industrial robots": "Teollisuusrobotit", "Rokae robots for speed, strength and precision.": "Rokae-robotit nopeuteen, voimaan ja tarkkuuteen.", "Collaborative robots": "Yhteistyörobotit", "Cobots that work safely beside your people.": "Cobotit, jotka työskentelevät turvallisesti ihmisten rinnalla.", "Grippers & tool changers": "Tarttujat ja työkalunvaihtajat", "DH-Robotics, GRIP and ATI end-of-arm tooling.": "DH-Roboticsin, GRIPin ja ATI:n työkalut robotin päähän.", "Solution packages": "Ratkaisupaketit", "Palletizing, nailing, welding and grinding.": "Paletointi, naulaus, hitsaus ja hionta.", "Our partners": "Kumppanimme", "Trusted brands": "Luotetut brändit", "Not sure which robot fits?": "Etkö ole varma, mikä robotti sopii?", "We analyse your process and recommend the best solution for your company.": "Analysoimme prosessisi ja suosittelemme yrityksellesi parasta ratkaisua.", "Talk to an expert": "Puhu asiantuntijan kanssa", "Our product range": "Tuotevalikoimamme", "Robots, cobots, grippers and tool changers from our partners.": "Kumppaneidemme robotit, cobotit, tarttujat ja työkalunvaihtajat.", "All": "Kaikki", "Cobots": "Cobotit", "Grippers": "Tarttujat", "Tool changers": "Työkalunvaihtajat", "Collaborative robot, compact and precise.": "Yhteistyörobotti, kompakti ja tarkka.", "Collaborative robot for medium payloads.": "Yhteistyörobotti keskikokoisille kuormille.", "Industrial robot for fast, repeatable work.": "Teollisuusrobotti nopeaan, toistettavaan työhön.", "Compact industrial robot.": "Kompakti teollisuusrobotti.", "Electric adaptive gripper for cobots.": "Sähköinen mukautuva tarttuja cobotteihin.", "Parallel electric gripper.": "Sähköinen rinnakkaistarttuja.", "Quick-change system for robot tools.": "Pikavaihtojärjestelmä robotin työkaluille.", "Robotic tool changer for heavy-duty use.": "Robotin työkalunvaihtaja raskaaseen käyttöön.", "Contact for purchase": "Ota yhteyttä ostoa varten", "Ready-made automation packages": "Valmiit automaatiopaketit", "We build solution packages for common tasks and tailor them to your production.": "Rakennamme ratkaisupaketteja yleisiin tehtäviin ja räätälöimme ne tuotantoosi.", "Welding": "Hitsaus", "Consistent, high-quality welds with robot or cobot welding cells.": "Tasaisen laadukkaat hitsit robotti- tai cobot-hitsaussoluilla.", "Grinding & polishing": "Hionta ja kiillotus", "Even surface finish and a safer working environment.": "Tasainen pinnanlaatu ja turvallisempi työympäristö.", "Nailing": "Naulaus", "Automated nailing solution package for timber and element production.": "Automatisoitu naulausratkaisu puutavaran ja elementtien tuotantoon.", "Palletizing": "Paletointi", "Compact palletizing packages that stack faster and never tire.": "Kompaktit paletointipaketit, jotka pinoavat nopeammin eivätkä väsy.", "Process analysis": "Prosessianalyysi", "We find the best automation solution for your company.": "Löydämme yrityksellesi parhaan automaatioratkaisun.", "Integration": "Integrointi", "Full installation, programming and commissioning, or robot only.": "Täysi asennus, ohjelmointi ja käyttöönotto, tai pelkkä robotti.", "How we work": "Näin työskentelemme", "From idea to running production": "Ideasta toimivaan tuotantoon", "Robot only or full integration, you choose.": "Pelkkä robotti tai täysi integrointi, valitset itse.", "Analysis": "Analyysi", "We study your process and find where automation pays off the most.": "Tutkimme prosessisi ja löydämme, missä automaatio kannattaa eniten.", "Solution design": "Ratkaisun suunnittelu", "The right robot, gripper and tooling for your needs.": "Oikea robotti, tarttuja ja työkalut tarpeisiisi.", "We install, program and commission the solution at your site.": "Asennamme, ohjelmoimme ja otamme ratkaisun käyttöön kohteessasi.", "Support": "Tuki", "Training, service and upgrades as your needs grow.": "Koulutus, huolto ja päivitykset tarpeidesi kasvaessa.", "Have a task to automate?": "Onko sinulla automatisoitava tehtävä?", "Tell us about it and we'll suggest a solution.": "Kerro siitä meille, niin ehdotamme ratkaisua.", "Contact us": "Ota yhteyttä", "Let's talk robots": "Puhutaan roboteista", "Request a quote or ask about a product.": "Pyydä tarjous tai kysy tuotteesta.", "Name": "Nimi", "Company": "Yritys", "Email": "Sähköposti", "Phone": "Puhelin", "General inquiry": "Yleinen tiedustelu", "Tell us what you want to automate": "Kerro, mitä haluat automatisoida", "Send message": "Lähetä viesti", "Offices": "Toimipisteet", "Projects delivered across Finland.": "Projektit toteutetaan koko Suomessa.", "Privacy": "Tietosuoja"};
+Object.assign(FI,{"Practical automation, built around your team":"Käytännön automaatiota, joka rakentuu tiimisi ympärille","No two production lines are the same. We take time to understand the work, the people and the space—then identify where automation can make a real difference.":"Jokainen tuotantolinja on erilainen. Perehdymme työhön, ihmisiin ja tiloihin ja selvitämme, missä automaatio tuo aidosti hyötyä.","As Finland’s exclusive Rokae distributor, we help you choose the right robot and shape a solution that fits your process, from the first conversation to commissioning.":"Rokaen yksinoikeusmaahantuojana Suomessa autamme valitsemaan oikean robotin ja suunnittelemaan prosessiinne sopivan ratkaisun ensikeskustelusta käyttöönottoon.","See how we work":"Näin työskentelemme","Start with the task":"Lähdemme liikkeelle tehtävästä","We focus on repetitive, heavy or hard-to-staff work that takes time away from your team.":"Keskitymme toistuviin, raskaisiin tai vaikeasti miehitettäviin tehtäviin, jotka vievät tiimiltäsi aikaa.","Clear steps, the right fit":"Selkeät vaiheet ja sopiva ratkaisu","Get help choosing the robot, tooling and integration approach that suit your production.":"Autamme valitsemaan tuotantoosi sopivan robotin, työkalut ja integrointitavan.","Ready for real production":"Valmiina oikeaan tuotantoon","A practical solution should fit your floor, your workflow and the people who use it every day.":"Käytännöllinen ratkaisu sopii tuotantotiloihin, työnkulkuun ja sitä päivittäin käyttäville ihmisille."});
+Object.assign(FI,{"Your one-stop partner for robotic automation":"Kumppanisi robottiautomaation kaikkiin tarpeisiin","A successful automation cell is more than a robot. We bring the essential parts together in one solution, designed around your process and the people who run it.":"Onnistunut automaatiosolu on muutakin kuin robotti. Kokoamme tarvittavat osat yhdeksi ratkaisuksi, joka suunnitellaan prosessin ja sitä käyttävien ihmisten ehdoilla.","From robot and gripper to tool changer, vision and safety systems, we help you select compatible equipment and take the project from planning through integration.":"Robotista tarttujaan, työkalunvaihtajaan, konenäköön ja turvajärjestelmiin: autamme valitsemaan yhteensopivat laitteet ja viemme projektia eteenpäin suunnittelusta integrointiin.","Explore our solutions":"Tutustu ratkaisuihimme","Robots and end-of-arm tooling":"Robotit ja robottityökalut","Industrial and collaborative robots, grippers and tool changers selected to work together.":"Teollisuus- ja yhteistyörobotit, tarttujat ja työkalunvaihtajat, jotka on valittu toimimaan yhdessä.","Vision and safety":"Konenäkö ja turvallisuus","Vision systems and safety equipment help your cell respond to its environment and protect the people around it.":"Konenäkö- ja turvajärjestelmät auttavat solua reagoimaan ympäristöön ja suojaavat sen lähellä työskenteleviä.","One coordinated solution":"Yksi yhtenäinen ratkaisu","One team to help specify the equipment, integrate the cell and get it ready for production.":"Yksi tiimi auttaa määrittelemään laitteet, integroimaan solun ja valmistelemaan sen tuotantoon."});
+Object.assign(FI,{"Industrial robots":"Teollisuusrobotit","Industrial robot arms for demanding production tasks and reliable cycle times.":"Teollisuusrobotteja vaativiin tuotantotehtäviin ja luotettaviin sykliaikoihin.","Collaborative robots":"Yhteistyörobotit","Collaborative robots for flexible automation alongside operators.":"Yhteistyörobotteja joustavaan automaatioon operaattorien rinnalle.","Grippers":"Tarttujat","Adaptive electric grippers for handling parts with different shapes.":"Mukautuvia sähkötarttujia erimuotoisten kappaleiden käsittelyyn.","Tool changers":"Työkalunvaihtajat","Quick-change connections let one robot switch between end-of-arm tools.":"Pikavaihtoliitännät mahdollistavat robotin työkalujen vaihdon.","Vision systems":"Näköjärjestelmät","3D vision for robot guidance, picking and inspection tasks.":"3D-näkö robotin ohjaukseen, poimintaan ja tarkastustehtäviin.","Solution packages":"Ratkaisupaketit","Robots, tooling, vision and safety brought together in a production-ready cell.":"Robotit, työkalut, näkö ja turvallisuus yhdessä tuotantovalmiissa solussa.","Designed around your process":"Suunniteltu prosessisi mukaan"});
+Object.assign(FI,{"Vertek’s robotics team and partner brands, together at an event.":"Vertekin robotiikkatiimi ja kumppanibrändit yhdessä tapahtumassa."});
+Object.assign(FI,{"Vision-guided picking demo with the Rokae CR7-C (Hannover Messe, 2026)":"Rokae CR7-C -robotin konenäköohjattu poimintademo (Hannover Messe, 2026)","Our automation partners":"Automaatiokumppanimme"});
+Object.assign(FI,{"Payload":"Hyötykuorma","Reach":"Ulottuma","Price":"Hinta","€15,000":"15 000 €","€20,000":"20 000 €","€25,000":"25 000 €","Prices include VAT":"Hinnat sisältävät arvonlisäveron","Send enquiry":"Lähetä tiedustelu","More about ROKAE collaborative robots":"Lisätietoja ROKAE-yhteistyöroboteista"});
+Object.assign(FI,{"View details":"Katso tiedot","ROKAE · Collaborative robot":"ROKAE · Yhteistyörobotti","Robot weight":"Robotin paino","Controller":"Ohjainkaappi","Teach pendant":"Opetuslaite","External cabinet included":"Ulkoinen ohjainkaappi sisältyy","Teach pendant included":"Opetuslaite sisältyy","ROKAE specifications":"ROKAEn tekniset tiedot"});
+Object.assign(FI,{"Stroke":"Isku","Recommended workpiece weight":"Suositeltu työkappaleen paino","Not specified":"Ei määritelty","10 mm per jaw":"10 mm per leuka","106 mm parallel / 122 mm centric":"106 mm rinnakkain / 122 mm keskiöitynä"});
+Object.assign(FI,{"ROKAE · Industrial robot":"ROKAE · Teollisuusrobotti","Repeatability":"Toistotarkkuus","External cabinet included in complete system":"Ulkoinen ohjainkaappi sisältyy kokonaisjärjestelmään","Teach pendant included in complete system":"Opetuslaite sisältyy kokonaisjärjestelmään"});
+Object.assign(FI,{"Robotics, tooling and integration for Finnish production.":"Robotiikkaa, työkaluja ja integrointia suomalaiseen tuotantoon.","Business ID: 1032401-7":"Y-tunnus: 1032401-7","© 2026 Vertek Oy. All rights reserved.":"© 2026 Vertek Oy. Kaikki oikeudet pidätetään."});
+Object.assign(FI,{"Did you know?":"Tiesitkö?","Many SCHUNK tool changers are made by GRIP. You can now buy GRIP products directly from Vertek in Finland. Send us your SCHUNK part number and we'll match it to the GRIP equivalent.":"Monet SCHUNK-työkalunvaihtajat ovat GRIPin valmistamia. Voit nyt ostaa GRIP-tuotteita suoraan Vertekiltä Suomessa. Lähetä meille SCHUNK-osanumerosi, niin etsimme sitä vastaavan GRIP-tuotteen.","Send your part number →":"Lähetä osanumerosi →","SCHUNK is a trademark of its respective owner. Vertek is not affiliated with SCHUNK.":"SCHUNK on omistajansa tavaramerkki. Vertek ei ole sidoksissa SCHUNKiin.","Did you know? +":"Tiesitkö? +","Expand Did you know?":"Laajenna Tiesitkö-tietolaatikko","Minimize Did you know?":"Pienennä Tiesitkö-tietolaatikko"});
+Object.assign(FI,{"Visit ROKAE":"Vieraile ROKAEn verkkosivuilla","Visit DH Robotics":"Vieraile DH Roboticsin verkkosivuilla","Visit GRIP":"Vieraile GRIPin verkkosivuilla"});
+Object.assign(FI,{"SCHUNK part number":"SCHUNK-osanumero","CEO":"Toimitusjohtaja","Automation Engineer":"Automaatioinsinööri","Vertek Oy":"Vertek Oy","Poraajantie 5, 23500 Uusikaupunki":"Poraajantie 5, 23500 Uusikaupunki"});
+Object.assign(FI,{"This opens your email app with the message details filled in.":"Tämä avaa sähköpostiohjelmasi ja täyttää viestin tiedot valmiiksi."});
+Object.assign(FI,{"Automation solutions":"Automaatioratkaisut","Practical automation packages designed around your production.":"Käytännölliset automaatiopaketit tuotantosi tarpeisiin.","What it can do":"Mitä se tekee","What's involved":"Mitä ratkaisu sisältää","ROKAE’s collaborative palletizing workstation handles up to 45 kg, reaches 2,246 mm and stacks pallets up to 2,600 mm high.":"ROKAEn yhteistyörobotilla varustettu paletointityöpiste käsittelee enintään 45 kg:n kuormia, ulottuu 2 246 mm:iin ja pinoaa lavoja jopa 2 600 mm:n korkeuteen.","Palletizes 9–20 cartons per minute and supports more than 500 pallet patterns.":"Paletoi 9–20 laatikkoa minuutissa ja tukee yli 500:tä lavakuviota.","Automatically generates pallet layouts from carton and pallet dimensions, with no-code graphical setup.":"Luo lavakuviot automaattisesti laatikoiden ja lavan mittojen perusteella graafisessa käyttöliittymässä ilman ohjelmointia.","Enables one-click changeovers and supports multiple pick-and-place modes.":"Mahdollistaa vaihdot yhdellä painalluksella ja tukee useita poiminta- ja sijoitustapoja.","SIL3 safety control and TÜV-certified safety functions support close human–robot collaboration.":"SIL3-turvaohjaus ja TÜV-sertifioidut turvatoiminnot tukevat ihmisen ja robotin turvallista työskentelyä lähekkäin.","45 kg ROKAE CR-series collaborative robot with force-sensing joints.":"ROKAE CR-sarjan yhteistyörobotti, 45 kg:n hyötykuorma ja voiman tunnistavat nivelet.","Graphical palletizing process package with drag teaching and automatic pattern generation.":"Graafinen paletointiohjelmisto, käsinopetus ja automaattinen lavakuvioiden luonti.","Configurable safety devices, including scanners and light curtains.":"Kokoonpanoon valittavat turvalaitteet, kuten turvaskannerit ja valoverhot.","Modular plug-and-play workstation designed for quick installation and relocation.":"Modulaarinen plug-and-play-työpiste, joka on suunniteltu nopeaan asennukseen ja siirtämiseen.","Discuss palletizing":"Keskustele paletointiratkaisusta."});
+let lang=(()=>{try{return localStorage.getItem("lang")}catch(e){}})()||((navigator.language||"").startsWith("fi")?"fi":"en");
+function applyLang(){const w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);let n;
+while(n=w.nextNode()){const p=n.parentNode.tagName;if(p=="SCRIPT"||p=="STYLE")continue;if(n._o===undefined)n._o=n.nodeValue;const t=n._o.trim();n.nodeValue=(lang=="fi"&&FI[t])?n._o.replace(t,FI[t]):n._o}
+$$("[placeholder]").forEach(e=>{e._p=e._p||e.placeholder;e.placeholder=(lang=="fi"&&FI[e._p])||e._p});
+document.documentElement.lang=lang;document.title=lang=="fi"?"Vertek Robotics – Rokae-robotit, tarttujat ja työkalunvaihtajat":"Vertek Robotics – Rokae robots, grippers and tool changers";
+$("#lg").innerHTML=lang=="fi"?"<b>FI</b> / EN":"FI / <b>EN</b>";syncDidYouKnowLanguage()}
+$("#lg").onclick=()=>{lang=lang=="fi"?"en":"fi";try{localStorage.setItem("lang",lang)}catch(e){}applyLang();if(location.hash.includes("/products/grip")&&gripCatalog)route()};
+applyLang();
+/* router */
+function route(){const [path,q]=(location.hash.slice(1)||"home").split("?"),parts=path.replace(/^\//,"").split("/"),h=parts[0],id=["home","products","solutions","contact"].includes(h)?h:"home",gripRoute=id==="products"&&parts[1]==="grip",gripSlug=gripRoute?parts[2]:"";const palletVideo=$(".solution-feature-video iframe");if(palletVideo){const base="https://www.youtube-nocookie.com/embed/oGK0hGuvJQM?playsinline=1",src=id==="solutions"?`${base}&autoplay=1&mute=1`:base;if(palletVideo.getAttribute("src")!==src)palletVideo.src=src}if(id==="products"&&!gripRoute){const requestedCategory=new URLSearchParams(q).get("category");cat=requestedCategory&&Object.prototype.hasOwnProperty.call(CATS,requestedCategory)?requestedCategory:"all";renderTabs();renderProducts()}
+$$(".page").forEach(p=>p.classList.toggle("show",p.id==id));
+$$("nav a[data-p]").forEach(a=>a.classList.toggle("on",a.dataset.p==id));
+const classic=$("#classic-products"),landing=$("#grip-landing-view"),detail=$("#grip-detail-view");
+if(classic&&landing&&detail){classic.hidden=gripRoute;landing.hidden=!gripRoute||!!gripSlug;detail.hidden=!gripRoute||!gripSlug;if(gripRoute){const family=(gripCatalog?.families||[]).find(f=>f.slug===gripSlug);$("#product-page-title").textContent=family?.name||"Our product range";$("#product-page-description").textContent=family?.description||"Browse GRIP tool changers, grippers and accessories by product family.";if(gripSlug)renderGripDetail(gripSlug);const brandSlot=$("#product-brand"),brandLogo=$("#product-brand-logo"),brandLink=$("#product-brand-link");brandSlot.hidden=false;brandLogo.src="assets/images/logo-grip-banner.png";brandLogo.alt="GRIP logo";brandLogo.classList.add("brand-logo-grip");brandLink.hidden=false;brandLink.href="https://www.grip-gmbh.com/en/";brandLink.textContent="Visit GRIP"}else{$("#product-page-title").textContent="Our product range";$("#product-page-description").textContent="Robots, cobots, grippers and tool changers from our partners.";const brandLogos={robot:["assets/images/logo-rokae-banner.png","ROKAE","https://www.rokae.com/en/","Visit ROKAE"],cobot:["assets/images/logo-rokae-banner.png","ROKAE","https://www.rokae.com/en/","Visit ROKAE"],gripper:["assets/images/logo-dh-robotics-banner.png","DH-Robotics","https://en.dh-robotics.com/","Visit DH Robotics"]};const brand=brandLogos[cat],brandSlot=$("#product-brand"),brandLogo=$("#product-brand-logo"),brandLink=$("#product-brand-link");brandSlot.hidden=!brand;brandLink.hidden=!brand;if(brand){brandLogo.src=brand[0];brandLogo.alt=`${brand[1]} logo`;brandLogo.classList.remove("brand-logo-grip");brandLink.href=brand[2];brandLink.textContent=brand[3]}}}
+$("#nv").classList.remove("open");document.body.classList.remove("menu-open");window.scrollTo(0,0);
+schunkInquiryActive=false;$("#fsch-wrap").hidden=true;$("#fsch").value="";if(id=="contact"&&q){const params=new URLSearchParams(q),v=params.get("p"),partNumber=params.get("schunk");if(v)fs.value=v;if(params.has("schunk")){schunkInquiryActive=true;$("#fsch-wrap").hidden=false;if(partNumber&&partNumber!=="1")$("#fsch").value=partNumber;setTimeout(()=>$("#fsch").focus(),100)}}
+applyLang();didYouKnowAllowed=gripRoute;syncDidYouKnow();setTimeout(observe,50)}
+/* reveal + counters */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");e.target.querySelectorAll("[data-n]").forEach(count);io.unobserve(e.target)}}),{threshold:.15});
+function observe(){$$(".page.show .rv").forEach(el=>{el.classList.remove("in");io.observe(el)})}
+function count(el){if(el.dataset.d)return;el.dataset.d=1;const n=+el.dataset.n,s=el.dataset.s||"";let t=0;const iv=setInterval(()=>{t+=Math.max(1,n/40);if(t>=n){t=n;clearInterval(iv)}el.textContent=Math.round(t)+s},30)}
+addEventListener("hashchange",route);route();loadGripCatalog();
+addEventListener("scroll",()=>$("#hd").classList.toggle("sc",scrollY>20));
+$("#bg").onclick=()=>{const open=$("#nv").classList.toggle("open");document.body.classList.toggle("menu-open",open)};
+/* Form opens the visitor's email app with the message addressed to Jarno and Ganesh. */
+$("#fm").onsubmit=e=>{e.preventDefault();const partNumber=$("#fsch").value.trim(),body=[`Name: ${$("#fn").value}`,`Company: ${$("#fc").value}`,`Phone: ${$("#fp").value}`,`Email: ${$("#fe").value}`,`Product: ${fs.value}`,...(schunkInquiryActive?[`SCHUNK part number: ${partNumber}`]:[]),"",$("#fmsg").value].join("\n"),subject=schunkInquiryActive?DID_YOU_KNOW_COPY.subject:"Robotics inquiry: "+(fs.value||"General");
+location.href=`mailto:jarno.salminen@vertek.fi,ganesh.goutham@vertek.fi?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`};
+function syncDidYouKnow(){if(!didYouKnowReady)return;const box=$("#did-you-know");if(!didYouKnowAllowed){if(didYouKnowTimer){clearTimeout(didYouKnowTimer);didYouKnowTimer=null}box.hidden=true;box.classList.remove("visible");if(box.contains(document.activeElement))document.activeElement.blur();return}if(!didYouKnowLoadComplete||!box.hidden||didYouKnowTimer)return;didYouKnowTimer=setTimeout(()=>{didYouKnowTimer=null;if(didYouKnowAllowed){box.hidden=false;requestAnimationFrame(()=>box.classList.add("visible"))}},650)}
+function syncDidYouKnowLanguage(){const toggle=$("#did-you-know .did-you-know-toggle");if(!toggle)return;const minimized=toggle.getAttribute("aria-expanded")==="false",english=minimized?"Did you know? +":"−";toggle.textContent=lang==="fi"?(FI[english]||english):english;const label=minimized?"Expand Did you know?":"Minimize Did you know?";toggle.setAttribute("aria-label",lang==="fi"?(FI[label]||label):label)}
+function initDidYouKnow(){const box=$("#did-you-know");box.innerHTML='<button class="did-you-know-toggle" type="button" aria-label="Minimize Did you know?" aria-expanded="true">−</button><div class="did-you-know-content"><h2></h2><p></p><a class="btn" href="#contact?schunk=1"></a><small></small></div>';const [title,body,button,small]=[...box.querySelectorAll("h2,p,a,small")];title.textContent=DID_YOU_KNOW_COPY.title;body.textContent=DID_YOU_KNOW_COPY.body;button.textContent=DID_YOU_KNOW_COPY.button;small.textContent=DID_YOU_KNOW_COPY.smallPrint;const toggle=box.querySelector(".did-you-know-toggle"),content=box.querySelector(".did-you-know-content");const setMinimized=minimized=>{box.classList.toggle("minimized",minimized);content.hidden=minimized;toggle.setAttribute("aria-expanded",String(!minimized));syncDidYouKnowLanguage()};toggle.addEventListener("click",()=>setMinimized(!content.hidden));addEventListener("keydown",e=>{if(e.key==="Escape"&&!box.hidden&&!content.hidden){e.preventDefault();setMinimized(true);toggle.focus()}});didYouKnowReady=true;syncDidYouKnowLanguage();syncDidYouKnow()}
+initDidYouKnow();
+</script>
+</body>
+</html>
