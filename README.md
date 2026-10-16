@@ -23,9 +23,13 @@ The product information shown on the website is kept in two data files. You can 
 
 1. Open the relevant JSON file and search for the model name or SKU (for example, `CR7-7/0.98C` or `G-CON-SHW`).
 2. Change only its `price_eur` value. Enter a number without a currency sign or thousands separator, such as `1990` or `1990.50`.
-3. Save the file. To hide a price, set `price_eur` to `null`. The website formats the number as EUR automatically.
+3. Save the file. The website formats the number as EUR automatically. If prices are enabled and you want to hide one product's price, set its `price_eur` to `null`.
 
 The prices in `website-products.json` are displayed with VAT, matching the existing robot/cobot price note. GRIP list prices in `grip-products.json` are in EUR excluding VAT. The GRIP markup/discount is controlled by `GRIP_CONFIG.markupPercent` in `index.html` (0 means list price).
+
+### Show or hide all product prices
+
+In `index.html`, set `SHOW_PRODUCT_PRICES` to `false` to hide all product prices (the current setting) or `true` to show them. This one setting controls robot and cobot cards and details, GRIP kit and family prices, and GRIP table price columns. The numeric prices stay in the JSON files, so you can reveal them again without re-entering the data.
 
 ### Update the live website
 
