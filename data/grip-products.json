@@ -1,5 +1,5 @@
 {
-  "price_list_revision": "Rev.1.06",
+  "price_list_revision": "2026 Rev.1.01",
   "currency": "EUR",
   "prices_include_vat": false,
   "families": [
@@ -139,12 +139,12 @@
       "material": "Aluminium, anodized",
       "description": "Adapter flange; Al, anodized; PCD=31,5 mm to PCD=40 mm",
       "notes": "",
-      "price_eur": 143.8,
+      "price_eur": 146.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Adapter flange",
       "source_pages": "29",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-AF063-12KL1",
@@ -158,12 +158,12 @@
       "material": "Aluminium, anodized",
       "description": "Adapter flange; Al, anodized; PCD=50 mm 4xM6, 1x 6H8, H=10",
       "notes": "",
-      "price_eur": 132.1,
+      "price_eur": 134.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Adapter flange",
       "source_pages": "29",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-AF063-12KL2",
@@ -177,12 +177,12 @@
       "material": "Aluminium, anodized",
       "description": "Adapter flange; Al, anodized; PCD=50 mm 4xM6, 1x 6H8, H=15",
       "notes": "",
-      "price_eur": 132.1,
+      "price_eur": 134.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Adapter flange",
       "source_pages": "29",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-AF063-18EP2",
@@ -196,12 +196,12 @@
       "material": "Aluminium, anodized",
       "description": "Adapter flange; Al, anodized; PCD=31,5 mm to PCD=50 mm",
       "notes": "",
-      "price_eur": 143.8,
+      "price_eur": 146.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Adapter flange",
       "source_pages": "29",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-AF080-12KL1",
@@ -215,12 +215,12 @@
       "material": "Aluminium, anodized",
       "description": "Adapter flange; Al, anodized; PCD=63 mm to PCD=50 mm",
       "notes": "",
-      "price_eur": 132.1,
+      "price_eur": 134.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Adapter flange",
       "source_pages": "29",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-AF080-12KL2",
@@ -234,12 +234,12 @@
       "material": "Aluminium, anodized",
       "description": "Adapter flange; Al, anodized; PCD=50 mm to PCD=63 mm",
       "notes": "",
-      "price_eur": 132.1,
+      "price_eur": 134.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Adapter flange",
       "source_pages": "29",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-AF100-12CU1",
@@ -253,12 +253,12 @@
       "material": "Aluminium, anodized",
       "description": "Adapter flange; Al, anodized; PCD=80 mm to PCD=50 mm",
       "notes": "",
-      "price_eur": 205,
+      "price_eur": 209.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Adapter flange",
       "source_pages": "29",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-YA063-S0-01",
@@ -272,12 +272,12 @@
       "material": "Aluminium, anodized",
       "description": "Y-adapter; Al, anodized; 60°",
       "notes": "",
-      "price_eur": 146.1,
+      "price_eur": 149.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Y-adapter",
       "source_pages": "27",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-YA063-S0-02",
@@ -291,12 +291,12 @@
       "material": "Aluminium, anodized",
       "description": "Adapter flange; Al, anodized; for connection to Y-adapter; PCD=50, with threaded holes",
       "notes": "",
-      "price_eur": 130.9,
+      "price_eur": 133.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Y-adapter",
       "source_pages": "27",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-YA063-S0-03",
@@ -310,12 +310,12 @@
       "material": "Aluminium, anodized",
       "description": "Adapter flange; Al, anodized; for connection to Y-adapter; PCD=50, with counterbores",
       "notes": "",
-      "price_eur": 130.9,
+      "price_eur": 133.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Y-adapter",
       "source_pages": "27",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-YA063-S1",
@@ -329,12 +329,12 @@
       "material": null,
       "description": "Y-adapter set 1; comprising:; 1x G-YA063-S0-01; 2x G-YA063-S0-02, 1x G-YA063-S0-03",
       "notes": "",
-      "price_eur": 491,
+      "price_eur": 500.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Y-adapter",
       "source_pages": "27",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-YA063-S2",
@@ -348,12 +348,12 @@
       "material": null,
       "description": "Y-adapter set 2; comprising:; 1x G-YA063-S0-01; 1x G-YA063-S0-02, 2x G-YA063-S0-03",
       "notes": "",
-      "price_eur": 491,
+      "price_eur": 500.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Y-adapter",
       "source_pages": "27",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-YA063-S3",
@@ -367,12 +367,12 @@
       "material": null,
       "description": "Y-adapter set 3; comprising:; 1x G-YA063-S0-01; 3x G-YA063-S0-03",
       "notes": "",
-      "price_eur": 491,
+      "price_eur": 500.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Y-adapter",
       "source_pages": "27",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-YA063-S4",
@@ -386,12 +386,12 @@
       "material": null,
       "description": "Y-adapter set 4; comprising:; 1x G-YA063-S0-01; 3x G-YA063-S0-02",
       "notes": "",
-      "price_eur": 491,
+      "price_eur": 500.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Y-adapter",
       "source_pages": "27",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-ZS050-1",
@@ -405,12 +405,12 @@
       "material": "Aluminium, anodized",
       "description": "Centering disk Al, anodized; Ø25g7 x 7,8; compatible with Connectors size 050",
       "notes": "compatible with Connectors size 050",
-      "price_eur": 37.5,
+      "price_eur": 38.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Centering disk",
       "source_pages": "27",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-ZS063-080-1",
@@ -424,12 +424,12 @@
       "material": "Aluminium, anodized",
       "description": "Centering disk Al, anodized; Ø31,5g7 to Ø41g7 x 7,8; compatible with AC 063 lower assembly (tool side)",
       "notes": "compatible with AC 063 lower assembly (tool side)",
-      "price_eur": 52.6,
+      "price_eur": 53.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Centering disk",
       "source_pages": "27",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-ZS063-1",
@@ -443,12 +443,12 @@
       "material": "Aluminium, anodized",
       "description": "Centering disk Al, anodized; Ø31,5g7 x 7,8; compatible with Connectors size 063",
       "notes": "compatible with Connectors size 063",
-      "price_eur": 41,
+      "price_eur": 41.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Centering disk",
       "source_pages": "27",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-ZS080-1",
@@ -462,12 +462,12 @@
       "material": "Aluminium, anodized",
       "description": "Centering disk Al, anodized; Ø40g7 x 7,8; compatible with Connectors size 080",
       "notes": "compatible with Connectors size 080",
-      "price_eur": 45.6,
+      "price_eur": 46.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Centering disk",
       "source_pages": "27",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-ZS100-1",
@@ -481,12 +481,12 @@
       "material": "Aluminium, anodized",
       "description": "Centering disk Al, anodized; Ø50g7 x 7,8; compatible with Connectors size 100",
       "notes": "compatible with Connectors size 100",
-      "price_eur": 49.1,
+      "price_eur": 50.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Centering disk",
       "source_pages": "27",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-ZS125-1",
@@ -500,12 +500,12 @@
       "material": "Aluminium, anodized",
       "description": "Centering disk Al, anodized; Ø63g7 x 7,8; compatible with Connectors size 125",
       "notes": "compatible with Connectors size 125",
-      "price_eur": 52.6,
+      "price_eur": 53.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Centering disk",
       "source_pages": "27",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-ZS160-1",
@@ -519,12 +519,12 @@
       "material": "Aluminium, anodized",
       "description": "Centering disk Al, anodized; Ø80g7 x 7,8; compatible with Connectors size 160",
       "notes": "compatible with Connectors size 160",
-      "price_eur": 60.9,
+      "price_eur": 62.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Centering disk",
       "source_pages": "27",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-RSGU-01",
@@ -538,12 +538,12 @@
       "material": null,
       "description": "Accessory; signal transmitter with LED",
       "notes": "",
-      "price_eur": 114.5,
+      "price_eur": 116.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "RSGU - Signal transmitter with LED",
       "source_pages": "28",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-RSGU01-300-M8",
@@ -557,12 +557,12 @@
       "material": null,
       "description": "Accessory; signal transmitter with LED; with M8 plug, cable 300 mm",
       "notes": "",
-      "price_eur": 139.1,
+      "price_eur": 141.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "RSGU - Signal transmitter with LED",
       "source_pages": "28",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-AC063-2OEP",
@@ -576,12 +576,12 @@
       "material": "Aluminium, anodized",
       "description": "Auto Connector 063 (PCD = 50 mm); upper assembly (robot side); E-mount, Al, anodized, 6 x air M5",
       "notes": "",
-      "price_eur": 805,
+      "price_eur": 821.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Auto Connector - upper assembly (robot side)",
       "source_pages": "2",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-AC063-2UEP",
@@ -595,12 +595,12 @@
       "material": "Aluminium, anodized",
       "description": "Auto Connector 063 (PCD = 50 mm); lower assembly (tool side); E-mount, Al, anodized, 6 x air M5",
       "notes": "",
-      "price_eur": 344.9,
+      "price_eur": 351.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Auto Connector - lower assembly (tool side)",
       "source_pages": "2",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-AC063-A1-01",
@@ -614,12 +614,12 @@
       "material": null,
       "description": "Tray for Auto Connector 063; 1-fold, version 01",
       "notes": "",
-      "price_eur": 216.3,
+      "price_eur": 220.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Auto Connector - tray",
       "source_pages": "2",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-CON-AC-P",
@@ -633,12 +633,13 @@
       "material": null,
       "description": "Auto Connector Kit Pneumatic",
       "notes": "",
-      "price_eur": 2073.6,
+      "price_eur": 2115.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Auto Connector - Kits",
       "source_pages": "1",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01",
+      "drawing_pdf": "assets/pdfs/grip-kits/auto-connector-pneumatic.pdf"
     },
     {
       "sku": "G-CON-AC-P-E",
@@ -652,12 +653,13 @@
       "material": null,
       "description": "Auto Connector Kit Pneumatic & Electric",
       "notes": "",
-      "price_eur": 2942.6,
+      "price_eur": 3001.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Auto Connector - Kits",
       "source_pages": "1",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01",
+      "drawing_pdf": "assets/pdfs/grip-kits/auto-connector-pneumatic-electric.pdf"
     },
     {
       "sku": "G-CON-AC-P-E-V2",
@@ -671,12 +673,13 @@
       "material": null,
       "description": "Auto Connector Kit Pneumatic & Electric",
       "notes": "",
-      "price_eur": 2957.6,
+      "price_eur": 3016.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Auto Connector - Kits",
       "source_pages": "1",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01",
+      "drawing_pdf": "assets/pdfs/grip-kits/auto-connector-pneumatic-electric-v2.pdf"
     },
     {
       "sku": "G-SEK100-O-1FE12-300-M8",
@@ -690,12 +693,12 @@
       "material": null,
       "description": "SEK energy feed-through; upper assembly (robot side) 1x el. bush; compatible with spring pins, 12 pole; cable l=300mm, M8 angle bush, 8pole",
       "notes": "compatible with spring pins, 12 pole",
-      "price_eur": 313,
+      "price_eur": 319.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SEK - SEK energy feed-through for Auto Connector - upper assembly (robot side)",
       "source_pages": "3",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SEK100-O-1FE12-300-M8-SW",
@@ -709,12 +712,12 @@
       "material": null,
       "description": "SEK energy feed-through; upper assembly (robot side) 1x el. bush; compatible with spring pins, 12 pole; cable l=300mm, M8 angle plug, 8pole",
       "notes": "compatible with spring pins, 12 pole",
-      "price_eur": 318,
+      "price_eur": 324.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SEK - SEK energy feed-through for Auto Connector - upper assembly (robot side)",
       "source_pages": "3",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SEK100-U-1FE12-40-M8",
@@ -728,12 +731,12 @@
       "material": null,
       "description": "SEK energy feed-through; lower assembly (tool side), 1x el. plug; spring pins, 12 pole; cable l=40mm, M8 angle plug, 8pole",
       "notes": "",
-      "price_eur": 278,
+      "price_eur": 283.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SEK - SEK energy feed-through for Auto Connector - lower assembly (tool side)",
       "source_pages": "3",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SEK100-U-1FE12-40-M8-BW",
@@ -747,12 +750,12 @@
       "material": null,
       "description": "SEK energy feed-through; lower assembly (tool side), 1x el. plug; spring pins, 12 pole; cable l=40mm, M8 angle bush, 8pole",
       "notes": "",
-      "price_eur": 283,
+      "price_eur": 288.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SEK - SEK energy feed-through for Auto Connector - lower assembly (tool side)",
       "source_pages": "3",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-AC-IN1-150-M8",
@@ -766,12 +769,12 @@
       "material": null,
       "description": "AC063 sensor for upper assembly; lock status; cable l=150mm, M8 plug, 3pole",
       "notes": "",
-      "price_eur": 229.2,
+      "price_eur": 233.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Auto Connector - sensors",
       "source_pages": "3",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-AC-IN2-300-M8",
@@ -785,12 +788,12 @@
       "material": null,
       "description": "AC063 sensor for lower assembly; status park position; cable l=300mm, M8 plug, 3pole",
       "notes": "",
-      "price_eur": 229.2,
+      "price_eur": 233.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Auto Connector - sensors",
       "source_pages": "3",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-AC063-DP",
@@ -804,12 +807,12 @@
       "material": null,
       "description": "Tray extension for Auto Connector 063; different position: 26; 40; 54; 80 mm",
       "notes": "",
-      "price_eur": 130.3,
+      "price_eur": 132.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Auto Connector - tray extension",
       "source_pages": "3",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-AC063-IN2-SF1",
@@ -823,12 +826,12 @@
       "material": null,
       "description": "AC063 sensor screw for lower assembly; status park position",
       "notes": "",
-      "price_eur": 20.8,
+      "price_eur": 21.2,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Auto Connector - sensors",
       "source_pages": "3",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-CON-BC-SHW-01",
@@ -842,12 +845,13 @@
       "material": null,
       "description": "Base Connector Kit UR3/UR5",
       "notes": "",
-      "price_eur": 1668.7,
+      "price_eur": 1702.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Base Connector SHW - Kit",
       "source_pages": "14",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01",
+      "drawing_pdf": "assets/pdfs/grip-kits/base-connector-ur3-ur5.pdf"
     },
     {
       "sku": "G-CON-BC-SWS-01",
@@ -861,12 +865,13 @@
       "material": null,
       "description": "Base Connector Kit UR10/UR16",
       "notes": "",
-      "price_eur": 2820,
+      "price_eur": 2876.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Base Connector SWS - Kit",
       "source_pages": "14",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01",
+      "drawing_pdf": "assets/pdfs/grip-kits/base-connector-ur10-ur16.pdf"
     },
     {
       "sku": "G-SHW160-2OE-BC",
@@ -880,12 +885,12 @@
       "material": "Aluminium, anodized",
       "description": "Base Connector SHW160; upper assembly (robot side); E-mount, Al, anodized; robot dependent, upon request",
       "notes": "robot dependent, upon request",
-      "price_eur": 932.9,
+      "price_eur": 951.6,
       "price_on_request": true,
       "price_status": "Please inquire",
       "source_section": "Base Connector SHW",
       "source_pages": "14",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW160-2OE-BC01",
@@ -899,12 +904,12 @@
       "material": "Aluminium, anodized",
       "description": "Base Connector SHW160; upper assembly (robot side); E-mount, Al, anodized; drill hole pattern UR3/UR5 base flange",
       "notes": "",
-      "price_eur": 932.9,
+      "price_eur": 951.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Base Connector SHW",
       "source_pages": "14",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW160-2UE",
@@ -918,12 +923,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW160 Connector (PCD = 125 mm); lower assembly (tool side); E-mount, Al, anodized; Base Connector SHW160; lower assembly (table side); E-mount, Al, anodized",
       "notes": "Also listed in p.14 (Base Connector SHW)",
-      "price_eur": 667.6,
+      "price_eur": 681.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW Connector - lower assembly (tool side) | Base Connector SHW",
       "source_pages": "9, 14",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW160-2UE-BC01",
@@ -937,12 +942,12 @@
       "material": "Aluminium, anodized",
       "description": "Base Connector SHW160; lower assembly (table side); E-mount, Al, anodized; drill hole pattern UR3/UR5 base flange",
       "notes": "",
-      "price_eur": 735.8,
+      "price_eur": 750.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Base Connector SHW",
       "source_pages": "14",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS200-2OEN-BC01",
@@ -956,12 +961,12 @@
       "material": "Steel, nitrated",
       "description": "Base Connector SWS200; upper assembly (robot side); E-mount, steel, nitrated, safety lock; drill hole pattern UR10/UR16 base flange",
       "notes": "E-mount, steel, nitrated, safety lock",
-      "price_eur": 1622.8,
+      "price_eur": 1655.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Base Connector SWS",
       "source_pages": "14",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS200-2UEN",
@@ -974,13 +979,13 @@
       "e_mount": true,
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO, lower assembly; E-mount, steel, nitrated; pre-alignment; Base Connector SWS200; lower assembly (table side); E-mount, steel, nitrated, pre-alignment",
-      "notes": "pre-alignment | E-mount, steel, nitrated, pre-alignment | Also listed in p.14 (Base Connector SWS) | Source price conflict: p.12 €1,132.90, p.14 €1,031.20; verify with GRIP before publishing.",
-      "price_eur": null,
+      "notes": "pre-alignment | E-mount, steel, nitrated, pre-alignment | Also listed in p.14 (Base Connector SWS)",
+      "price_eur": 1051.8,
       "price_on_request": true,
       "price_status": "Verify price conflict",
       "source_section": "SWS Connector - lower assembly (tool side) | Base Connector SWS",
       "source_pages": "12, 14",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-UF158-20",
@@ -994,12 +999,12 @@
       "material": "Aluminium, anodized",
       "description": "Universal flange; Al, anodized; for connection at UR10 und UR16 base; PCD = 170mm to 125mm",
       "notes": "",
-      "price_eur": 421,
+      "price_eur": 429.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Universal flange",
       "source_pages": "14",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK063-O-4PK3-1E12",
@@ -1013,12 +1018,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; upper assembly, 4 x air, I.D. = 3 mm; electric plug 12-pole",
       "notes": "",
-      "price_eur": 192.9,
+      "price_eur": 196.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK - Multi-Energy-Coupling for MGW / SWS - upper assembly (robot side)",
       "source_pages": "24",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK063-O-4PK4-1E12",
@@ -1032,12 +1037,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; upper assembly, 4 x air, I.D. = 4 mm; electric plug 12-pole",
       "notes": "",
-      "price_eur": 192.9,
+      "price_eur": 196.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK - Multi-Energy-Coupling for MGW / SWS - upper assembly (robot side)",
       "source_pages": "24",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK063-O-4PR4",
@@ -1051,12 +1056,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; upper assembly, 4 x air/check valve",
       "notes": "",
-      "price_eur": 425.6,
+      "price_eur": 434.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK-R - Multi-Energy-Coupling with check valve for MGW / SWS - upper assembly (robot side)",
       "source_pages": "26",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK063-O-4PR4-1FE12",
@@ -1070,12 +1075,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; upper assembly, 4 x air/check valve; electric bushing 12pole",
       "notes": "",
-      "price_eur": 503.9,
+      "price_eur": 514.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK-R - Multi-Energy-Coupling with check valve for MGW / SWS - upper assembly (robot side)",
       "source_pages": "26",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK063-O-4PR4-1FE12-2000OE",
@@ -1089,12 +1094,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; upper assembly, 4 x air/check valve; electric bushing 12pole; with 2000mm cable, open end",
       "notes": "",
-      "price_eur": 622,
+      "price_eur": 634.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK-R - Multi-Energy-Coupling with check valve for MGW / SWS - upper assembly (robot side)",
       "source_pages": "26",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK063-O-6PM5-1E12",
@@ -1108,12 +1113,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; upper assembly, 6 x air M5 radial; electric plug 12-pole",
       "notes": "",
-      "price_eur": 408,
+      "price_eur": 416.2,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK-PM - Multi-Energy-Coupling with radial pneumatic connections for MGW / SWS - upper assembly (robot side)",
       "source_pages": "25",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK063-O-8PK3-1E12",
@@ -1127,12 +1132,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; upper assembly, 8 x air, I.D. = 3 mm; electric plug 12-pole",
       "notes": "",
-      "price_eur": 382.3,
+      "price_eur": 389.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK - Multi-Energy-Coupling for MGW / SWS - upper assembly (robot side)",
       "source_pages": "24",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK063-O-8PK4-1E12",
@@ -1146,12 +1151,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; upper assembly, 8 x air, I.D. = 4 mm; electric plug 12-pole",
       "notes": "",
-      "price_eur": 382.3,
+      "price_eur": 389.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK - Multi-Energy-Coupling for MGW / SWS - upper assembly (robot side)",
       "source_pages": "24",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK063-U-4PK3-1E12",
@@ -1165,12 +1170,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; lower assembly, 4 x air, I.D. = 3 mm; electrical bushing 12-pole",
       "notes": "",
-      "price_eur": 203.5,
+      "price_eur": 207.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK - Multi-Energy-Coupling for MGW / SWS - lower assembly (tool side)",
       "source_pages": "24",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK063-U-4PK4-1E12",
@@ -1184,12 +1189,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; lower assembly, 4 x air, I.D. = 4 mm; electrical bushing 12-pole",
       "notes": "",
-      "price_eur": 203.5,
+      "price_eur": 207.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK - Multi-Energy-Coupling for MGW / SWS - lower assembly (tool side)",
       "source_pages": "24",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK063-U-4PR4",
@@ -1203,12 +1208,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; lower assembly, 4 x air, I.D. = 4 mm",
       "notes": "",
-      "price_eur": 273.5,
+      "price_eur": 279.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK-R - Multi-Energy-Coupling with check valve for MGW / SWS - lower assembly (tool side)",
       "source_pages": "26",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK063-U-4PR4-1FE12",
@@ -1222,12 +1227,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; lower assembly, 4 x air, I.D. = 4 mm; spring mounted electrical plug, 12pole",
       "notes": "",
-      "price_eur": 389.3,
+      "price_eur": 397.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK-R - Multi-Energy-Coupling with check valve for MGW / SWS - lower assembly (tool side)",
       "source_pages": "26",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK063-U-4PR4-1FE12-2000OE",
@@ -1241,12 +1246,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; lower assembly, 4 x air, I.D. = 4 mm; spring mounted electrical plug, 12pole; with 2000mm cable, open end",
       "notes": "",
-      "price_eur": 505.2,
+      "price_eur": 515.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK-R - Multi-Energy-Coupling with check valve for MGW / SWS - lower assembly (tool side)",
       "source_pages": "26",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK063-U-6PM5-1E12",
@@ -1260,12 +1265,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; lower assembly, 6 x air M5 radial; electrical bushing 12-pole",
       "notes": "",
-      "price_eur": 391.7,
+      "price_eur": 399.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK-PM - Multi-Energy-Coupling with radial pneumatic connections for MGW / SWS - lower assembly (tool side)",
       "source_pages": "25",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK063-U-8PK3-1E12",
@@ -1279,12 +1284,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; lower assembly, 8 x air, I.D. = 3 mm; electrical bushing 12-pole",
       "notes": "",
-      "price_eur": 363.6,
+      "price_eur": 370.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK - Multi-Energy-Coupling for MGW / SWS - lower assembly (tool side)",
       "source_pages": "24",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK063-U-8PK4-1E12",
@@ -1298,12 +1303,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; lower assembly, 8 x air, I.D. = 4 mm; electrical bushing 12-pole",
       "notes": "",
-      "price_eur": 363.6,
+      "price_eur": 370.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK - Multi-Energy-Coupling for MGW / SWS - lower assembly (tool side)",
       "source_pages": "24",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK080-O-4PK3-1E12",
@@ -1317,12 +1322,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; upper assembly, 4 x air, I.D. = 3 mm; electric plug 12-pole",
       "notes": "",
-      "price_eur": 192.9,
+      "price_eur": 196.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK - Multi-Energy-Coupling for MGW / SWS - upper assembly (robot side)",
       "source_pages": "24",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK080-O-4PK4-1E12",
@@ -1336,12 +1341,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; upper assembly, 4 x air, I.D. = 4 mm; electric plug 12-pole",
       "notes": "",
-      "price_eur": 192.9,
+      "price_eur": 196.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK - Multi-Energy-Coupling for MGW / SWS - upper assembly (robot side)",
       "source_pages": "24",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK080-O-6PM5-1E12",
@@ -1355,12 +1360,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; upper assembly, 6 x air M5 radial; electric plug 12-pole",
       "notes": "",
-      "price_eur": 416.2,
+      "price_eur": 424.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK-PM - Multi-Energy-Coupling with radial pneumatic connections for MGW / SWS - upper assembly (robot side)",
       "source_pages": "25",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK080-O-8PK3-1E12",
@@ -1374,12 +1379,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; upper assembly, 8 x air, I.D. = 3 mm; electric plug 12-pole",
       "notes": "",
-      "price_eur": 313.2,
+      "price_eur": 319.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK - Multi-Energy-Coupling for MGW / SWS - upper assembly (robot side)",
       "source_pages": "24",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK080-O-8PK4-1E12",
@@ -1393,12 +1398,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; upper assembly, 8 x air, I.D. = 4 mm; electric plug 12-pole",
       "notes": "",
-      "price_eur": 313.2,
+      "price_eur": 319.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK - Multi-Energy-Coupling for MGW / SWS - upper assembly (robot side)",
       "source_pages": "24",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK080-U-4PK3-1E12",
@@ -1412,12 +1417,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; lower assembly, 4 x air, I.D. = 3 mm; electrical bushing 12-pole",
       "notes": "",
-      "price_eur": 203.5,
+      "price_eur": 207.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK - Multi-Energy-Coupling for MGW / SWS - lower assembly (tool side)",
       "source_pages": "24",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK080-U-4PK4-1E12",
@@ -1431,12 +1436,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; lower assembly, 4 x air, I.D. = 4 mm; electrical bushing 12-pole",
       "notes": "",
-      "price_eur": 203.5,
+      "price_eur": 207.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK - Multi-Energy-Coupling for MGW / SWS - lower assembly (tool side)",
       "source_pages": "24",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK080-U-6PM5-1E12",
@@ -1450,12 +1455,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; lower assembly, 6 x air M5 radial; electrical bushing 12-pole",
       "notes": "",
-      "price_eur": 399.8,
+      "price_eur": 407.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK-PM - Multi-Energy-Coupling with radial pneumatic connections for MGW / SWS - lower assembly (tool side)",
       "source_pages": "25",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK080-U-8PK3-1E12",
@@ -1469,12 +1474,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; lower assembly, 8 x air, I.D. = 3 mm; electrical bushing 12-pole",
       "notes": "",
-      "price_eur": 295.8,
+      "price_eur": 301.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "",
       "source_pages": "25",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK080-U-8PK4-1E12",
@@ -1488,12 +1493,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; lower assembly, 8 x air, I.D. = 4 mm; electrical bushing 12-pole",
       "notes": "",
-      "price_eur": 295.8,
+      "price_eur": 301.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "",
       "source_pages": "25",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK100-O-4PR4",
@@ -1507,12 +1512,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; upper assembly, 4 x air/check valve",
       "notes": "",
-      "price_eur": 651.3,
+      "price_eur": 664.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK-R - Multi-Energy-Coupling with check valve for MGW / SWS - upper assembly (robot side)",
       "source_pages": "26",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK100-O-4PR4-1FE12",
@@ -1526,12 +1531,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; upper assembly, 4 x air/check valve; electric bushing 12pole",
       "notes": "",
-      "price_eur": 651.3,
+      "price_eur": 664.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK-R - Multi-Energy-Coupling with check valve for MGW / SWS - upper assembly (robot side)",
       "source_pages": "26",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK100-O-4PR4-1FE12-2000OE",
@@ -1545,12 +1550,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; upper assembly, 4 x air/check valve; electric bushing 12pole; with 2000mm cable, open end",
       "notes": "",
-      "price_eur": 777.4,
+      "price_eur": 792.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK-R - Multi-Energy-Coupling with check valve for MGW / SWS - upper assembly (robot side)",
       "source_pages": "26",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK100-O-8PK3-1E12",
@@ -1564,12 +1569,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; upper assembly, 8 x air, I.D. = 3 mm; electric plug 12-pole",
       "notes": "",
-      "price_eur": 470,
+      "price_eur": 479.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK - Multi-Energy-Coupling for MGW / SWS - upper assembly (robot side)",
       "source_pages": "24",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK100-O-8PK4-1E12",
@@ -1583,12 +1588,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; upper assembly, 8 x air, I.D. = 4 mm; electric plug 12-pole",
       "notes": "",
-      "price_eur": 470,
+      "price_eur": 479.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK - Multi-Energy-Coupling for MGW / SWS - upper assembly (robot side)",
       "source_pages": "24",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK100-U-4PR4",
@@ -1602,12 +1607,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; lower assembly, 4 x air, I.D. = 4 mm",
       "notes": "",
-      "price_eur": 488.6,
+      "price_eur": 498.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK-R - Multi-Energy-Coupling with check valve for MGW / SWS - lower assembly (tool side)",
       "source_pages": "26",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK100-U-4PR4-1FE12",
@@ -1621,12 +1626,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; lower assembly, 4 x air, I.D. = 4 mm; spring mounted electrical plug, 12pole",
       "notes": "",
-      "price_eur": 488.6,
+      "price_eur": 498.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK-R - Multi-Energy-Coupling with check valve for MGW / SWS - lower assembly (tool side)",
       "source_pages": "26",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK100-U-4PR4-1FE12-2000OE",
@@ -1640,12 +1645,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; lower assembly, 4 x air, I.D. = 4 mm; spring mounted electrical plug, 12pole; with 2000mm cable, open end",
       "notes": "",
-      "price_eur": 633.6,
+      "price_eur": 646.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK-R - Multi-Energy-Coupling with check valve for MGW / SWS - lower assembly (tool side)",
       "source_pages": "26",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK100-U-8PK3-1E12",
@@ -1659,12 +1664,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; lower assembly, 8 x air, I.D. = 3 mm; electrical bushing 12-pole",
       "notes": "",
-      "price_eur": 459.4,
+      "price_eur": 468.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "",
       "source_pages": "25",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK100-U-8PK4-1E12",
@@ -1678,12 +1683,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; lower assembly, 8 x air, I.D. = 4 mm; electrical bushing 12-pole",
       "notes": "",
-      "price_eur": 459.4,
+      "price_eur": 468.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "",
       "source_pages": "25",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK125-O-8PK3-1E12",
@@ -1697,12 +1702,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; upper assembly, 8 x air, I.D. = 3 mm; electric plug, 12-pole",
       "notes": "",
-      "price_eur": 488.6,
+      "price_eur": 498.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK - Multi-Energy-Coupling for MGW / SWS - upper assembly (robot side)",
       "source_pages": "24",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK125-O-8PK4-1E12",
@@ -1716,12 +1721,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; upper assembly, 8 x air, I.D. = 4 mm; electric plug, 12-pole",
       "notes": "",
-      "price_eur": 488.6,
+      "price_eur": 498.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK - Multi-Energy-Coupling for MGW / SWS - upper assembly (robot side)",
       "source_pages": "24",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK125-U-8PK3-1E12",
@@ -1735,12 +1740,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; lower assembly, 8 x air, I.D. = 3 mm; electrical bushing, 12-pole",
       "notes": "",
-      "price_eur": 477,
+      "price_eur": 486.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "",
       "source_pages": "25",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK125-U-8PK4-1E12",
@@ -1754,12 +1759,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; lower assembly, 8 x air, I.D. = 4 mm; electrical bushing, 12-pole",
       "notes": "",
-      "price_eur": 477,
+      "price_eur": 486.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "",
       "source_pages": "25",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK160-O-8PK4-2E12",
@@ -1773,12 +1778,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; upper assembly, 8 x air, I.D. = 4 mm; 2 x electric plug, 12-pole",
       "notes": "",
-      "price_eur": 694.5,
+      "price_eur": 708.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MEK - Multi-Energy-Coupling for MGW / SWS - upper assembly (robot side)",
       "source_pages": "24",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MEK160-U-8PK4-2E12",
@@ -1792,12 +1797,12 @@
       "material": null,
       "description": "Multi-Energy-Coupling; lower assembly, 8 x air, I.D. = 4 mm; 2 x electrical bushing, 12-pole",
       "notes": "",
-      "price_eur": 655.8,
+      "price_eur": 668.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "",
       "source_pages": "25",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SEK100-O-1E12-300-M12",
@@ -1811,12 +1816,12 @@
       "material": null,
       "description": "SEK energy feed-through; upper assembly (robot side),12 pole plug; cable I=300mm, plug M12x1-12pole",
       "notes": "",
-      "price_eur": 265,
+      "price_eur": 270.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SEK - SEK energy feed-through for SHW - upper assembly (robot side)",
       "source_pages": "21",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SEK100-O-1E12-300-M8",
@@ -1830,12 +1835,12 @@
       "material": null,
       "description": "SEK energy feed-through; upper assembly (robot side),12 pole plug; cable I=300mm, bush M8x1-8pole",
       "notes": "",
-      "price_eur": 265,
+      "price_eur": 270.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SEK - SEK energy feed-through for SHW - upper assembly (robot side)",
       "source_pages": "21",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SEK100-O-1E12-300-M8-SW",
@@ -1849,12 +1854,12 @@
       "material": null,
       "description": "SEK energy feed-through; upper assembly (robot side),12 pole plug; cable I=300mm, plug M8x1-8pole",
       "notes": "",
-      "price_eur": 270,
+      "price_eur": 275.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SEK - SEK energy feed-through for SHW - upper assembly (robot side)",
       "source_pages": "21",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SEK100-O-6PM5",
@@ -1868,12 +1873,12 @@
       "material": null,
       "description": "SEK energy feed-through; upper assembly (robot side) 6x air, M5; electric bushing, 12pole",
       "notes": "",
-      "price_eur": 392.8,
+      "price_eur": 400.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SEK-P - SEK energy feed-through with pneumatic ducts for SHW - upper assembly (robot side)",
       "source_pages": "22",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SEK100-O-6PM5-1FE12-300-M12",
@@ -1887,12 +1892,12 @@
       "material": null,
       "description": "SEK energy feed-through; upper assembly (robot side) 6x air, M5; electric bushing, 12pole; 300mm cable, plug M12",
       "notes": "",
-      "price_eur": 455.6,
+      "price_eur": 464.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SEK-P - SEK energy feed-through with pneumatic ducts for SHW - upper assembly (robot side)",
       "source_pages": "22",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SEK100-O-6PM5-1FE12-300-M8",
@@ -1906,12 +1911,12 @@
       "material": null,
       "description": "SEK energy feed-through; upper assembly (robot side) 6x air, M5; electric bushing, 12pole; 300mm cable, bushing M8",
       "notes": "",
-      "price_eur": 455.6,
+      "price_eur": 464.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SEK-P - SEK energy feed-through with pneumatic ducts for SHW - upper assembly (robot side)",
       "source_pages": "22",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SEK100-O-6PM5-1FE12-300-M8SW",
@@ -1925,12 +1930,12 @@
       "material": null,
       "description": "SEK energy feed-through; upper assembly (robot side) 6x air, M5; electric bushing, 12pole; 300mm cable, plug M8",
       "notes": "",
-      "price_eur": 460.6,
+      "price_eur": 469.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SEK-P - SEK energy feed-through with pneumatic ducts for SHW - upper assembly (robot side)",
       "source_pages": "22",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SEK100-U-1E12-300-M12",
@@ -1944,12 +1949,12 @@
       "material": null,
       "description": "SEK energy feed-through; lower assembly (tool side),12 pole bush; cable I=300mm, bushing M12x1-12pole",
       "notes": "",
-      "price_eur": 250,
+      "price_eur": 255.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SEK - SEK energy feed-through for SHW - lower assembly (tool side)",
       "source_pages": "21",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SEK100-U-1E12-40-M8",
@@ -1963,12 +1968,12 @@
       "material": null,
       "description": "SEK energy feed-through; lower assembly (tool side),12 pole bush; cable I=40mm, plug M8x1-8pole",
       "notes": "",
-      "price_eur": 250,
+      "price_eur": 255.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SEK - SEK energy feed-through for SHW - lower assembly (tool side)",
       "source_pages": "21",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SEK100-U-1E12-40-M8-BW",
@@ -1982,12 +1987,12 @@
       "material": null,
       "description": "SEK energy feed-through; lower assembly (tool side),12 pole bush; cable I=40mm, bushing M8x1-8pole",
       "notes": "",
-      "price_eur": 255,
+      "price_eur": 260.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SEK - SEK energy feed-through for SHW - lower assembly (tool side)",
       "source_pages": "21",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SEK100-U-6PM5",
@@ -2001,12 +2006,12 @@
       "material": null,
       "description": "SEK energy feed-through; lower assembly (tool side) 6x air, M5; electric spring pins 12 pole",
       "notes": "",
-      "price_eur": 368.2,
+      "price_eur": 375.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SEK-P - SEK energy feed-through with pneumatic ducts for SHW - lower assembly (tool side)",
       "source_pages": "22",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SEK100-U-6PM5-1FE12-300-M12",
@@ -2020,12 +2025,12 @@
       "material": null,
       "description": "SEK energy feed-through; lower assembly (tool side) 6x air, M5; electric spring pins 12 pole; 300mm cable, bushing M12",
       "notes": "",
-      "price_eur": 436,
+      "price_eur": 444.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SEK-P - SEK energy feed-through with pneumatic ducts for SHW - lower assembly (tool side)",
       "source_pages": "22",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SEK100-U-6PM5-1FE12-40-M8",
@@ -2039,12 +2044,12 @@
       "material": null,
       "description": "SEK energy feed-through; lower assembly (tool side) 6x air, M5; electric spring pins 12 pole; 40mm cable, plug M8",
       "notes": "",
-      "price_eur": 431,
+      "price_eur": 439.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SEK-P - SEK energy feed-through with pneumatic ducts for SHW - lower assembly (tool side)",
       "source_pages": "22",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SEK100-U-6PM5-1FE12-40-M8BW",
@@ -2058,12 +2063,12 @@
       "material": null,
       "description": "SEK energy feed-through; lower assembly (tool side) 6x air, M5; electric spring pins 12 pole; 40mm cable, bushing M8",
       "notes": "",
-      "price_eur": 436,
+      "price_eur": 444.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SEK-P - SEK energy feed-through with pneumatic ducts for SHW - lower assembly (tool side)",
       "source_pages": "22",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SEK125-O-1E12-300-M12",
@@ -2077,12 +2082,12 @@
       "material": null,
       "description": "SEK energy feed-through; upper assembly (robot side),12 pole plug; cable I=300mm, plug M12x1-12pole",
       "notes": "",
-      "price_eur": 291.1,
+      "price_eur": 296.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SEK - SEK energy feed-through for SHW - upper assembly (robot side)",
       "source_pages": "21",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SEK125-U-1E12-300-M12",
@@ -2096,12 +2101,12 @@
       "material": null,
       "description": "SEK energy feed-through; lower assembly (tool side),12 pole bush; cable I=300mm, bushing M12x1-12pole",
       "notes": "",
-      "price_eur": 246.6,
+      "price_eur": 251.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SEK - SEK energy feed-through for SHW - lower assembly (tool side)",
       "source_pages": "21",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-AP-MEK063-SHW063",
@@ -2115,12 +2120,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW063 adapter; adapter plate for MEK063, Al, anodized; compatible with SHW063-100",
       "notes": "compatible with SHW063-100",
-      "price_eur": 99,
+      "price_eur": 101.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Adapter for MEK for SHW Connector",
       "source_pages": "22",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-AP-SEK100-SHS050-O",
@@ -2134,12 +2139,12 @@
       "material": "Aluminium, anodized",
       "description": "adapter plate; upper assy. (robot side), Al, anodized; connecting SEK100 and SHS050",
       "notes": "",
-      "price_eur": 106,
+      "price_eur": 108.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Adapter plate SEK - upper assembly (robot side)",
       "source_pages": "7",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-AP-SEK100-SHS050-U",
@@ -2153,12 +2158,12 @@
       "material": "Aluminium, anodized",
       "description": "adapter plate; lower assy. (tool side), Al, anodized; connecting SEK100 and SHS050",
       "notes": "",
-      "price_eur": 99,
+      "price_eur": 101.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Adapter plate SEK - lower assembly (tool side)",
       "source_pages": "7",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-AP-SEK100-SHS063-O",
@@ -2172,12 +2177,12 @@
       "material": "Aluminium, anodized",
       "description": "adapter plate; upper assy. (robot side), Al, anodized; connecting SEK100 and SHS063",
       "notes": "",
-      "price_eur": 106,
+      "price_eur": 108.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Adapter plate SEK - upper assembly (robot side)",
       "source_pages": "7",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-AP-SEK100-SHS063-U",
@@ -2191,12 +2196,12 @@
       "material": "Aluminium, anodized",
       "description": "adapter plate; lower assy. (tool side), Al, anodized; connecting SEK100 and SHS063",
       "notes": "",
-      "price_eur": 99,
+      "price_eur": 101.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Adapter plate SEK - lower assembly (tool side)",
       "source_pages": "7",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-AP-SEK100-SHS080-O",
@@ -2210,12 +2215,12 @@
       "material": "Aluminium, anodized",
       "description": "adapter plate; upper assy. (robot side), Al, anodized; connecting SEK100 and SHS080",
       "notes": "",
-      "price_eur": 106,
+      "price_eur": 108.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Adapter plate SEK - upper assembly (robot side)",
       "source_pages": "7",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-AP-SEK100-SHS080-U",
@@ -2229,12 +2234,12 @@
       "material": "Aluminium, anodized",
       "description": "adapter plate; lower assy. (tool side), Al, anodized; connecting SEK100 and SHS080",
       "notes": "",
-      "price_eur": 99,
+      "price_eur": 101.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Adapter plate SEK - lower assembly (tool side)",
       "source_pages": "7",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-AP-SEK100-SHS100-O",
@@ -2248,12 +2253,12 @@
       "material": "Aluminium, anodized",
       "description": "adapter plate; upper assy. (robot side), Al, anodized; connecting SEK100 and SHS100",
       "notes": "",
-      "price_eur": 112,
+      "price_eur": 114.2,
       "price_on_request": true,
       "price_status": "Please inquire",
       "source_section": "Adapter plate SEK - upper assembly (robot side)",
       "source_pages": "7",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-AP-SEK100-SHS100-U",
@@ -2267,12 +2272,12 @@
       "material": "Aluminium, anodized",
       "description": "adapter plate; lower assy. (tool side), Al, anodized; connecting SEK100 and SHS100",
       "notes": "",
-      "price_eur": 102,
+      "price_eur": 104.0,
       "price_on_request": true,
       "price_status": "Please inquire",
       "source_section": "Adapter plate SEK - lower assembly (tool side)",
       "source_pages": "7",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-AP-SEK100-SHS125",
@@ -2286,12 +2291,12 @@
       "material": "Aluminium, anodized",
       "description": "adapter plate; upper or lower assy., Al, anodized; connecting SEK100 and SHS125/160",
       "notes": "",
-      "price_eur": 112,
+      "price_eur": 114.2,
       "price_on_request": true,
       "price_status": "Please inquire",
       "source_section": "Adapter plate SEK - upper assembly (robot side)",
       "source_pages": "7",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-AP-SEK100-SHW125",
@@ -2305,12 +2310,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW125 adapter; adapter plate for SEK100, Al, anodized; compatible with SHW125",
       "notes": "compatible with SHW125 | Also listed in p.21 (SEK - SEK energy feed-through for SHW - lower assembly (tool side)), p.22 (SEK-P - SEK energy feed-through with pneumatic ducts for SHW - upper assembly (robot side)), p.22 (SEK-P - SEK energy feed-through with pneumatic ducts for SHW - lower assembly (tool side))",
-      "price_eur": 72.2,
+      "price_eur": 73.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SEK - SEK energy feed-through for SHW - upper assembly (robot side) | SEK - SEK energy feed-through for SHW - lower assembly (tool side) | SEK-P - SEK energy feed-through with pneumatic ducts for SHW - upper assembly (robot side) | SEK-P - SEK energy feed-through with pneumatic ducts for SHW - lower assembly (tool side)",
       "source_pages": "21, 22",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-AP-SEK100-SHW160",
@@ -2324,12 +2329,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW160 adapter; adapter plate for SEK100, Al, anodized; compatible with SHW160",
       "notes": "compatible with SHW160 | Also listed in p.21 (SEK - SEK energy feed-through for SHW - lower assembly (tool side)), p.22 (SEK-P - SEK energy feed-through with pneumatic ducts for SHW - upper assembly (robot side)), p.22 (SEK-P - SEK energy feed-through with pneumatic ducts for SHW - lower assembly (tool side))",
-      "price_eur": 72.2,
+      "price_eur": 73.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SEK - SEK energy feed-through for SHW - upper assembly (robot side) | SEK - SEK energy feed-through for SHW - lower assembly (tool side) | SEK-P - SEK energy feed-through with pneumatic ducts for SHW - upper assembly (robot side) | SEK-P - SEK energy feed-through with pneumatic ducts for SHW - lower assembly (tool side)",
       "source_pages": "21, 22",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GI005",
@@ -2343,12 +2348,12 @@
       "material": null,
       "description": "Internal Gripper; outside diameter 5 mm, thread M5",
       "notes": "",
-      "price_eur": 334.4,
+      "price_eur": 341.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GI - Internal Gripper (Ø 5-20mm available)",
       "source_pages": "18",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GI006",
@@ -2362,12 +2367,12 @@
       "material": null,
       "description": "Internal Gripper; outside diameter 6 mm, thread M6",
       "notes": "",
-      "price_eur": 334.4,
+      "price_eur": 341.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GI - Internal Gripper (Ø 5-20mm available)",
       "source_pages": "18",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GI007",
@@ -2381,12 +2386,12 @@
       "material": null,
       "description": "Internal Gripper; outside diameter 7 mm, thread M6",
       "notes": "",
-      "price_eur": 334.4,
+      "price_eur": 341.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GI - Internal Gripper (Ø 5-20mm available)",
       "source_pages": "18",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GI008",
@@ -2400,12 +2405,12 @@
       "material": null,
       "description": "Internal Gripper; outside diameter 8 mm, thread M8",
       "notes": "",
-      "price_eur": 334.4,
+      "price_eur": 341.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GI - Internal Gripper (Ø 5-20mm available)",
       "source_pages": "18",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GI009",
@@ -2419,12 +2424,12 @@
       "material": null,
       "description": "Internal Gripper; outside diameter 9 mm, thread M8",
       "notes": "",
-      "price_eur": 334.4,
+      "price_eur": 341.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GI - Internal Gripper (Ø 5-20mm available)",
       "source_pages": "18",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GI010",
@@ -2438,12 +2443,12 @@
       "material": null,
       "description": "Internal Gripper; outside diameter 10 mm, thread M10",
       "notes": "",
-      "price_eur": 334.4,
+      "price_eur": 341.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GI - Internal Gripper (Ø 5-20mm available)",
       "source_pages": "18",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GI011",
@@ -2457,12 +2462,12 @@
       "material": null,
       "description": "Internal Gripper; outside diameter 11 mm, thread M8",
       "notes": "",
-      "price_eur": 351.9,
+      "price_eur": 358.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GI - Internal Gripper (Ø 5-20mm available)",
       "source_pages": "18",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GI012",
@@ -2476,12 +2481,12 @@
       "material": null,
       "description": "Internal Gripper; outside diameter 12 mm, thread M8",
       "notes": "",
-      "price_eur": 351.9,
+      "price_eur": 358.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GI - Internal Gripper (Ø 5-20mm available)",
       "source_pages": "18",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GI013",
@@ -2495,12 +2500,12 @@
       "material": null,
       "description": "Internal Gripper; outside diameter 13 mm, thread M8",
       "notes": "",
-      "price_eur": 351.9,
+      "price_eur": 358.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GI - Internal Gripper (Ø 5-20mm available)",
       "source_pages": "18",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GI014",
@@ -2514,12 +2519,12 @@
       "material": null,
       "description": "Internal Gripper; outside diameter 14 mm, thread M8",
       "notes": "",
-      "price_eur": 351.9,
+      "price_eur": 358.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GI - Internal Gripper (Ø 5-20mm available)",
       "source_pages": "18",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GI015",
@@ -2533,12 +2538,12 @@
       "material": null,
       "description": "Internal Gripper; outside diameter 15 mm, thread M8",
       "notes": "",
-      "price_eur": 351.9,
+      "price_eur": 358.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GI - Internal Gripper (Ø 5-20mm available)",
       "source_pages": "18",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GI016",
@@ -2552,12 +2557,12 @@
       "material": null,
       "description": "Internal Gripper; outside diameter 16 mm, thread M8",
       "notes": "",
-      "price_eur": 351.9,
+      "price_eur": 358.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GI - Internal Gripper (Ø 5-20mm available)",
       "source_pages": "18",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GI017",
@@ -2571,12 +2576,12 @@
       "material": null,
       "description": "Internal Gripper; outside diameter 17 mm, thread M8",
       "notes": "",
-      "price_eur": 368.2,
+      "price_eur": 375.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GI - Internal Gripper (Ø 5-20mm available)",
       "source_pages": "18",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GI018",
@@ -2590,12 +2595,12 @@
       "material": null,
       "description": "Internal Gripper; outside diameter 18 mm, thread M8",
       "notes": "",
-      "price_eur": 368.2,
+      "price_eur": 375.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GI - Internal Gripper (Ø 5-20mm available)",
       "source_pages": "18",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GI019",
@@ -2609,12 +2614,12 @@
       "material": null,
       "description": "Internal Gripper; outside diameter 19 mm, thread M8",
       "notes": "",
-      "price_eur": 368.2,
+      "price_eur": 375.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GI - Internal Gripper (Ø 5-20mm available)",
       "source_pages": "18",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GI020",
@@ -2628,12 +2633,12 @@
       "material": null,
       "description": "Internal Gripper; outside diameter 20 mm, thread M8",
       "notes": "",
-      "price_eur": 368.2,
+      "price_eur": 375.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GI - Internal Gripper (Ø 5-20mm available)",
       "source_pages": "18",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GIS005",
@@ -2647,12 +2652,12 @@
       "material": null,
       "description": "Internal Gripper Short; outside diameter 5 mm, thread M5",
       "notes": "",
-      "price_eur": 313.2,
+      "price_eur": 319.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GIS - Internal Gripper Short (Ø 5-20mm available)",
       "source_pages": "19",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GIS006",
@@ -2666,12 +2671,12 @@
       "material": null,
       "description": "Internal Gripper Short; outside diameter 6 mm, thread M5",
       "notes": "",
-      "price_eur": 313.2,
+      "price_eur": 319.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GIS - Internal Gripper Short (Ø 5-20mm available)",
       "source_pages": "19",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GIS007",
@@ -2685,12 +2690,12 @@
       "material": null,
       "description": "Internal Gripper Short; outside diameter 7 mm, thread M5",
       "notes": "",
-      "price_eur": 313.2,
+      "price_eur": 319.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GIS - Internal Gripper Short (Ø 5-20mm available)",
       "source_pages": "19",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GIS008",
@@ -2704,12 +2709,12 @@
       "material": null,
       "description": "Internal Gripper Short; outside diameter 8 mm, thread M8",
       "notes": "",
-      "price_eur": 313.2,
+      "price_eur": 319.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GIS - Internal Gripper Short (Ø 5-20mm available)",
       "source_pages": "19",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GIS009",
@@ -2723,12 +2728,12 @@
       "material": null,
       "description": "Internal Gripper Short; outside diameter 9 mm, thread M8",
       "notes": "",
-      "price_eur": 313.2,
+      "price_eur": 319.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GIS - Internal Gripper Short (Ø 5-20mm available)",
       "source_pages": "19",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GIS010",
@@ -2742,12 +2747,12 @@
       "material": null,
       "description": "Internal Gripper Short; outside diameter 10 mm, thread M8",
       "notes": "",
-      "price_eur": 313.2,
+      "price_eur": 319.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GIS - Internal Gripper Short (Ø 5-20mm available)",
       "source_pages": "19",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GIS011",
@@ -2761,12 +2766,12 @@
       "material": null,
       "description": "Internal Gripper Short; outside diameter 11 mm, thread M8",
       "notes": "",
-      "price_eur": 329.8,
+      "price_eur": 336.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GIS - Internal Gripper Short (Ø 5-20mm available)",
       "source_pages": "19",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GIS012",
@@ -2780,12 +2785,12 @@
       "material": null,
       "description": "Internal Gripper Short; outside diameter 12 mm, thread M8",
       "notes": "",
-      "price_eur": 329.8,
+      "price_eur": 336.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GIS - Internal Gripper Short (Ø 5-20mm available)",
       "source_pages": "19",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GIS013",
@@ -2799,12 +2804,12 @@
       "material": null,
       "description": "Internal Gripper Short; outside diameter 13 mm, thread M8",
       "notes": "",
-      "price_eur": 329.8,
+      "price_eur": 336.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GIS - Internal Gripper Short (Ø 5-20mm available)",
       "source_pages": "19",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GIS014",
@@ -2818,12 +2823,12 @@
       "material": null,
       "description": "Internal Gripper Short; outside diameter 14 mm, thread M8",
       "notes": "",
-      "price_eur": 329.8,
+      "price_eur": 336.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GIS - Internal Gripper Short (Ø 5-20mm available)",
       "source_pages": "19",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GIS015",
@@ -2837,12 +2842,12 @@
       "material": null,
       "description": "Internal Gripper Short; outside diameter 15 mm, thread M8",
       "notes": "",
-      "price_eur": 329.8,
+      "price_eur": 336.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GIS - Internal Gripper Short (Ø 5-20mm available)",
       "source_pages": "19",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GIS016",
@@ -2856,12 +2861,12 @@
       "material": null,
       "description": "Internal Gripper Short; outside diameter 16 mm, thread M12",
       "notes": "",
-      "price_eur": 329.8,
+      "price_eur": 336.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GIS - Internal Gripper Short (Ø 5-20mm available)",
       "source_pages": "19",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GIS017",
@@ -2875,12 +2880,12 @@
       "material": null,
       "description": "Internal Gripper Short; outside diameter 17 mm, thread M12",
       "notes": "",
-      "price_eur": 346.2,
+      "price_eur": 353.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GIS - Internal Gripper Short (Ø 5-20mm available)",
       "source_pages": "19",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GIS018",
@@ -2894,12 +2899,12 @@
       "material": null,
       "description": "Internal Gripper Short; outside diameter 18 mm, thread M12",
       "notes": "",
-      "price_eur": 346.2,
+      "price_eur": 353.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GIS - Internal Gripper Short (Ø 5-20mm available)",
       "source_pages": "19",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GIS019",
@@ -2913,12 +2918,12 @@
       "material": null,
       "description": "Internal Gripper Short; outside diameter 19 mm, thread M12",
       "notes": "",
-      "price_eur": 346.2,
+      "price_eur": 353.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GIS - Internal Gripper Short (Ø 5-20mm available)",
       "source_pages": "19",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GIS020",
@@ -2932,12 +2937,12 @@
       "material": null,
       "description": "Internal Gripper Short; outside diameter 20 mm, thread M12",
       "notes": "",
-      "price_eur": 346.2,
+      "price_eur": 353.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GIS - Internal Gripper Short (Ø 5-20mm available)",
       "source_pages": "19",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP050-I1-GS",
@@ -2951,12 +2956,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 1; grip force safety, closing",
       "notes": "",
-      "price_eur": 617.3,
+      "price_eur": 629.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP050-I1-GÖ",
@@ -2970,12 +2975,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 1; grip force safety, opening",
       "notes": "",
-      "price_eur": 617.3,
+      "price_eur": 629.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP050-I1-O",
@@ -2989,12 +2994,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 1; without grip force safety",
       "notes": "",
-      "price_eur": 575.2,
+      "price_eur": 586.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP050-I2-GS",
@@ -3008,12 +3013,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 2; grip force safety, closing",
       "notes": "",
-      "price_eur": 659.4,
+      "price_eur": 672.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP050-I2-GÖ",
@@ -3027,12 +3032,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 2; grip force safety, opening",
       "notes": "",
-      "price_eur": 659.4,
+      "price_eur": 672.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP050-I2-O",
@@ -3046,12 +3051,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 2; without grip force safety",
       "notes": "",
-      "price_eur": 617.3,
+      "price_eur": 629.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP063-I1-GS",
@@ -3065,12 +3070,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 1; grip force safety, closing",
       "notes": "",
-      "price_eur": 617.3,
+      "price_eur": 629.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP063-I1-GÖ",
@@ -3084,12 +3089,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 1; grip force safety, opening",
       "notes": "",
-      "price_eur": 617.3,
+      "price_eur": 629.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP063-I1-O",
@@ -3103,12 +3108,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 1; without grip force safety",
       "notes": "",
-      "price_eur": 575.2,
+      "price_eur": 586.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP063-I2-GS",
@@ -3122,12 +3127,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 2; grip force safety, closing",
       "notes": "",
-      "price_eur": 651.3,
+      "price_eur": 664.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP063-I2-GÖ",
@@ -3141,12 +3146,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 2; grip force safety, opening",
       "notes": "",
-      "price_eur": 651.3,
+      "price_eur": 664.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP063-I2-O",
@@ -3160,12 +3165,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 2; without grip force safety",
       "notes": "",
-      "price_eur": 617.3,
+      "price_eur": 629.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP080-I1-GS",
@@ -3179,12 +3184,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 1; grip force safety, closing",
       "notes": "",
-      "price_eur": 667.6,
+      "price_eur": 681.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP080-I1-GÖ",
@@ -3198,12 +3203,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 1; grip force safety, opening",
       "notes": "",
-      "price_eur": 667.6,
+      "price_eur": 681.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP080-I1-O",
@@ -3217,12 +3222,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 1; without grip force safety",
       "notes": "",
-      "price_eur": 629.1,
+      "price_eur": 641.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP080-I2-GS",
@@ -3236,12 +3241,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 2; grip force safety, closing",
       "notes": "",
-      "price_eur": 701.5,
+      "price_eur": 715.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP080-I2-GÖ",
@@ -3255,12 +3260,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 2; grip force safety, opening",
       "notes": "",
-      "price_eur": 701.5,
+      "price_eur": 715.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP080-I2-O",
@@ -3274,12 +3279,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 2; without grip force safety",
       "notes": "",
-      "price_eur": 667.6,
+      "price_eur": 681.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP100-I1-GS",
@@ -3293,12 +3298,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 1; grip force safety, closing",
       "notes": "",
-      "price_eur": 827.8,
+      "price_eur": 844.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP100-I1-GÖ",
@@ -3312,12 +3317,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 1; grip force safety, opening",
       "notes": "",
-      "price_eur": 827.8,
+      "price_eur": 844.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP100-I1-O",
@@ -3331,12 +3336,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 1; without grip force safety",
       "notes": "",
-      "price_eur": 777.4,
+      "price_eur": 792.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP100-I2-GS",
@@ -3350,12 +3355,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 2; grip force safety, closing",
       "notes": "",
-      "price_eur": 887.4,
+      "price_eur": 905.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP100-I2-GÖ",
@@ -3369,12 +3374,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 2; grip force safety, opening",
       "notes": "",
-      "price_eur": 887.4,
+      "price_eur": 905.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP100-I2-O",
@@ -3388,12 +3393,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 2; without grip force safety",
       "notes": "",
-      "price_eur": 827.8,
+      "price_eur": 844.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP125-I1-GS",
@@ -3407,12 +3412,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 1; grip force safety, closing",
       "notes": "",
-      "price_eur": 1284.9,
+      "price_eur": 1310.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP125-I1-GÖ",
@@ -3426,12 +3431,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 1; grip force safety, opening",
       "notes": "",
-      "price_eur": 1284.9,
+      "price_eur": 1310.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP125-I1-O",
@@ -3445,12 +3450,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 1; without grip force safety",
       "notes": "",
-      "price_eur": 1217.1,
+      "price_eur": 1241.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP125-I2-GS",
@@ -3464,12 +3469,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 2; grip force safety, closing",
       "notes": "",
-      "price_eur": 1360.9,
+      "price_eur": 1388.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP125-I2-GÖ",
@@ -3483,12 +3488,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 2; grip force safety, opening",
       "notes": "",
-      "price_eur": 1360.9,
+      "price_eur": 1388.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GP125-I2-O",
@@ -3502,12 +3507,12 @@
       "material": null,
       "description": "Parallel gripper; ISO-flange, lift 2; without grip force safety",
       "notes": "",
-      "price_eur": 1284.9,
+      "price_eur": 1310.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - Parallel gripper",
       "source_pages": "16",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GZ050-IGS",
@@ -3521,12 +3526,12 @@
       "material": null,
       "description": "Angular gripper; ISO-flange; grip force safety, closing",
       "notes": "",
-      "price_eur": 629.1,
+      "price_eur": 641.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GZ - Angular gripper",
       "source_pages": "17",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GZ050-IO",
@@ -3540,12 +3545,12 @@
       "material": null,
       "description": "Angular gripper; ISO-flange; without grip force safety",
       "notes": "",
-      "price_eur": 588.1,
+      "price_eur": 599.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GZ - Angular gripper",
       "source_pages": "17",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GZ063-IGS",
@@ -3559,12 +3564,12 @@
       "material": null,
       "description": "Angular gripper; ISO-flange; grip force safety, closing",
       "notes": "",
-      "price_eur": 636,
+      "price_eur": 648.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GZ - Angular gripper",
       "source_pages": "17",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GZ063-IO",
@@ -3578,12 +3583,12 @@
       "material": null,
       "description": "Angular gripper; ISO-flange; without grip force safety",
       "notes": "",
-      "price_eur": 595.1,
+      "price_eur": 607.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GZ - Angular gripper",
       "source_pages": "17",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GZ080-IGS",
@@ -3597,12 +3602,12 @@
       "material": null,
       "description": "Angular gripper; ISO-flange; grip force safety, closing",
       "notes": "",
-      "price_eur": 702.6,
+      "price_eur": 716.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GZ - Angular gripper",
       "source_pages": "17",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GZ080-IO",
@@ -3616,12 +3621,12 @@
       "material": null,
       "description": "Angular gripper; ISO-flange; without grip force safety",
       "notes": "",
-      "price_eur": 667.6,
+      "price_eur": 681.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GZ - Angular gripper",
       "source_pages": "17",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GZ100-IGS",
@@ -3635,12 +3640,12 @@
       "material": null,
       "description": "Angular gripper; ISO-flange; grip force safety, closing",
       "notes": "",
-      "price_eur": 922.4,
+      "price_eur": 940.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GZ - Angular gripper",
       "source_pages": "17",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GZ100-IO",
@@ -3654,12 +3659,12 @@
       "material": null,
       "description": "Angular gripper; ISO-flange; without grip force safety",
       "notes": "",
-      "price_eur": 861.6,
+      "price_eur": 878.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GZ - Angular gripper",
       "source_pages": "17",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GZ125-IGS",
@@ -3673,12 +3678,12 @@
       "material": null,
       "description": "Angular gripper; ISO-flange; grip force safety, closing",
       "notes": "",
-      "price_eur": 1349.1,
+      "price_eur": 1376.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GZ - Angular gripper",
       "source_pages": "17",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-GZ125-IO",
@@ -3692,12 +3697,12 @@
       "material": null,
       "description": "Angular gripper; ISO-flange; without grip force safety",
       "notes": "",
-      "price_eur": 1284.9,
+      "price_eur": 1310.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GZ - Angular gripper",
       "source_pages": "17",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-GP050-UB",
@@ -3711,12 +3716,12 @@
       "material": null,
       "description": "universal jaws for GP050, pair",
       "notes": "",
-      "price_eur": 152,
+      "price_eur": 155.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - universal jaws",
       "source_pages": "17",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-GP063-UB",
@@ -3730,12 +3735,12 @@
       "material": null,
       "description": "universal jaws for GP063, pair",
       "notes": "",
-      "price_eur": 177.8,
+      "price_eur": 181.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - universal jaws",
       "source_pages": "17",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-GP080-UB",
@@ -3749,12 +3754,12 @@
       "material": null,
       "description": "universal jaws for GP080, pair",
       "notes": "",
-      "price_eur": 203.5,
+      "price_eur": 207.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - universal jaws",
       "source_pages": "17",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-GP100-UB",
@@ -3768,12 +3773,12 @@
       "material": null,
       "description": "universal jaws for GP100, pair",
       "notes": "",
-      "price_eur": 219.9,
+      "price_eur": 224.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - universal jaws",
       "source_pages": "17",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-GP125-UB",
@@ -3787,12 +3792,12 @@
       "material": null,
       "description": "universal jaws for GP125, pair",
       "notes": "",
-      "price_eur": 304.1,
+      "price_eur": 310.2,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "GP - universal jaws",
       "source_pages": "17",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW050-2O",
@@ -3806,12 +3811,12 @@
       "material": "Aluminium, anodized",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; Al, anodized",
       "notes": "",
-      "price_eur": 422,
+      "price_eur": 430.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW050-2O-N",
@@ -3825,12 +3830,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 455.9,
+      "price_eur": 465.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW050-2O-V",
@@ -3844,12 +3849,12 @@
       "material": "Stainless steel",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; stainless steel",
       "notes": "",
-      "price_eur": 515.6,
+      "price_eur": 525.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW050-2U",
@@ -3863,12 +3868,12 @@
       "material": "Aluminium, anodized",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; Al, anodized",
       "notes": "",
-      "price_eur": 236.2,
+      "price_eur": 240.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side)",
       "source_pages": "11",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW050-2U-N",
@@ -3882,12 +3887,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; steel, nitrated; MGW Connector; Drilling according to ISO, lower assembly; steel, nitrated; compatible with SWS upper assembly",
       "notes": "compatible with SWS upper assembly | Also listed in p.12 (SWS Connector - lower assembly (tool side))",
-      "price_eur": 270.1,
+      "price_eur": 275.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side) | SWS Connector - lower assembly (tool side)",
       "source_pages": "11, 12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW050-2U-V",
@@ -3901,12 +3906,12 @@
       "material": "Stainless steel",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; stainless steel",
       "notes": "",
-      "price_eur": 329.8,
+      "price_eur": 336.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side)",
       "source_pages": "11",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW063-2O",
@@ -3920,12 +3925,12 @@
       "material": "Aluminium, anodized",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; Al, anodized",
       "notes": "",
-      "price_eur": 422,
+      "price_eur": 430.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW063-2O-N",
@@ -3939,12 +3944,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 465.3,
+      "price_eur": 474.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW063-2O-V",
@@ -3958,12 +3963,12 @@
       "material": "Stainless steel",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; stainless steel",
       "notes": "",
-      "price_eur": 519.1,
+      "price_eur": 529.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW063-2OE",
@@ -3977,12 +3982,12 @@
       "material": "Aluminium, anodized",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; E-mount, Al, anodized",
       "notes": "",
-      "price_eur": 473.5,
+      "price_eur": 483.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW063-2OEN",
@@ -3996,12 +4001,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; E-mount, steel, nitrated",
       "notes": "",
-      "price_eur": 523.7,
+      "price_eur": 534.2,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW063-2U",
@@ -4015,12 +4020,12 @@
       "material": "Aluminium, anodized",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; Al, anodized",
       "notes": "",
-      "price_eur": 245.6,
+      "price_eur": 250.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side)",
       "source_pages": "11",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW063-2U-N",
@@ -4034,12 +4039,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; steel, nitrated; MGW Connector; Drilling according to ISO, lower assembly; steel, nitrated; compatible with SWS upper assembly",
       "notes": "compatible with SWS upper assembly | Also listed in p.12 (SWS Connector - lower assembly (tool side))",
-      "price_eur": 279.5,
+      "price_eur": 285.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side) | SWS Connector - lower assembly (tool side)",
       "source_pages": "11, 12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW063-2U-V",
@@ -4053,12 +4058,12 @@
       "material": "Stainless steel",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; stainless steel",
       "notes": "",
-      "price_eur": 342.5,
+      "price_eur": 349.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side)",
       "source_pages": "11",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW063-2UE",
@@ -4072,12 +4077,12 @@
       "material": "Aluminium, anodized",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; E-mount, Al, anodized",
       "notes": "",
-      "price_eur": 295.8,
+      "price_eur": 301.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side)",
       "source_pages": "11",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW063-2UEN",
@@ -4091,12 +4096,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; E-mount, steel, nitrated; MGW Connector; Drilling according to ISO, lower assembly; E-mount, steel, nitrated; compatible with SWS upper assembly",
       "notes": "compatible with SWS upper assembly | Also listed in p.12 (SWS Connector - lower assembly (tool side))",
-      "price_eur": 337.9,
+      "price_eur": 344.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side) | SWS Connector - lower assembly (tool side)",
       "source_pages": "11, 12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW080-2O",
@@ -4110,12 +4115,12 @@
       "material": "Aluminium, anodized",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; Al, anodized",
       "notes": "",
-      "price_eur": 422,
+      "price_eur": 430.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW080-2O-N",
@@ -4129,12 +4134,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 465.3,
+      "price_eur": 474.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW080-2OE",
@@ -4148,12 +4153,12 @@
       "material": "Aluminium, anodized",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; E-mount, Al, anodized",
       "notes": "",
-      "price_eur": 473.5,
+      "price_eur": 483.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW080-2OEN",
@@ -4167,12 +4172,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; E-mount, steel, nitrated",
       "notes": "",
-      "price_eur": 523.7,
+      "price_eur": 534.2,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW080-2U",
@@ -4186,12 +4191,12 @@
       "material": "Aluminium, anodized",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; Al, anodized",
       "notes": "",
-      "price_eur": 245.6,
+      "price_eur": 250.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side)",
       "source_pages": "11",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW080-2U-N",
@@ -4205,12 +4210,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; steel, nitrated; MGW Connector; Drilling according to ISO, lower assembly; steel, nitrated; compatible with SWS upper assembly",
       "notes": "compatible with SWS upper assembly | Also listed in p.12 (SWS Connector - lower assembly (tool side))",
-      "price_eur": 279.5,
+      "price_eur": 285.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side) | SWS Connector - lower assembly (tool side)",
       "source_pages": "11, 12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW080-2UE",
@@ -4224,12 +4229,12 @@
       "material": "Aluminium, anodized",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; E-mount, Al, anodized",
       "notes": "",
-      "price_eur": 295.8,
+      "price_eur": 301.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side)",
       "source_pages": "11",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW080-2UEN",
@@ -4243,12 +4248,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; E-mount, steel, nitrated; MGW Connector; Drilling according to ISO, lower assembly; E-mount, steel, nitrated; compatible with SWS upper assembly",
       "notes": "compatible with SWS upper assembly | Also listed in p.12 (SWS Connector - lower assembly (tool side))",
-      "price_eur": 337.9,
+      "price_eur": 344.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side) | SWS Connector - lower assembly (tool side)",
       "source_pages": "11, 12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW100-2O",
@@ -4262,12 +4267,12 @@
       "material": "Aluminium, anodized",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; Al, anodized",
       "notes": "",
-      "price_eur": 554.2,
+      "price_eur": 565.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW100-2O-N",
@@ -4281,12 +4286,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 629.1,
+      "price_eur": 641.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW100-2OE",
@@ -4300,12 +4305,12 @@
       "material": "Aluminium, anodized",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; E-mount, Al, anodized",
       "notes": "",
-      "price_eur": 625.5,
+      "price_eur": 638.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW100-2OEN",
@@ -4319,12 +4324,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; E-mount, steel, nitrated",
       "notes": "",
-      "price_eur": 709.7,
+      "price_eur": 723.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW100-2U",
@@ -4338,12 +4343,12 @@
       "material": "Aluminium, anodized",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; Al, anodized",
       "notes": "",
-      "price_eur": 299.3,
+      "price_eur": 305.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side)",
       "source_pages": "11",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW100-2U-N",
@@ -4357,12 +4362,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; steel, nitrated; MGW Connector; Drilling according to ISO, lower assembly; steel, nitrated; compatible with SWS upper assembly",
       "notes": "compatible with SWS upper assembly | Also listed in p.12 (SWS Connector - lower assembly (tool side))",
-      "price_eur": 402.2,
+      "price_eur": 410.2,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side) | SWS Connector - lower assembly (tool side)",
       "source_pages": "11, 12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW100-2UE",
@@ -4376,12 +4381,12 @@
       "material": "Aluminium, anodized",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; E-mount, Al, anodized",
       "notes": "",
-      "price_eur": 370.6,
+      "price_eur": 378.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side)",
       "source_pages": "11",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW100-2UEN",
@@ -4395,12 +4400,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; E-mount, steel, nitrated; MGW Connector; Drilling according to ISO, lower assembly; E-mount, steel, nitrated; compatible with SWS upper assembly",
       "notes": "compatible with SWS upper assembly | Also listed in p.12 (SWS Connector - lower assembly (tool side))",
-      "price_eur": 482.9,
+      "price_eur": 492.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side) | SWS Connector - lower assembly (tool side)",
       "source_pages": "11, 12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW125-2O",
@@ -4414,12 +4419,12 @@
       "material": "Aluminium, anodized",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; Al, anodized",
       "notes": "",
-      "price_eur": 709.7,
+      "price_eur": 723.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW125-2O-N",
@@ -4433,12 +4438,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 837.1,
+      "price_eur": 853.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW125-2OE",
@@ -4452,12 +4457,12 @@
       "material": "Aluminium, anodized",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; E-mount, Al, anodized",
       "notes": "",
-      "price_eur": 803.2,
+      "price_eur": 819.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW125-2OEN",
@@ -4471,12 +4476,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; E-mount, steel, nitrated",
       "notes": "",
-      "price_eur": 947.1,
+      "price_eur": 966.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW125-2U",
@@ -4490,12 +4495,12 @@
       "material": "Aluminium, anodized",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; Al, anodized",
       "notes": "",
-      "price_eur": 413.8,
+      "price_eur": 422.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side)",
       "source_pages": "11",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW125-2U-N",
@@ -4509,12 +4514,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; steel, nitrated; MGW Connector; Drilling according to ISO, lower assembly; steel, nitrated; compatible with SWS upper assembly",
       "notes": "compatible with SWS upper assembly | Also listed in p.12 (SWS Connector - lower assembly (tool side))",
-      "price_eur": 549.4,
+      "price_eur": 560.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side) | SWS Connector - lower assembly (tool side)",
       "source_pages": "11, 12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW125-2UE",
@@ -4528,12 +4533,12 @@
       "material": "Aluminium, anodized",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; E-mount, Al, anodized",
       "notes": "",
-      "price_eur": 507.3,
+      "price_eur": 517.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side)",
       "source_pages": "11",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW125-2UEN",
@@ -4547,12 +4552,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; E-mount, steel, nitrated; MGW Connector; Drilling according to ISO, lower assembly; E-mount, steel, nitrated; compatible with SWS upper assembly",
       "notes": "compatible with SWS upper assembly | Also listed in p.12 (SWS Connector - lower assembly (tool side))",
-      "price_eur": 659.4,
+      "price_eur": 672.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side) | SWS Connector - lower assembly (tool side)",
       "source_pages": "11, 12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW160-2O",
@@ -4566,12 +4571,12 @@
       "material": "Aluminium, anodized",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; Al, anodized",
       "notes": "",
-      "price_eur": 871,
+      "price_eur": 888.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW160-2O-N",
@@ -4585,12 +4590,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 1019.5,
+      "price_eur": 1039.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW160-2O-N-B02",
@@ -4604,12 +4609,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; steel, nitrated, with pre-alignment",
       "notes": "steel, nitrated, with pre-alignment",
-      "price_eur": 1203,
+      "price_eur": 1227.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW160-2OE",
@@ -4623,12 +4628,12 @@
       "material": "Aluminium, anodized",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; E-mount, Al, anodized",
       "notes": "",
-      "price_eur": 971.6,
+      "price_eur": 991.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW160-2OEN",
@@ -4642,12 +4647,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, upper assembly; E-mount, steel, nitrated",
       "notes": "",
-      "price_eur": 1137.6,
+      "price_eur": 1160.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - upper assembly (robot side)",
       "source_pages": "10",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW160-2U",
@@ -4661,12 +4666,12 @@
       "material": "Aluminium, anodized",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; Al, anodized",
       "notes": "",
-      "price_eur": 625.5,
+      "price_eur": 638.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side)",
       "source_pages": "11",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW160-2U-N",
@@ -4680,12 +4685,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 785.7,
+      "price_eur": 801.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side)",
       "source_pages": "11",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW160-2UE",
@@ -4699,12 +4704,12 @@
       "material": "Aluminium, anodized",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; E-mount, Al, anodized",
       "notes": "",
-      "price_eur": 727.2,
+      "price_eur": 741.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side)",
       "source_pages": "11",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-MGW160-2UEN",
@@ -4718,12 +4723,12 @@
       "material": "Steel, nitrated",
       "description": "MGW Connector; Drilling according to ISO, lower assembly; E-mount, steel, nitrated",
       "notes": "",
-      "price_eur": 903.7,
+      "price_eur": 921.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "MGW Connector - lower assembly (tool side)",
       "source_pages": "11",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHS050-O-K040",
@@ -4737,12 +4742,12 @@
       "material": null,
       "description": "SHS050 Connector (PCD = 40 mm); upper assembly (robot side); S-Nr.: SHK-040 - 310400",
       "notes": "",
-      "price_eur": 565,
+      "price_eur": 576.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHS Connector - upper assembly (robot side)",
       "source_pages": "6",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHS050-O-K040-4P",
@@ -4756,12 +4761,12 @@
       "material": null,
       "description": "SHS050 Pro Connector (PCD = 40 mm); upper assembly (robot side), 4x air M5",
       "notes": "",
-      "price_eur": 615,
+      "price_eur": 627.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHS Pro Connector - upper assembly (robot side)",
       "source_pages": "5",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHS050-U-A040",
@@ -4775,12 +4780,12 @@
       "material": null,
       "description": "SHS050 Connector (PCD = 40 mm); lower assembly (tool side); S-Nr.: SHA-040 - 310401",
       "notes": "Also listed in p.6 (SHS Connector - lower assembly (tool side))",
-      "price_eur": 342,
+      "price_eur": 348.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHS Connector - lower assembly (tool side)",
       "source_pages": "5, 6",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHS063-O-K050",
@@ -4794,12 +4799,12 @@
       "material": null,
       "description": "SHS063 Connector (PCD = 50 mm); upper assembly (robot side); S-Nr.: SHK-050 - 310410",
       "notes": "",
-      "price_eur": 618,
+      "price_eur": 630.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHS Connector - upper assembly (robot side)",
       "source_pages": "6",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHS063-O-K050-6P",
@@ -4813,12 +4818,12 @@
       "material": null,
       "description": "SHS063 Pro Connector (PCD = 50 mm); upper assembly (robot side), 6x air M5",
       "notes": "",
-      "price_eur": 668,
+      "price_eur": 681.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHS Pro Connector - upper assembly (robot side)",
       "source_pages": "5",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHS063-U-A050",
@@ -4832,12 +4837,12 @@
       "material": null,
       "description": "SHS063 Connector (PCD = 50 mm); lower assembly (tool side); S-Nr.: SHA-050 - 310411",
       "notes": "Also listed in p.6 (SHS Connector - lower assembly (tool side))",
-      "price_eur": 356,
+      "price_eur": 363.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHS Connector - lower assembly (tool side)",
       "source_pages": "5, 6",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHS063-U-A050-M6",
@@ -4851,12 +4856,12 @@
       "material": null,
       "description": "SHS063 Connector (PCD = 50 mm); lower assembly (tool side); S-Nr.: SHA-050 - 310411 + M6; 4x thread insert M6",
       "notes": "Also listed in p.6 (SHS Connector - lower assembly (tool side))",
-      "price_eur": 374,
+      "price_eur": 381.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHS Connector - lower assembly (tool side)",
       "source_pages": "5, 6",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHS080-O-K063",
@@ -4870,12 +4875,12 @@
       "material": null,
       "description": "SHS080 Connector (PCD = 63 mm); upper assembly (robot side); S-Nr.: SHK-063 - 310420",
       "notes": "",
-      "price_eur": 642,
+      "price_eur": 654.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHS Connector - upper assembly (robot side)",
       "source_pages": "6",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHS080-O-K063-6P",
@@ -4889,12 +4894,12 @@
       "material": null,
       "description": "SHS080 Pro Connector (PCD = 63 mm); upper assembly (robot side), 6x air G1/8",
       "notes": "",
-      "price_eur": 692,
+      "price_eur": 705.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHS Pro Connector - upper assembly (robot side)",
       "source_pages": "5",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHS080-U-A063",
@@ -4908,12 +4913,12 @@
       "material": null,
       "description": "SHS080 Connector (PCD = 63 mm); lower assembly (tool side); S-Nr.: SHA-063 - 310421",
       "notes": "Also listed in p.6 (SHS Connector - lower assembly (tool side))",
-      "price_eur": 381,
+      "price_eur": 388.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHS Connector - lower assembly (tool side)",
       "source_pages": "5, 6",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHS100-O-K080",
@@ -4927,12 +4932,12 @@
       "material": null,
       "description": "SHS100 Connector (PCD = 80 mm); upper assembly (robot side); S-Nr.: SHK-080 - 310430",
       "notes": "",
-      "price_eur": 765,
+      "price_eur": 780.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHS Connector - upper assembly (robot side)",
       "source_pages": "6",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHS100-U-A080",
@@ -4946,12 +4951,12 @@
       "material": null,
       "description": "SHS100 Connector (PCD = 80 mm); lower assembly (tool side); S-Nr.: SHA-080 - 310431",
       "notes": "",
-      "price_eur": 422,
+      "price_eur": 430.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHS Connector - lower assembly (tool side)",
       "source_pages": "6",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHS100-U-A080-M8",
@@ -4965,12 +4970,12 @@
       "material": null,
       "description": "SHS100 Connector (PCD = 80 mm); lower assembly (tool side); S-Nr.: SHA-080 - 310431 + M8; 6x thread insert M8",
       "notes": "",
-      "price_eur": 432,
+      "price_eur": 440.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHS Connector - lower assembly (tool side)",
       "source_pages": "6",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHS125-O-K100",
@@ -4984,12 +4989,12 @@
       "material": null,
       "description": "SHS125 Connector (PCD = 100 mm); upper assembly (robot side); S-Nr.: SHK-100 - 310440",
       "notes": "",
-      "price_eur": 987,
+      "price_eur": 1006.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHS Connector - upper assembly (robot side)",
       "source_pages": "6",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHS125-U-A100",
@@ -5003,12 +5008,12 @@
       "material": null,
       "description": "SHS125 Connector (PCD = 100 mm); lower assembly (tool side); S-Nr.: SHA-100 - 310441",
       "notes": "",
-      "price_eur": 618,
+      "price_eur": 630.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHS Connector - lower assembly (tool side)",
       "source_pages": "6",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHS160-O-K125",
@@ -5022,12 +5027,12 @@
       "material": null,
       "description": "SHS160 Connector (PCD = 125 mm); upper assembly (robot side); S-Nr.: SHK-125 - 310450",
       "notes": "",
-      "price_eur": 1230,
+      "price_eur": 1254.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHS Connector - upper assembly (robot side)",
       "source_pages": "6",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHS160-U-A125",
@@ -5041,12 +5046,12 @@
       "material": null,
       "description": "SHS160 Connector (PCD = 125 mm); lower assembly (tool side); S-Nr.: SHA-125 - 310451",
       "notes": "",
-      "price_eur": 850,
+      "price_eur": 867.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHS Connector - lower assembly (tool side)",
       "source_pages": "6",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-ZS050-S2P",
@@ -5060,12 +5065,12 @@
       "material": null,
       "description": "Pneumatic flange including G-ZS050-1; S-Nr: A-SHK-040-P-RADIAL - 1391534; compatible with SHS050",
       "notes": "compatible with SHS050",
-      "price_eur": 160,
+      "price_eur": 163.2,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Pneumatic flange",
       "source_pages": "6",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-ZS063-S3P",
@@ -5079,12 +5084,12 @@
       "material": null,
       "description": "Pneumatic flange including G-ZS063-1; S-Nr: A-SHK-050-P-RADIAL - 1391557; compatible with SHS063",
       "notes": "compatible with SHS063",
-      "price_eur": 165,
+      "price_eur": 168.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Pneumatic flange",
       "source_pages": "6",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-ZS080-S3P",
@@ -5098,12 +5103,12 @@
       "material": null,
       "description": "Pneumatic flange including G-ZS080-1; S-Nr: A-SHK-063-P-RADIAL - 1391562; compatible with SHS080",
       "notes": "compatible with SHS080",
-      "price_eur": 170,
+      "price_eur": 173.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Pneumatic flange",
       "source_pages": "6",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-ZS100-S5P",
@@ -5117,12 +5122,12 @@
       "material": null,
       "description": "Pneumatic flange including G-ZS100-1; S-Nr: A-SHK-080-P-RADIAL - 1391564; compatible with SHS100",
       "notes": "compatible with SHS100",
-      "price_eur": 240,
+      "price_eur": 244.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Pneumatic flange",
       "source_pages": "6",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-ZS125-S6P",
@@ -5136,12 +5141,12 @@
       "material": null,
       "description": "Pneumatic flange including G-ZS125-1; S-Nr: A-SHK-100-P-RADIAL - 1391567; compatible with SHS125",
       "notes": "compatible with SHS125",
-      "price_eur": 420,
+      "price_eur": 428.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Pneumatic flange",
       "source_pages": "6",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-ZS160-S6P",
@@ -5155,12 +5160,12 @@
       "material": null,
       "description": "Pneumatic flange including G-ZS160-1; S-Nr: A-SHK-125-P-RADIAL - 1391576; compatible with SHS160",
       "notes": "compatible with SHS160",
-      "price_eur": 540,
+      "price_eur": 550.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "Pneumatic flange",
       "source_pages": "6",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-SHS050-O-K040-S5",
@@ -5174,12 +5179,12 @@
       "material": null,
       "description": "adapter plate K040-S5; S-Nr: SHK-040-AKO-S5 - 1304684",
       "notes": "",
-      "price_eur": 106,
+      "price_eur": 108.1,
       "price_on_request": true,
       "price_status": "Please inquire",
       "source_section": "Adapter S5/S7 - upper assembly (robot side)",
       "source_pages": "7",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-SHS050-O-K040-S7",
@@ -5193,12 +5198,12 @@
       "material": null,
       "description": "adapter plate K040-S7; S-Nr: SHK-040-AKO-S7 - 1304690",
       "notes": "",
-      "price_eur": 106,
+      "price_eur": 108.1,
       "price_on_request": true,
       "price_status": "Please inquire",
       "source_section": "Adapter S5/S7 - upper assembly (robot side)",
       "source_pages": "7",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-SHS050-U-A040-S5",
@@ -5212,12 +5217,12 @@
       "material": null,
       "description": "adapter plate A040-S5; S-Nr: SHA-040-AKO-S5 - 1304688",
       "notes": "",
-      "price_eur": 99,
+      "price_eur": 101.0,
       "price_on_request": true,
       "price_status": "Please inquire",
       "source_section": "Adapter S5/S7 - lower assembly (tool side)",
       "source_pages": "7",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-SHS050-U-A040-S7",
@@ -5231,12 +5236,12 @@
       "material": null,
       "description": "adapter plate A040-S7; S-Nr: SHA-040-AKO-S7 - 1304691",
       "notes": "",
-      "price_eur": 99,
+      "price_eur": 101.0,
       "price_on_request": true,
       "price_status": "Please inquire",
       "source_section": "Adapter S5/S7 - lower assembly (tool side)",
       "source_pages": "7",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-SHS063-O-K050-S5",
@@ -5250,12 +5255,12 @@
       "material": null,
       "description": "adapter plate K050-S5; S-Nr: SHK-050-AKO-S5 - 1304699",
       "notes": "",
-      "price_eur": 108,
+      "price_eur": 110.2,
       "price_on_request": true,
       "price_status": "Please inquire",
       "source_section": "Adapter S5/S7 - upper assembly (robot side)",
       "source_pages": "7",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-SHS063-O-K050-S7",
@@ -5269,12 +5274,12 @@
       "material": null,
       "description": "adapter plate K050-S7; S-Nr: SHK-050-AKO-S7 - 1304734",
       "notes": "",
-      "price_eur": 106,
+      "price_eur": 108.1,
       "price_on_request": true,
       "price_status": "Please inquire",
       "source_section": "Adapter S5/S7 - upper assembly (robot side)",
       "source_pages": "7",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-SHS063-U-A050-S5",
@@ -5288,12 +5293,12 @@
       "material": null,
       "description": "adapter plate A050-S5; S-Nr: SHA-050-AKO-S5 - 1304710",
       "notes": "",
-      "price_eur": 99,
+      "price_eur": 101.0,
       "price_on_request": true,
       "price_status": "Please inquire",
       "source_section": "Adapter S5/S7 - lower assembly (tool side)",
       "source_pages": "7",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-SHS063-U-A050-S7",
@@ -5307,12 +5312,12 @@
       "material": null,
       "description": "adapter plate A050-S7; S-Nr: SHA-050-AKO-S7 - 1304738",
       "notes": "",
-      "price_eur": 99,
+      "price_eur": 101.0,
       "price_on_request": true,
       "price_status": "Please inquire",
       "source_section": "Adapter S5/S7 - lower assembly (tool side)",
       "source_pages": "7",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-SHS080-O-K063-K",
@@ -5326,12 +5331,12 @@
       "material": null,
       "description": "adapter plate K063-K; S-Nr: SHK-063-AKO-K - 1304742",
       "notes": "",
-      "price_eur": 112,
+      "price_eur": 114.2,
       "price_on_request": true,
       "price_status": "Please inquire",
       "source_section": "Adapter S5/S7 - upper assembly (robot side)",
       "source_pages": "7",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-SHS080-U-A063-K",
@@ -5345,12 +5350,12 @@
       "material": null,
       "description": "adapter plate A063-K; S-Nr: SHA-063-AKO-K - 1304745",
       "notes": "",
-      "price_eur": 99,
+      "price_eur": 101.0,
       "price_on_request": true,
       "price_status": "Please inquire",
       "source_section": "Adapter S5/S7 - lower assembly (tool side)",
       "source_pages": "7",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-SHS100-O-K080-K",
@@ -5364,12 +5369,12 @@
       "material": null,
       "description": "adapter plate K080-K; S-Nr: SHK-080-AKO-K - 1304759",
       "notes": "",
-      "price_eur": 112,
+      "price_eur": 114.2,
       "price_on_request": true,
       "price_status": "Please inquire",
       "source_section": "Adapter S5/S7 - upper assembly (robot side)",
       "source_pages": "7",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-SHS100-U-A080-K",
@@ -5383,12 +5388,12 @@
       "material": null,
       "description": "adapter plate A080-K; S-Nr: SHA-080-AKO-K - 1304762",
       "notes": "",
-      "price_eur": 102,
+      "price_eur": 104.0,
       "price_on_request": true,
       "price_status": "Please inquire",
       "source_section": "Adapter S5/S7 - lower assembly (tool side)",
       "source_pages": "7",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-CON-SHW",
@@ -5402,12 +5407,13 @@
       "material": null,
       "description": "SHW Connector Kit Standard",
       "notes": "",
-      "price_eur": 1138.5,
+      "price_eur": 1161.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW Connector - Kits",
       "source_pages": "8",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01",
+      "drawing_pdf": "assets/pdfs/grip-kits/shw-standard.pdf"
     },
     {
       "sku": "G-CON-SHW-E",
@@ -5421,12 +5427,13 @@
       "material": null,
       "description": "SHW Connector Kit Electric",
       "notes": "",
-      "price_eur": 1903.5,
+      "price_eur": 1941.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW Connector - Kits",
       "source_pages": "8",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01",
+      "drawing_pdf": "assets/pdfs/grip-kits/shw-electric.pdf"
     },
     {
       "sku": "G-CON-SHW-E-V2",
@@ -5440,12 +5447,13 @@
       "material": null,
       "description": "SHW Connector Kit Electric",
       "notes": "",
-      "price_eur": 1918.5,
+      "price_eur": 1956.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW Connector - Kits",
       "source_pages": "8",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01",
+      "drawing_pdf": "assets/pdfs/grip-kits/shw-electric-v2.pdf"
     },
     {
       "sku": "G-CON-SHW-P",
@@ -5459,12 +5467,13 @@
       "material": null,
       "description": "SHW Connector Kit Pneumatic",
       "notes": "",
-      "price_eur": 1409.6,
+      "price_eur": 1437.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW Connector - Kits",
       "source_pages": "8",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01",
+      "drawing_pdf": "assets/pdfs/grip-kits/shw-pneumatic.pdf"
     },
     {
       "sku": "G-CON-SHW-P-E",
@@ -5478,12 +5487,13 @@
       "material": null,
       "description": "SHW Connector Kit Pneumatic & Electric",
       "notes": "",
-      "price_eur": 2174.6,
+      "price_eur": 2218.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW Connector - Kits",
       "source_pages": "8",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01",
+      "drawing_pdf": "assets/pdfs/grip-kits/shw-pneumatic-electric.pdf"
     },
     {
       "sku": "G-CON-SHW-P-E-V2",
@@ -5497,12 +5507,13 @@
       "material": null,
       "description": "SHW Connector Kit Pneumatic & Electric",
       "notes": "",
-      "price_eur": 2189.6,
+      "price_eur": 2233.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW Connector - Kits",
       "source_pages": "8",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01",
+      "drawing_pdf": "assets/pdfs/grip-kits/shw-pneumatic-electric-v2.pdf"
     },
     {
       "sku": "G-SHW050-2O",
@@ -5516,12 +5527,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW050 Connector (PCD = 40 mm); upper assembly (robot side); Al, anodized",
       "notes": "",
-      "price_eur": 421,
+      "price_eur": 429.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW Connector - upper assembly (robot side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW050-2U",
@@ -5535,12 +5546,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW050 Connector (PCD = 40 mm); lower assembly (tool side); Al, anodized",
       "notes": "",
-      "price_eur": 262,
+      "price_eur": 267.2,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW Connector - lower assembly (tool side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW063-2OE",
@@ -5554,12 +5565,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW063 Connector (PCD = 50 mm); upper assembly (robot side); E-mount, Al, anodized",
       "notes": "",
-      "price_eur": 439.5,
+      "price_eur": 448.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW Connector - upper assembly (robot side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW063-2OEP",
@@ -5573,12 +5584,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW063 Connector (PCD = 50 mm); upper assembly (robot side); E-mount, Al, anodized; 3 x air radial M5, 3 x air axial Ø4",
       "notes": "",
-      "price_eur": 564.6,
+      "price_eur": 575.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW-P - SHW Connector, with integrated air feed-through - upper assembly (robot side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW063-2UE",
@@ -5592,12 +5603,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW063 Connector (PCD = 50 mm); lower assembly (tool side); E-mount, Al, anodized",
       "notes": "",
-      "price_eur": 270.1,
+      "price_eur": 275.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW Connector - lower assembly (tool side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW063-2UE-M6",
@@ -5611,12 +5622,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW063 Connector (PCD = 50 mm); lower assembly (tool side); E-mount, Al, anodized; 4x thread insert M6",
       "notes": "",
-      "price_eur": 288,
+      "price_eur": 293.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW Connector - lower assembly (tool side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW063-2UEP",
@@ -5630,12 +5641,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW063 Connector (PCD = 50 mm); lower assembly (tool side); E-mount, Al, anodized; 3 x air radial M5, 3 x air axial Ø4",
       "notes": "",
-      "price_eur": 343,
+      "price_eur": 349.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW-P - SHW Connector, with integrated air feed-through - lower assembly (tool side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW063-2UEP-M6",
@@ -5649,12 +5660,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW063 Connector (PCD = 50 mm); lower assembly (tool side); E-mount, Al, anodized, 4x insert M6; 3 x air radial M5, 3 x air axial Ø4",
       "notes": "",
-      "price_eur": 361,
+      "price_eur": 368.2,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW-P - SHW Connector, with integrated air feed-through - lower assembly (tool side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW080-2OE",
@@ -5668,12 +5679,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW080 Connector (PCD = 63 mm); upper assembly (robot side); E-mount, Al, anodized",
       "notes": "",
-      "price_eur": 455.9,
+      "price_eur": 465.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW Connector - upper assembly (robot side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW080-2OEP",
@@ -5687,12 +5698,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW080 Connector (PCD = 63 mm); upper assembly (robot side); E-mount, Al, anodized; 3 x air radial G1/8, 3 x air axial Ø6",
       "notes": "",
-      "price_eur": 586.1,
+      "price_eur": 597.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW-P - SHW Connector, with integrated air feed-through - upper assembly (robot side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW080-2UE",
@@ -5706,12 +5717,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW080 Connector (PCD = 63 mm); lower assembly (tool side); E-mount, Al, anodized",
       "notes": "",
-      "price_eur": 279.5,
+      "price_eur": 285.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW Connector - lower assembly (tool side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW080-2UEP",
@@ -5725,12 +5736,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW080 Connector (PCD = 63 mm); lower assembly (tool side); E-mount, Al, anodized; 3 x air radial G1/8, 3 x air axial Ø6",
       "notes": "",
-      "price_eur": 357.6,
+      "price_eur": 364.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW-P - SHW Connector, with integrated air feed-through - lower assembly (tool side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW100-2OE",
@@ -5744,12 +5755,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW100 Connector (PCD = 80 mm); upper assembly (robot side); E-mount, Al, anodized",
       "notes": "",
-      "price_eur": 609.2,
+      "price_eur": 621.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW Connector - upper assembly (robot side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW100-2OEP",
@@ -5763,12 +5774,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW100 Connector (PCD = 80 mm); upper assembly (robot side); E-mount, Al, anodized; 4 x air radial G1/8, 4 x air axial Ø6",
       "notes": "",
-      "price_eur": 749.8,
+      "price_eur": 764.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW-P - SHW Connector, with integrated air feed-through - upper assembly (robot side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW100-2UE",
@@ -5782,12 +5793,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW100 Connector (PCD = 80 mm); lower assembly (tool side); E-mount, Al, anodized",
       "notes": "",
-      "price_eur": 329.8,
+      "price_eur": 336.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW Connector - lower assembly (tool side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW100-2UE-M8",
@@ -5801,12 +5812,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW100 Connector (PCD = 80 mm); lower assembly (tool side); E-mount, Al, anodized; 6x thread insert M8",
       "notes": "",
-      "price_eur": 337.8,
+      "price_eur": 344.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW Connector - lower assembly (tool side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW100-2UEP",
@@ -5820,12 +5831,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW100 Connector (PCD = 80 mm); lower assembly (tool side); E-mount, Al, anodized; 4 x air radial G1/8, 4 x air axial Ø6",
       "notes": "",
-      "price_eur": 413.2,
+      "price_eur": 421.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW-P - SHW Connector, with integrated air feed-through - lower assembly (tool side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW100-2UEP-M8",
@@ -5839,12 +5850,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW100 Connector (PCD = 80 mm); lower assembly (tool side); E-mount, Al, anodized, 6x insert M8; 4 x air radial G1/8, 4 x air axial Ø6",
       "notes": "",
-      "price_eur": 421.2,
+      "price_eur": 429.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW-P - SHW Connector, with integrated air feed-through - lower assembly (tool side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW125-2OE",
@@ -5858,12 +5869,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW125 Connector (PCD = 100 mm); upper assembly (robot side); E-mount, Al, anodized",
       "notes": "",
-      "price_eur": 761.1,
+      "price_eur": 776.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW Connector - upper assembly (robot side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW125-2OEP",
@@ -5877,12 +5888,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW125 Connector (PCD = 100 mm); upper assembly (robot side); E-mount, Al, anodized; 6 x air radial G1/8, 6 x air axial Ø6",
       "notes": "",
-      "price_eur": 907,
+      "price_eur": 925.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW-P - SHW Connector, with integrated air feed-through - upper assembly (robot side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW125-2UE",
@@ -5896,12 +5907,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW125 Connector (PCD = 100 mm); lower assembly (tool side); E-mount, Al, anodized",
       "notes": "",
-      "price_eur": 465.3,
+      "price_eur": 474.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW Connector - lower assembly (tool side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW125-2UEP",
@@ -5915,12 +5926,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW125 Connector (PCD = 100 mm); lower assembly (tool side); E-mount, Al, anodized; 6 x air radial G1/8, 6 x air axial Ø6",
       "notes": "",
-      "price_eur": 559,
+      "price_eur": 570.2,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW-P - SHW Connector, with integrated air feed-through - lower assembly (tool side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW160-2OE",
@@ -5934,12 +5945,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW160 Connector (PCD = 125 mm); upper assembly (robot side); E-mount, Al, anodized",
       "notes": "",
-      "price_eur": 921.3,
+      "price_eur": 939.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW Connector - upper assembly (robot side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW160-2OEP",
@@ -5953,12 +5964,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW160 Connector (PCD = 125 mm); upper assembly (robot side); E-mount, Al, anodized; 6 x air radial G1/4, 6 x air axial Ø8",
       "notes": "",
-      "price_eur": 1088.1,
+      "price_eur": 1109.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW-P - SHW Connector, with integrated air feed-through - upper assembly (robot side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SHW160-2UEP",
@@ -5972,12 +5983,12 @@
       "material": "Aluminium, anodized",
       "description": "SHW160 Connector (PCD = 125 mm); lower assembly (tool side); E-mount, Al, anodized; 6 x air radial G1/4, 6 x air axial Ø8",
       "notes": "",
-      "price_eur": 771.8,
+      "price_eur": 787.2,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SHW-P - SHW Connector, with integrated air feed-through - lower assembly (tool side)",
       "source_pages": "9",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA050-2O",
@@ -5991,12 +6002,12 @@
       "material": "Aluminium, anodized",
       "description": "SWA Connector; Drilling according to ISO, upper assembly; Al, anodized",
       "notes": "",
-      "price_eur": 425.6,
+      "price_eur": 434.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - upper assembly (robot side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA050-2O-N",
@@ -6010,12 +6021,12 @@
       "material": "Steel, nitrated",
       "description": "SWA Connector; Drilling according to ISO, upper assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 453.7,
+      "price_eur": 462.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - upper assembly (robot side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA050-2U",
@@ -6029,12 +6040,12 @@
       "material": "Aluminium, anodized",
       "description": "SWA Connector; Drilling according to ISO, lower assembly; Al, anodized",
       "notes": "",
-      "price_eur": 251.3,
+      "price_eur": 256.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - lower assembly (tool side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA050-2U-N",
@@ -6048,12 +6059,12 @@
       "material": "Steel, nitrated",
       "description": "SWA Connector; Drilling according to ISO, lower assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 262,
+      "price_eur": 267.2,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - lower assembly (tool side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA063-2O",
@@ -6067,12 +6078,12 @@
       "material": "Aluminium, anodized",
       "description": "SWA Connector; Drilling according to ISO, upper assembly; Al, anodized",
       "notes": "",
-      "price_eur": 425.6,
+      "price_eur": 434.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - upper assembly (robot side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA063-2O-N",
@@ -6086,12 +6097,12 @@
       "material": "Steel, nitrated",
       "description": "SWA Connector; Drilling according to ISO, upper assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 459.4,
+      "price_eur": 468.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - upper assembly (robot side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA063-2U",
@@ -6105,12 +6116,12 @@
       "material": "Aluminium, anodized",
       "description": "SWA Connector; Drilling according to ISO, lower assembly; Al, anodized",
       "notes": "",
-      "price_eur": 251.3,
+      "price_eur": 256.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - lower assembly (tool side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA063-2U-N",
@@ -6124,12 +6135,12 @@
       "material": "Steel, nitrated",
       "description": "SWA Connector; Drilling according to ISO, lower assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 268.9,
+      "price_eur": 274.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - lower assembly (tool side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA080-2O",
@@ -6143,12 +6154,12 @@
       "material": "Aluminium, anodized",
       "description": "SWA Connector; Drilling according to ISO, upper assembly; Al, anodized",
       "notes": "",
-      "price_eur": 425.6,
+      "price_eur": 434.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - upper assembly (robot side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA080-2O-N",
@@ -6162,12 +6173,12 @@
       "material": "Steel, nitrated",
       "description": "SWA Connector; Drilling according to ISO, upper assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 453.7,
+      "price_eur": 462.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - upper assembly (robot side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA080-2U",
@@ -6181,12 +6192,12 @@
       "material": "Aluminium, anodized",
       "description": "SWA Connector; Drilling according to ISO, lower assembly; Al, anodized",
       "notes": "",
-      "price_eur": 251.3,
+      "price_eur": 256.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - lower assembly (tool side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA080-2U-N",
@@ -6200,12 +6211,12 @@
       "material": "Steel, nitrated",
       "description": "SWA Connector; Drilling according to ISO, lower assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 262,
+      "price_eur": 267.2,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - lower assembly (tool side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA100-2O",
@@ -6219,12 +6230,12 @@
       "material": "Aluminium, anodized",
       "description": "SWA Connector; Drilling according to ISO, upper assembly; Al, anodized",
       "notes": "",
-      "price_eur": 538.9,
+      "price_eur": 549.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - upper assembly (robot side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA100-2O-N",
@@ -6238,12 +6249,12 @@
       "material": "Steel, nitrated",
       "description": "SWA Connector; Drilling according to ISO, upper assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 613.7,
+      "price_eur": 626.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - upper assembly (robot side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA100-2U",
@@ -6257,12 +6268,12 @@
       "material": "Aluminium, anodized",
       "description": "SWA Connector; Drilling according to ISO, lower assembly; Al, anodized",
       "notes": "",
-      "price_eur": 295.8,
+      "price_eur": 301.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - lower assembly (tool side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA100-2U-N",
@@ -6276,12 +6287,12 @@
       "material": "Steel, nitrated",
       "description": "SWA Connector; Drilling according to ISO, lower assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 385.9,
+      "price_eur": 393.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - lower assembly (tool side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA125-2O",
@@ -6295,12 +6306,12 @@
       "material": "Aluminium, anodized",
       "description": "SWA Connector; Drilling according to ISO, upper assembly; Al, anodized",
       "notes": "",
-      "price_eur": 705,
+      "price_eur": 719.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - upper assembly (robot side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA125-2O-N",
@@ -6314,12 +6325,12 @@
       "material": "Steel, nitrated",
       "description": "SWA Connector; Drilling according to ISO, upper assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 833.6,
+      "price_eur": 850.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - upper assembly (robot side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA125-2U",
@@ -6333,12 +6344,12 @@
       "material": "Aluminium, anodized",
       "description": "SWA Connector; Drilling according to ISO, lower assembly; Al, anodized",
       "notes": "",
-      "price_eur": 421,
+      "price_eur": 429.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - lower assembly (tool side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA125-2U-N",
@@ -6352,12 +6363,12 @@
       "material": "Steel, nitrated",
       "description": "SWA Connector; Drilling according to ISO, lower assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 526.1,
+      "price_eur": 536.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - lower assembly (tool side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA160-2O",
@@ -6371,12 +6382,12 @@
       "material": "Aluminium, anodized",
       "description": "SWA Connector; Drilling according to ISO, upper assembly; Al, anodized",
       "notes": "",
-      "price_eur": 871,
+      "price_eur": 888.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - upper assembly (robot side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA160-2O-N",
@@ -6390,12 +6401,12 @@
       "material": "Steel, nitrated",
       "description": "SWA Connector; Drilling according to ISO, upper assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 1054.6,
+      "price_eur": 1075.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - upper assembly (robot side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA160-2U",
@@ -6409,12 +6420,12 @@
       "material": "Aluminium, anodized",
       "description": "SWA Connector; Drilling according to ISO, lower assembly; Al, anodized",
       "notes": "",
-      "price_eur": 636,
+      "price_eur": 648.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - lower assembly (tool side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWA160-2U-N",
@@ -6428,12 +6439,12 @@
       "material": "Steel, nitrated",
       "description": "SWA Connector; Drilling according to ISO, lower assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 807.9,
+      "price_eur": 824.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWA Connector - lower assembly (tool side)",
       "source_pages": "13",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "EG-SWS050-VS2",
@@ -6447,12 +6458,12 @@
       "material": null,
       "description": "Spare part, semi-cylindrical bolt lock 050",
       "notes": "",
-      "price_eur": 181.2,
+      "price_eur": 184.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "VS2 Anti-rotation-protection",
       "source_pages": "29",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "EG-SWS063-VS2",
@@ -6466,12 +6477,12 @@
       "material": null,
       "description": "Spare part, semi-cylindrical bolt lock 063",
       "notes": "",
-      "price_eur": 184.7,
+      "price_eur": 188.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "VS2 Anti-rotation-protection",
       "source_pages": "29",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "EG-SWS080-VS2",
@@ -6485,12 +6496,12 @@
       "material": null,
       "description": "Spare part, semi-cylindrical bolt lock 080",
       "notes": "",
-      "price_eur": 187.1,
+      "price_eur": 190.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "VS2 Anti-rotation-protection",
       "source_pages": "29",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "EG-SWS100-VS2",
@@ -6504,12 +6515,12 @@
       "material": null,
       "description": "Spare part, semi-cylindrical bolt lock 100",
       "notes": "",
-      "price_eur": 189.3,
+      "price_eur": 193.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "VS2 Anti-rotation-protection",
       "source_pages": "29",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "EG-SWS125-VS2",
@@ -6523,12 +6534,12 @@
       "material": null,
       "description": "Spare part, semi-cylindrical bolt lock 125",
       "notes": "",
-      "price_eur": 239.7,
+      "price_eur": 244.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "VS2 Anti-rotation-protection",
       "source_pages": "29",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "EG-SWS160-VS2",
@@ -6542,12 +6553,12 @@
       "material": null,
       "description": "Spare part, semi-cylindrical bolt lock 160",
       "notes": "",
-      "price_eur": 309.8,
+      "price_eur": 316.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "VS2 Anti-rotation-protection",
       "source_pages": "29",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "EG-SWS200-VS2",
@@ -6561,12 +6572,12 @@
       "material": null,
       "description": "Spare part, semi-cylindrical bolt lock 200",
       "notes": "",
-      "price_eur": 344.9,
+      "price_eur": 351.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "VS2 Anti-rotation-protection",
       "source_pages": "29",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS050-2O-N",
@@ -6580,12 +6591,12 @@
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO, upper assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 295.8,
+      "price_eur": 301.7,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWS Connector - upper assembly (robot side)",
       "source_pages": "11",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS063-2O-N",
@@ -6599,12 +6610,12 @@
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO, upper assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 304.1,
+      "price_eur": 310.2,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWS Connector - upper assembly (robot side)",
       "source_pages": "11",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS063-2OEN",
@@ -6618,12 +6629,12 @@
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO, upper assembly; E-mount, steel, nitrated",
       "notes": "",
-      "price_eur": 351.9,
+      "price_eur": 358.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWS Connector - upper assembly (robot side)",
       "source_pages": "11",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS080-2O-N",
@@ -6637,12 +6648,12 @@
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO, upper assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 304.1,
+      "price_eur": 310.2,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWS Connector - upper assembly (robot side)",
       "source_pages": "11",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS080-2OEN",
@@ -6656,12 +6667,12 @@
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO, upper assembly; E-mount, steel, nitrated",
       "notes": "",
-      "price_eur": 351.9,
+      "price_eur": 358.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWS Connector - upper assembly (robot side)",
       "source_pages": "11",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS100-2O-N",
@@ -6675,12 +6686,12 @@
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO, upper assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 485.2,
+      "price_eur": 494.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "",
       "source_pages": "12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS100-2OEN-VS2",
@@ -6694,12 +6705,12 @@
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO, upper assembly; E-mount, steel, nitrated, safety lock",
       "notes": "E-mount, steel, nitrated, safety lock",
-      "price_eur": 709.7,
+      "price_eur": 723.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "",
       "source_pages": "12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS125-2O-N",
@@ -6713,12 +6724,12 @@
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO, upper assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 651.3,
+      "price_eur": 664.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "",
       "source_pages": "12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS125-2OEN-VS2",
@@ -6732,12 +6743,12 @@
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO, upper assembly; E-mount, steel, nitrated, safety lock",
       "notes": "E-mount, steel, nitrated, safety lock",
-      "price_eur": 887.4,
+      "price_eur": 905.1,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "",
       "source_pages": "12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS160-2O-N",
@@ -6751,12 +6762,12 @@
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO, upper assembly; steel, nitrated, safety lock",
       "notes": "steel, nitrated, safety lock",
-      "price_eur": 1019.5,
+      "price_eur": 1039.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "",
       "source_pages": "12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS160-2O-N-B02",
@@ -6770,12 +6781,12 @@
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO, upper assembly; steel, nitrated, safety lock; pre-alignment",
       "notes": "steel, nitrated, safety lock | pre-alignment",
-      "price_eur": 1205.4,
+      "price_eur": 1229.5,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "",
       "source_pages": "12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS160-2OEN",
@@ -6789,12 +6800,12 @@
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO, upper assembly; E-mount, steel, nitrated, safety lock",
       "notes": "E-mount, steel, nitrated, safety lock",
-      "price_eur": 1137.6,
+      "price_eur": 1160.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "",
       "source_pages": "12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS160-2OEN-B02",
@@ -6808,12 +6819,12 @@
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO, upper assembly; E-mount, steel, nitrated, safety lock; pre-alignment",
       "notes": "E-mount, steel, nitrated, safety lock | pre-alignment",
-      "price_eur": 1301.2,
+      "price_eur": 1327.2,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "",
       "source_pages": "12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS160-2U-N",
@@ -6827,12 +6838,12 @@
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO, lower assembly; steel, nitrated",
       "notes": "",
-      "price_eur": 785.7,
+      "price_eur": 801.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWS Connector - lower assembly (tool side)",
       "source_pages": "12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS160-2U-N-B02",
@@ -6846,12 +6857,12 @@
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO, lower assembly; steel, nitrated; pre-alignment",
       "notes": "pre-alignment",
-      "price_eur": 879.2,
+      "price_eur": 896.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWS Connector - lower assembly (tool side)",
       "source_pages": "12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS160-2UEN",
@@ -6865,12 +6876,12 @@
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO, lower assembly; E-mount, steel, nitrated",
       "notes": "",
-      "price_eur": 903.7,
+      "price_eur": 921.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWS Connector - lower assembly (tool side)",
       "source_pages": "12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS160-2UEN-B02",
@@ -6884,12 +6895,12 @@
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO, lower assembly; E-mount, steel, nitrated; pre-alignment",
       "notes": "pre-alignment",
-      "price_eur": 1038.2,
+      "price_eur": 1059.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWS Connector - lower assembly (tool side)",
       "source_pages": "12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS200-2O-N",
@@ -6903,12 +6914,12 @@
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO, upper assembly; steel, nitrated, safety lock; pre-alignment",
       "notes": "steel, nitrated, safety lock | pre-alignment",
-      "price_eur": 1622.8,
+      "price_eur": 1655.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "",
       "source_pages": "12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS200-2O-N-M12",
@@ -6922,12 +6933,12 @@
       "material": null,
       "description": "SWS Connector; Drilling according to ISO for M12, upper a; sssteeeml,b nlyitrated, safety lock; pre-alignment",
       "notes": "sssteeeml,b nlyitrated, safety lock | pre-alignment",
-      "price_eur": 1706.9,
+      "price_eur": 1741.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "",
       "source_pages": "12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS200-2OEN",
@@ -6941,12 +6952,12 @@
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO, upper assembly; E-mount, steel, nitrated, safety lock; pre-alignment",
       "notes": "E-mount, steel, nitrated, safety lock | pre-alignment",
-      "price_eur": 1723.3,
+      "price_eur": 1757.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "",
       "source_pages": "12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS200-2OEN-M12",
@@ -6960,12 +6971,12 @@
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO for M12, upper a; sEs-emmobulnyt, steel, nitrated, safety lock; pre-alignment",
       "notes": "sEs-emmobulnyt, steel, nitrated, safety lock | pre-alignment",
-      "price_eur": 1808.6,
+      "price_eur": 1844.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "",
       "source_pages": "12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS200-2U-N",
@@ -6979,12 +6990,12 @@
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO, lower assembly; steel, nitrated; pre-alignment",
       "notes": "pre-alignment",
-      "price_eur": 1031.2,
+      "price_eur": 1051.8,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWS Connector - lower assembly (tool side)",
       "source_pages": "12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS200-2U-N-M12",
@@ -6998,12 +7009,12 @@
       "material": null,
       "description": "SWS Connector; Drilling according to ISO for M12, lower a; sssteeeml,b nlyitrated; pre-alignment",
       "notes": "pre-alignment",
-      "price_eur": 1115.3,
+      "price_eur": 1137.6,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWS Connector - lower assembly (tool side)",
       "source_pages": "12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "G-SWS200-2UEN-M12",
@@ -7017,12 +7028,12 @@
       "material": "Steel, nitrated",
       "description": "SWS Connector; Drilling according to ISO for M12, lower a; sEs-emmobulnyt, steel, nitrated; pre-alignment",
       "notes": "pre-alignment",
-      "price_eur": 1217.1,
+      "price_eur": 1241.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "SWS Connector - lower assembly (tool side)",
       "source_pages": "12",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-VKS050-SW08",
@@ -7036,12 +7047,12 @@
       "material": null,
       "description": "Square socket wrench SW8; for SWS050",
       "notes": "",
-      "price_eur": 47.9,
+      "price_eur": 48.9,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "VKS Square socket wrench",
       "source_pages": "28",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-VKS063-SW09",
@@ -7055,12 +7066,12 @@
       "material": null,
       "description": "Square socket wrench SW9; for SWS063",
       "notes": "",
-      "price_eur": 50.2,
+      "price_eur": 51.2,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "VKS Square socket wrench",
       "source_pages": "28",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-VKS080-SW10",
@@ -7074,12 +7085,12 @@
       "material": null,
       "description": "Square socket wrench SW10; for SWS080",
       "notes": "",
-      "price_eur": 53.9,
+      "price_eur": 55.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "VKS Square socket wrench",
       "source_pages": "28",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-VKS100-SW12",
@@ -7093,12 +7104,12 @@
       "material": null,
       "description": "Square socket wrench SW12; for SWS100",
       "notes": "",
-      "price_eur": 53.9,
+      "price_eur": 55.0,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "VKS Square socket wrench",
       "source_pages": "28",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-VKS125-SW14",
@@ -7112,12 +7123,12 @@
       "material": null,
       "description": "Square socket wrench SW14; for SWS125",
       "notes": "",
-      "price_eur": 87.6,
+      "price_eur": 89.4,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "VKS Square socket wrench",
       "source_pages": "28",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     },
     {
       "sku": "ZG-VKS160-SW20",
@@ -7131,12 +7142,12 @@
       "material": null,
       "description": "Square socket wrench SW20; for SWS160-SWS250",
       "notes": "",
-      "price_eur": 166,
+      "price_eur": 169.3,
       "price_on_request": false,
       "price_status": "List price",
       "source_section": "VKS Square socket wrench",
       "source_pages": "28",
-      "price_list_rev": "Rev.1.06"
+      "price_list_rev": "2026 Rev.1.01"
     }
   ]
 }
