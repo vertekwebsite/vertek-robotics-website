@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Vertek Robotics – Rokae robots, grippers and tool changers</title>
-<meta name="description" content="Vertek Robotics: exclusive Rokae distributor in Finland. Industrial and collaborative robots, DH-Robotics grippers, GRIP and ATI tool changers, and complete automation solutions.">
+<title>Vertek Robotics | Kustannustehokas robotiikka Suomessa</title>
+<meta name="description" content="ROKAEn virallinen maahantuoja Suomessa. Kustannustehokkaat teollisuus- ja yhteistyörobotit, tarttujat ja työkalunvaihtajat suomalaisille yrityksille.">
+<link rel="canonical" href="https://robotics.vertek.fi/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Vertek Robotics">
+<meta property="og:title" content="Vertek Robotics | Kustannustehokas robotiikka Suomessa">
+<meta property="og:description" content="ROKAEn virallinen maahantuoja Suomessa. Kustannustehokkaat teollisuus- ja yhteistyörobotit, tarttujat ja työkalunvaihtajat suomalaisille yrityksille.">
+<meta property="og:url" content="https://robotics.vertek.fi/">
+<meta property="og:locale" content="fi_FI">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Vertek Robotics | Kustannustehokas robotiikka Suomessa">
+<meta name="twitter:description" content="ROKAEn virallinen maahantuoja Suomessa. Kustannustehokkaat teollisuus- ja yhteistyörobotit, tarttujat ja työkalunvaihtajat suomalaisille yrityksille.">
 <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","@id":"https://robotics.vertek.fi/#organization","name":"Vertek Robotics","alternateName":"Vertek Oy Robotics","url":"https://robotics.vertek.fi/","description":"Official ROKAE distributor in Finland, supplying industrial and collaborative robots, grippers, tool changers and automation integration.","areaServed":{"@type":"Country","name":"Finland"},"sameAs":["https://www.instagram.com/vertekfinland/","https://www.facebook.com/profile.php?id=61581694365096","https://www.linkedin.com/company/vertekoy/"],"knowsAbout":["Industrial robots","Collaborative robots","Robot grippers","Robot tool changers","Palletizing automation","Robotics integration"]}
+</script>
 <style>
 /* ===== EDIT COLORS HERE to match vertek.fi exactly ===== */
 :root{--navy:#0a2540;--navy2:#123a63;--accent:#14a0d8;--accent2:#0e82b3;--bg:#f4f7fa;--ink:#16222e;--mute:#5d6b7a;--line:#dbe3ea;--r:16px}
@@ -692,10 +705,12 @@ Object.assign(FI,{
  "Base Connector Kit UR3/UR5":"Base Connector -sarja UR3/UR5-roboteille","Base Connector Kit UR10/UR16":"Base Connector -sarja UR10/UR16-roboteille"
 });
 let lang="fi";
+const SEO_COPY={fi:{title:"Vertek Robotics | Kustannustehokas robotiikka Suomessa",description:"ROKAEn virallinen maahantuoja Suomessa. Kustannustehokkaat teollisuus- ja yhteistyörobotit, tarttujat ja työkalunvaihtajat suomalaisille yrityksille.",locale:"fi_FI"},en:{title:"Vertek Robotics | Cost-Effective Robotics in Finland",description:"Official ROKAE distributor in Finland. Cost-effective industrial and collaborative robots, grippers and tool changers for Finnish manufacturers.",locale:"en_US"}};
+function updateSeoMetadata(){const copy=SEO_COPY[lang]||SEO_COPY.fi;document.documentElement.lang=lang;document.title=copy.title;document.querySelector('meta[name="description"]').content=copy.description;document.querySelector('meta[property="og:title"]').content=copy.title;document.querySelector('meta[property="og:description"]').content=copy.description;document.querySelector('meta[property="og:locale"]').content=copy.locale;document.querySelector('meta[name="twitter:title"]').content=copy.title;document.querySelector('meta[name="twitter:description"]').content=copy.description}
 function applyLang(){const w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);let n;
 while(n=w.nextNode()){const p=n.parentNode.tagName;if(p=="SCRIPT"||p=="STYLE")continue;if(n._o===undefined)n._o=n.nodeValue;const t=n._o.trim();n.nodeValue=(lang=="fi"&&FI[t])?n._o.replace(t,FI[t]):n._o}
 $$("[placeholder]").forEach(e=>{e._p=e._p||e.placeholder;e.placeholder=(lang=="fi"&&FI[e._p])||e._p});
-document.documentElement.lang=lang;document.title=lang=="fi"?"Vertek Robotics – Rokae-robotit, tarttujat ja työkalunvaihtajat":"Vertek Robotics – Rokae robots, grippers and tool changers";
+updateSeoMetadata();
 $("#lg").innerHTML=lang=="fi"?"<b>FI</b> / EN":"FI / <b>EN</b>";syncDidYouKnowLanguage()}
 $("#lg").onclick=()=>{lang=lang=="fi"?"en":"fi";applyLang();if(PRODUCTS.length)renderProducts();if(gripCatalog)renderGripLanding();if(location.hash.includes("/products/grip")&&gripCatalog)route()};
 applyLang();
